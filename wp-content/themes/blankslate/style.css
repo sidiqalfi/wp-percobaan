@@ -1,5 +1,5 @@
 /*
-Theme Name: BlankSlate
+Theme Name: COVID19_Indonesia
 Theme URI: https://github.com/tidythemes/blankslate
 Author: TidyThemes
 Author URI: http://tidythemes.com/
@@ -20,6 +20,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body {
     font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+    color: #1f9471;
 }
 
 .row {
@@ -129,13 +134,116 @@ body {
     float: none !important;
 }
 
+/* article */
+.container-article, .container-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.wp-post-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* post */
+.post-title {
+    margin-bottom: 20px;
+}
+
+.post-title a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.entry-meta {
+    margin-bottom: 10px;
+}
+
+.entry-meta span a {
+    text-decoration: none;
+    color: black;
+}
+
+.entry-content h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.entry-content p {
+    line-height: 1.2;
+}
+
+.entry-footer {
+    margin-top: 30px;
+}
+
+#comments {
+    padding: 30px 0px;
+}
+
+#commentform > * {
+    padding: 5px 0;
+}
+
+.nav-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-previous {
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4fb194;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* category / page */
+.page-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.container-page .box-post {
+    border: 1px solid #cecece;
+    padding: 30px;
+    margin-bottom: 60px;
+
+}
+
+.container-page .box-post .entry-summary p {
+    line-height: 1.2;
+}
+
+.container-page .header .entry-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
 /* responsive breakpoint */
 @media screen and (max-width: 992px) {
    
 }
 
 @media screen and (max-width: 768px) {
-    
+    /* post */
+    .container-article, .container-page {
+        margin: auto 50px;
+    }  
+
+    .post-title a {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -182,5 +290,10 @@ body {
     
     #menu .menu ul li {
         margin-bottom: 5px;
+    }
+
+    /* posts */
+    textarea, input[type="text"], input[type="button"], input[type="submit"], input[type="reset"], input[type="search"], input[type="password"] {
+        width: 100%;
     }
 }

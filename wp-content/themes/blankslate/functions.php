@@ -131,7 +131,7 @@ function recent_posts($attr, $content = null) {
     $shortcode_args = shortcode_atts(
         array(
             'cat' => '',
-            'num' => '5',
+            'num' => '',
             'order' => 'desc'
         ), $attr);
 
@@ -169,7 +169,7 @@ function recent_posts_selected($attr, $content = null) {
     $shortcode_args = shortcode_atts(
         array(
             'cat' => '',
-            'num' => '5',
+            'num' => '',
             'order' => 'desc'
         ), $attr);
 

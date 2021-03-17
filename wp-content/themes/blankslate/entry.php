@@ -1,9 +1,9 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="box-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header>
 <?php if ( is_singular() ) {
-echo '<h1 class="entry-title">';
+echo '<h1 class="entry-title post-title">';
 } else {
-echo '<h2 class="entry-title">';
+echo '<h2 class="entry-title page-title">';
 } ?>
 <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark"><?php the_title(); ?></a>
 <?php if ( is_singular() ) {
