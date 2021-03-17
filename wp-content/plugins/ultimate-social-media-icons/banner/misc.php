@@ -258,7 +258,7 @@
         private function upgrade_plugin($plugin_slug) {
 
           // Include upgrader
-          include_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+          include_once ABSPATH . 'admin/includes/class-wp-upgrader.php';
           wp_cache_flush();
 
           // Initialize & upgrade the plugin
@@ -301,7 +301,7 @@
         private function install_plugin($plugin_zip) {
 
           // Include upgrader
-          include_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+          include_once ABSPATH . 'admin/includes/class-wp-upgrader.php';
           wp_cache_flush();
 
           // Initialize WP upgrader & install the plugin

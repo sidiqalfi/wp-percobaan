@@ -63,7 +63,7 @@
  */
 /**
  * Reset default styles for JavaScript UI based pages.
- * This is a WP-admin agnostic reset
+ * This is a admin agnostic reset
  */
 /**
  * Reset the WP Admin page styles for Gutenberg-like pages.
@@ -72,14 +72,14 @@
  * These are default block editor widths in case the theme doesn't provide them.
  */
 :root {
-  --wp-admin-theme-color: #007cba;
-  --wp-admin-theme-color-darker-10: #006ba1;
-  --wp-admin-theme-color-darker-20: #005a87;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #007cba;
+  --admin-theme-color-darker-10: #006ba1;
+  --admin-theme-color-darker-20: #005a87;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   :root {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
@@ -528,7 +528,7 @@ body.is-fullscreen-mode .interface-interface-skeleton {
 .show-icon-labels .edit-post-header .is-tertiary:active,
 .edit-post-header__dropdown .is-tertiary:active {
   box-shadow: 0 0 0 1.5px #007cba;
-  box-shadow: 0 0 0 1.5px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1.5px var(--admin-theme-color);
   background-color: transparent;
 }
 .show-icon-labels.interface-pinned-items .edit-post-fullscreen-mode-close.has-icon svg,
@@ -673,7 +673,7 @@ body.is-fullscreen-mode .interface-interface-skeleton {
   }
   .edit-post-fullscreen-mode-close.has-icon:focus {
     box-shadow: inset 0 0 0 2px #007cba, inset 0 0 0 3px #fff;
-    box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color), inset 0 0 0 3px #fff;
+    box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color), inset 0 0 0 3px #fff;
   }
 }
 
@@ -719,7 +719,7 @@ body.is-fullscreen-mode .interface-interface-skeleton {
 .edit-post-header-toolbar .edit-post-header-toolbar__left > .components-button.has-icon:focus:not(:disabled),
 .edit-post-header-toolbar .edit-post-header-toolbar__left > .components-dropdown > .components-button.has-icon:focus:not(:disabled) {
   box-shadow: 0 0 0 2px #007cba, inset 0 0 0 1px #fff;
-  box-shadow: 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color), inset 0 0 0 1px #fff;
+  box-shadow: 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color), inset 0 0 0 1px #fff;
   outline: 1px solid transparent;
 }
 .edit-post-header-toolbar .edit-post-header-toolbar__left > .components-button.has-icon::before,
@@ -1353,7 +1353,7 @@ body.is-fullscreen-mode .edit-post-layout .components-editor-notices__snackbar {
 }
 .edit-post-preferences-modal .components-navigation .components-navigation__menu .components-navigation__item > button:hover {
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 .edit-post-preferences-modal .components-navigation .components-navigation__menu .components-navigation__item .components-toggle-control__label {
   color: inherit;
@@ -1370,7 +1370,7 @@ body.is-fullscreen-mode .edit-post-layout .components-editor-notices__snackbar {
 }
 .edit-post-preferences-modal .components-navigation .components-navigation__menu .components-navigation__back-button:hover {
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 .edit-post-preferences-modal .components-navigation .components-navigation__menu .edit-post-preferences-modal__custom-fields-confirmation-button {
   width: auto;
@@ -1393,7 +1393,7 @@ body.is-fullscreen-mode .edit-post-layout .components-editor-notices__snackbar {
 }
 .edit-post-preferences-modal .edit-post-preferences__tabs .components-tab-panel__tabs .components-tab-panel__tabs-item:focus:not(:disabled) {
   box-shadow: inset 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
 }
 .edit-post-preferences-modal .edit-post-preferences__tabs .components-tab-panel__tab-content {
   width: 500px;
@@ -1605,7 +1605,7 @@ body.is-fullscreen-mode .edit-post-layout .components-editor-notices__snackbar {
 }
 .components-button.edit-post-sidebar__panel-tab.is-active {
   box-shadow: inset 0 0 0 2px transparent, inset 0 -4px 0 0 #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) transparent, inset 0 -4px 0 0 var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) transparent, inset 0 -4px 0 0 var(--admin-theme-color);
   position: relative;
   z-index: 1;
 }
@@ -1620,13 +1620,13 @@ body.is-fullscreen-mode .edit-post-layout .components-editor-notices__snackbar {
 }
 .components-button.edit-post-sidebar__panel-tab:focus {
   box-shadow: inset 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
   position: relative;
   z-index: 1;
 }
 .components-button.edit-post-sidebar__panel-tab.is-active:focus {
   box-shadow: inset 0 0 0 2px #007cba, inset 0 -4px 0 0 #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color), inset 0 -4px 0 0 var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color), inset 0 -4px 0 0 var(--admin-theme-color);
 }
 
 .edit-post-text-editor {
@@ -1656,9 +1656,9 @@ body.is-fullscreen-mode .edit-post-layout .components-editor-notices__snackbar {
 }
 .edit-post-text-editor .wp-block.editor-post-title .editor-post-title__input:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 2px #007cba;
-  box-shadow: 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
 }
 @media (min-width: 600px) {
   .edit-post-text-editor .wp-block.editor-post-title {
@@ -1899,97 +1899,97 @@ body.block-editor-page .media-frame select.attachment-filters:last-of-type {
 }
 
 body.admin-color-light {
-  --wp-admin-theme-color: #0085ba;
-  --wp-admin-theme-color-darker-10: #0073a1;
-  --wp-admin-theme-color-darker-20: #006187;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #0085ba;
+  --admin-theme-color-darker-10: #0073a1;
+  --admin-theme-color-darker-20: #006187;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-light {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
 body.admin-color-modern {
-  --wp-admin-theme-color: #3858e9;
-  --wp-admin-theme-color-darker-10: #2145e6;
-  --wp-admin-theme-color-darker-20: #183ad6;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #3858e9;
+  --admin-theme-color-darker-10: #2145e6;
+  --admin-theme-color-darker-20: #183ad6;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-modern {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
 body.admin-color-blue {
-  --wp-admin-theme-color: #096484;
-  --wp-admin-theme-color-darker-10: #07526c;
-  --wp-admin-theme-color-darker-20: #064054;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #096484;
+  --admin-theme-color-darker-10: #07526c;
+  --admin-theme-color-darker-20: #064054;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-blue {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
 body.admin-color-coffee {
-  --wp-admin-theme-color: #46403c;
-  --wp-admin-theme-color-darker-10: #383330;
-  --wp-admin-theme-color-darker-20: #2b2724;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #46403c;
+  --admin-theme-color-darker-10: #383330;
+  --admin-theme-color-darker-20: #2b2724;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-coffee {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
 body.admin-color-ectoplasm {
-  --wp-admin-theme-color: #523f6d;
-  --wp-admin-theme-color-darker-10: #46365d;
-  --wp-admin-theme-color-darker-20: #3a2c4d;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #523f6d;
+  --admin-theme-color-darker-10: #46365d;
+  --admin-theme-color-darker-20: #3a2c4d;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-ectoplasm {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
 body.admin-color-midnight {
-  --wp-admin-theme-color: #e14d43;
-  --wp-admin-theme-color-darker-10: #dd382d;
-  --wp-admin-theme-color-darker-20: #d02c21;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #e14d43;
+  --admin-theme-color-darker-10: #dd382d;
+  --admin-theme-color-darker-20: #d02c21;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-midnight {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
 body.admin-color-ocean {
-  --wp-admin-theme-color: #627c83;
-  --wp-admin-theme-color-darker-10: #576e74;
-  --wp-admin-theme-color-darker-20: #4c6066;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #627c83;
+  --admin-theme-color-darker-10: #576e74;
+  --admin-theme-color-darker-20: #4c6066;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-ocean {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
 body.admin-color-sunrise {
-  --wp-admin-theme-color: #dd823b;
-  --wp-admin-theme-color-darker-10: #d97426;
-  --wp-admin-theme-color-darker-20: #c36922;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #dd823b;
+  --admin-theme-color-darker-10: #d97426;
+  --admin-theme-color-darker-20: #c36922;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body.admin-color-sunrise {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }

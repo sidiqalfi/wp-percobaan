@@ -267,7 +267,7 @@ class Module extends BaseModule {
 			return;
 		}
 
-		require_once ABSPATH . '/wp-admin/includes/template.php';
+		require_once ABSPATH . '/admin/includes/template.php';
 
 		$document->start_injection( [
 			'of' => 'post_status',

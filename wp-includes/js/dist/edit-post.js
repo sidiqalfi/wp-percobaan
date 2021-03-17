@@ -247,14 +247,14 @@ var STORE_NAME = 'core/edit-post';
  * @type {string}
  */
 
-var VIEW_AS_LINK_SELECTOR = '#wp-admin-bar-view a';
+var VIEW_AS_LINK_SELECTOR = '#admin-bar-view a';
 /**
  * CSS selector string for the admin bar preview post link anchor tag.
  *
  * @type {string}
  */
 
-var VIEW_AS_PREVIEW_LINK_SELECTOR = '#wp-admin-bar-preview a';
+var VIEW_AS_PREVIEW_LINK_SELECTOR = '#admin-bar-preview a';
 
 
 /***/ }),

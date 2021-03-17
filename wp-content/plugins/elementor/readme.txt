@@ -1945,7 +1945,7 @@ No. Elementor supports WordPress 5.0 or greater, and is compatible with PHP 5.6 
 * New: Added Text Shadow option for Heading widget ([#1940](https://github.com/elementor/elementor/issues/1940))
 * New: Added bulk import / export for template library ([#1241](https://github.com/elementor/elementor/issues/1241))
 * New: Added `elementor/widgets/wordpress/widget_args` filter to customize WP widget markup ([#2052](https://github.com/elementor/elementor/issues/2052))
-* Tweak: The editor loading now in the wp-admin area instead of the front-end
+* Tweak: The editor loading now in the admin area instead of the front-end
 * Tweak: Replaced editor icons from FontAwesome to Eicons for beautiful sharpness
 * Tweak: Added library access to all users with `edit_pages` capability
 * Tweak: Loading scripts from the preview for more accurate front-end simulation and fix some issues

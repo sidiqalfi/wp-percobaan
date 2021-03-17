@@ -41,7 +41,7 @@ class Plugins extends Base {
 		if ( ! $this->plugins ) {
 			// Ensure get_plugins function is loaded
 			if ( ! function_exists( 'get_plugins' ) ) {
-				include ABSPATH . '/wp-admin/includes/plugin.php';
+				include ABSPATH . '/admin/includes/plugin.php';
 			}
 
 			$active_plugins = get_option( 'active_plugins' );

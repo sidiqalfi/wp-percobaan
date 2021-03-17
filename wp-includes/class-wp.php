@@ -263,10 +263,10 @@ class WP {
 			}
 
 			// If req_uri is empty or if it is a request for ourself, unset error.
-			if ( empty( $requested_path ) || $requested_file == $self || strpos( $_SERVER['PHP_SELF'], 'wp-admin/' ) !== false ) {
+			if ( empty( $requested_path ) || $requested_file == $self || strpos( $_SERVER['PHP_SELF'], 'admin/' ) !== false ) {
 				unset( $error, $_GET['error'] );
 
-				if ( isset( $perma_query_vars ) && strpos( $_SERVER['PHP_SELF'], 'wp-admin/' ) !== false ) {
+				if ( isset( $perma_query_vars ) && strpos( $_SERVER['PHP_SELF'], 'admin/' ) !== false ) {
 					unset( $perma_query_vars );
 				}
 

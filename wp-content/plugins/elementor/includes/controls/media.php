@@ -103,7 +103,7 @@ class Control_Media extends Control_Base_Multiple {
 
 		wp_register_script(
 			'image-edit',
-			'/wp-admin/js/image-edit' . $suffix . '.js',
+			'/admin/js/image-edit' . $suffix . '.js',
 			[
 				'jquery',
 				'json2',

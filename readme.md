@@ -4,11 +4,11 @@
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>WordPress &#8250; ReadMe</title>
-	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+	<link rel="stylesheet" href="admin/css/install.css?ver=20100228" type="text/css" />
 </head>
 <body>
 <h1 id="logo">
-	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+	<a href="https://wordpress.org/"><img alt="WordPress" src="admin/images/wordpress-logo.png" /></a>
 </h1>
 <p style="text-align: center">Semantic Personal Publishing Platform</p>
 
@@ -19,11 +19,11 @@
 <h2>Installation: Famous 5-minute install</h2>
 <ol>
 	<li>Unzip the package in an empty directory and upload everything.</li>
-	<li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser. It will take you through the process to set up a <code>wp-config.php</code> file with your database connection details.
+	<li>Open <span class="file"><a href="admin/install.php">admin/install.php</a></span> in your browser. It will take you through the process to set up a <code>wp-config.php</code> file with your database connection details.
 		<ol>
 			<li>If for some reason this doesn&#8217;t work, don&#8217;t worry. It doesn&#8217;t work on all web hosts. Open up <code>wp-config-sample.php</code> with a text editor like WordPad or similar and fill in your database connection details.</li>
 			<li>Save the file as <code>wp-config.php</code> and upload it.</li>
-			<li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser.</li>
+			<li>Open <span class="file"><a href="admin/install.php">admin/install.php</a></span> in your browser.</li>
 		</ol>
 	</li>
 	<li>Once the configuration file is set up, the installer will set up the tables needed for your site. If there is an error, double check your <code>wp-config.php</code> file, and try again. If it fails again, please go to the <a href="https://wordpress.org/support/forums/">WordPress support forums</a> with as much data as you can gather.</li>
@@ -34,7 +34,7 @@
 <h2>Updating</h2>
 <h3>Using the Automatic Updater</h3>
 <ol>
-	<li>Open <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> in your browser and follow the instructions.</li>
+	<li>Open <span class="file"><a href="admin/update-core.php">admin/update-core.php</a></span> in your browser and follow the instructions.</li>
 	<li>You wanted more, perhaps? That&#8217;s it!</li>
 </ol>
 
@@ -43,11 +43,11 @@
 	<li>Before you update anything, make sure you have backup copies of any files you may have modified such as <code>index.php</code>.</li>
 	<li>Delete your old WordPress files, saving ones you&#8217;ve modified.</li>
 	<li>Upload the new files.</li>
-	<li>Point your browser to <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+	<li>Point your browser to <span class="file"><a href="admin/upgrade.php">/admin/upgrade.php</a>.</span></li>
 </ol>
 
 <h2>Migrating from other systems</h2>
-<p>WordPress can <a href="https://wordpress.org/support/article/importing-content/">import from a number of systems</a>. First you need to get WordPress installed and working as described above, before using <a href="wp-admin/import.php">our import tools</a>.</p>
+<p>WordPress can <a href="https://wordpress.org/support/article/importing-content/">import from a number of systems</a>. First you need to get WordPress installed and working as described above, before using <a href="admin/import.php">our import tools</a>.</p>
 
 <h2>System Requirements</h2>
 <ul>

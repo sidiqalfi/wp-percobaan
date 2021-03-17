@@ -64,7 +64,7 @@
  */
 /**
  * Reset default styles for JavaScript UI based pages.
- * This is a WP-admin agnostic reset
+ * This is a admin agnostic reset
  */
 /**
  * Reset the WP Admin page styles for Gutenberg-like pages.
@@ -73,14 +73,14 @@
  * These are default block editor widths in case the theme doesn't provide them.
  */
 :root {
-  --wp-admin-theme-color: #007cba;
-  --wp-admin-theme-color-darker-10: #006ba1;
-  --wp-admin-theme-color-darker-20: #005a87;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #007cba;
+  --admin-theme-color-darker-10: #006ba1;
+  --admin-theme-color-darker-20: #005a87;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   :root {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
@@ -120,7 +120,7 @@
 }
 .editor-autocompleters__user:hover .editor-autocompleters__user-slug {
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 
 .document-outline {
@@ -175,7 +175,7 @@
 }
 .document-outline__button:focus {
   box-shadow: 0 0 0 2px #007cba;
-  box-shadow: 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 
@@ -360,7 +360,7 @@
   padding: 0;
   transition: all 0.1s ease-out;
   box-shadow: 0 0 0 0 #007cba;
-  box-shadow: 0 0 0 0 var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 0 var(--admin-theme-color);
 }
 @media (prefers-reduced-motion: reduce) {
   .editor-post-featured-image__toggle,
@@ -375,7 +375,7 @@
 
 .editor-post-featured-image__preview:not(:disabled):not([aria-disabled=true]):focus {
   box-shadow: 0 0 0 4px #007cba;
-  box-shadow: 0 0 0 4px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 4px var(--admin-theme-color);
 }
 
 .editor-post-featured-image__toggle {
@@ -425,7 +425,7 @@
 }
 .components-button.editor-post-last-revision__title:focus {
   box-shadow: inset 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
   border-radius: 0;
 }
 
@@ -701,9 +701,9 @@
 }
 .edit-post-text-editor__body textarea.editor-post-text-editor:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 2px #007cba;
-  box-shadow: 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
   position: relative;
 }
 .edit-post-text-editor__body textarea.editor-post-text-editor::-webkit-input-placeholder {
@@ -766,9 +766,9 @@
 .edit-post-post-visibility__dialog .editor-post-visibility__dialog-radio[type=radio]:focus,
 .editor-post-visibility__dialog-fieldset .editor-post-visibility__dialog-radio[type=radio]:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .edit-post-post-visibility__dialog .editor-post-visibility__dialog-radio[type=radio]::-webkit-input-placeholder,
@@ -822,15 +822,15 @@
 .edit-post-post-visibility__dialog .editor-post-visibility__dialog-radio[type=radio]:focus,
 .editor-post-visibility__dialog-fieldset .editor-post-visibility__dialog-radio[type=radio]:focus {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007cba;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .edit-post-post-visibility__dialog .editor-post-visibility__dialog-radio[type=radio]:checked,
 .editor-post-visibility__dialog-fieldset .editor-post-visibility__dialog-radio[type=radio]:checked {
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
 }
 .edit-post-post-visibility__dialog .editor-post-visibility__dialog-label,
 .editor-post-visibility__dialog-fieldset .editor-post-visibility__dialog-label {
@@ -874,9 +874,9 @@
 }
 .editor-post-visibility__dialog-password .editor-post-visibility__dialog-password-input[type=text]:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .editor-post-visibility__dialog-password .editor-post-visibility__dialog-password-input[type=text]::-webkit-input-placeholder {
@@ -1005,7 +1005,7 @@
   bottom: 0;
   left: 0;
   box-shadow: inset 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
 }
 
 .table-of-contents__counts {

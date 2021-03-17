@@ -220,7 +220,7 @@ final class _WP_Editors {
 				self::$has_medialib = true;
 
 				if ( ! function_exists( 'media_buttons' ) ) {
-					require ABSPATH . 'wp-admin/includes/media.php';
+					require ABSPATH . 'admin/includes/media.php';
 				}
 
 				echo '<div id="wp-' . $editor_id_attr . '-media-buttons" class="wp-media-buttons">';
@@ -552,7 +552,7 @@ final class _WP_Editors {
 					$settings['external_plugins'] = wp_json_encode( $mce_external_plugins );
 				}
 
-				/** This filter is documented in wp-admin/includes/media.php */
+				/** This filter is documented in admin/includes/media.php */
 				if ( apply_filters( 'disable_captions', '' ) ) {
 					$settings['wpeditimage_disable_captions'] = true;
 				}

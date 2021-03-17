@@ -2841,7 +2841,7 @@ var AdminBar = /*#__PURE__*/function (_elementorModules$Vie) {
     value: function getDefaultSettings() {
       return {
         prefixes: {
-          adminBarId: 'wp-admin-bar-'
+          adminBarId: 'admin-bar-'
         },
         classes: {
           adminBarItem: 'ab-item',
@@ -2852,9 +2852,9 @@ var AdminBar = /*#__PURE__*/function (_elementorModules$Vie) {
           adminBarSubItems: 'ab-submenu'
         },
         selectors: {
-          adminBar: '#wp-admin-bar-root-default',
-          editMenuItem: '#wp-admin-bar-edit',
-          newMenuItem: '#wp-admin-bar-new-content'
+          adminBar: '#admin-bar-root-default',
+          editMenuItem: '#admin-bar-edit',
+          newMenuItem: '#admin-bar-new-content'
         }
       };
     }

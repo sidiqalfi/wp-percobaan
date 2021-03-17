@@ -279,7 +279,7 @@ class Editor {
 	 */
 	public function lock_post( $post_id ) {
 		if ( ! function_exists( 'wp_set_post_lock' ) ) {
-			require_once ABSPATH . 'wp-admin/includes/post.php';
+			require_once ABSPATH . 'admin/includes/post.php';
 		}
 
 		wp_set_post_lock( $post_id );
@@ -299,7 +299,7 @@ class Editor {
 	 */
 	public function get_locked_user( $post_id ) {
 		if ( ! function_exists( 'wp_check_post_lock' ) ) {
-			require_once ABSPATH . 'wp-admin/includes/post.php';
+			require_once ABSPATH . 'admin/includes/post.php';
 		}
 
 		$locked_user = wp_check_post_lock( $post_id );

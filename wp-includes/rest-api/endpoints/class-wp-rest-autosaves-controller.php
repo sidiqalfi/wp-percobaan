@@ -336,7 +336,7 @@ class WP_REST_Autosaves_Controller extends WP_REST_Revisions_Controller {
 	/**
 	 * Creates autosave for the specified post.
 	 *
-	 * From wp-admin/post.php.
+	 * From admin/post.php.
 	 *
 	 * @since 5.0.0
 	 *
@@ -381,7 +381,7 @@ class WP_REST_Autosaves_Controller extends WP_REST_Revisions_Controller {
 				);
 			}
 
-			/** This filter is documented in wp-admin/post.php */
+			/** This filter is documented in admin/post.php */
 			do_action( 'wp_creating_autosave', $new_autosave );
 
 			// wp_update_post() expects escaped array.

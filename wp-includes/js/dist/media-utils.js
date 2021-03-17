@@ -539,7 +539,7 @@ var media_upload_getGalleryDetailsMediaFrame = function getGalleryDetailsMediaFr
   /**
    * Custom gallery details frame.
    *
-   * @see https://github.com/xwp/wp-core-media-widgets/blob/905edbccfc2a623b73a93dac803c5335519d7837/wp-admin/js/widgets/media-gallery-widget.js
+   * @see https://github.com/xwp/wp-core-media-widgets/blob/905edbccfc2a623b73a93dac803c5335519d7837/admin/js/widgets/media-gallery-widget.js
    * @class GalleryDetailsMediaFrame
    * @class
    */

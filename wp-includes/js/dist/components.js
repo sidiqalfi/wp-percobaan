@@ -18300,8 +18300,8 @@ var ALERT = {
   green: '#4ab866'
 };
 var ADMIN = {
-  theme: "var( --wp-admin-theme-color, ".concat(BLUE.wordpress[700], ")"),
-  themeDark10: "var( --wp-admin-theme-color-darker-10, ".concat(BLUE.medium.focus, ")")
+  theme: "var( --admin-theme-color, ".concat(BLUE.wordpress[700], ")"),
+  themeDark10: "var( --admin-theme-color-darker-10, ".concat(BLUE.medium.focus, ")")
 }; // Namespaced values for raw colors hex codes
 
 var UI = {
@@ -46821,7 +46821,7 @@ function TabPanel(_ref2) {
 
 
 var inputStyleNeutral = /*#__PURE__*/Object(core_browser_esm["b" /* css */])("box-shadow:0 0 0 transparent;transition:box-shadow 0.1s linear;border-radius:", config_config('radiusBlockUi'), ";border:", config_config('borderWidth'), " solid ", colors_color('ui.border'), ";", reduceMotion('transition'), ";label:inputStyleNeutral;" + ( true ? "" : undefined));
-var inputStyleFocus = /*#__PURE__*/Object(core_browser_esm["b" /* css */])("border-color:var( --wp-admin-theme-color );box-shadow:0 0 0 calc( ", config_config('borderWidthFocus'), " - ", config_config('borderWidth'), " ) var( --wp-admin-theme-color );outline:2px solid transparent;;label:inputStyleFocus;" + ( true ? "" : undefined));
+var inputStyleFocus = /*#__PURE__*/Object(core_browser_esm["b" /* css */])("border-color:var( --admin-theme-color );box-shadow:0 0 0 calc( ", config_config('borderWidthFocus'), " - ", config_config('borderWidth'), " ) var( --admin-theme-color );outline:2px solid transparent;;label:inputStyleFocus;" + ( true ? "" : undefined));
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/components/build-module/utils/breakpoint-values.js
 /* harmony default export */ var breakpoint_values = ({

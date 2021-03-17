@@ -294,8 +294,8 @@ class Maintenance_Mode {
 	 */
 	public function print_style() {
 		?>
-		<style>#wp-admin-bar-elementor-maintenance-on > a { background-color: #dc3232; }
-			#wp-admin-bar-elementor-maintenance-on > .ab-item:before { content: "\f160"; top: 2px; }</style>
+		<style>#admin-bar-elementor-maintenance-on > a { background-color: #dc3232; }
+			#admin-bar-elementor-maintenance-on > .ab-item:before { content: "\f160"; top: 2px; }</style>
 		<?php
 	}
 

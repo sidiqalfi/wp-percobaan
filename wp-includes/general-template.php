@@ -3502,7 +3502,7 @@ function wp_editor( $content, $editor_id, $settings = array() ) {
  * Outputs the editor scripts, stylesheets, and default settings.
  *
  * The editor can be initialized when needed after page load.
- * See wp.editor.initialize() in wp-admin/js/editor.js for initialization options.
+ * See wp.editor.initialize() in admin/js/editor.js for initialization options.
  *
  * @uses _WP_Editors
  * @since 4.8.0
@@ -4505,10 +4505,10 @@ function register_admin_color_schemes() {
  *
  * @since 2.3.0
  *
- * @param string $file file relative to wp-admin/ without its ".css" extension.
+ * @param string $file file relative to admin/ without its ".css" extension.
  * @return string
  */
-function wp_admin_css_uri( $file = 'wp-admin' ) {
+function wp_admin_css_uri( $file = 'admin' ) {
 	if ( defined( 'WP_INSTALLING' ) ) {
 		$_file = "./$file.css";
 	} else {
@@ -4538,16 +4538,16 @@ function wp_admin_css_uri( $file = 'wp-admin' ) {
  *
  * For backward compatibility with WordPress 2.3 calling method: If the $file
  * (first) parameter does not correspond to a registered CSS file, we assume
- * $file is a file relative to wp-admin/ without its ".css" extension. A
+ * $file is a file relative to admin/ without its ".css" extension. A
  * stylesheet link to that generated URL is printed.
  *
  * @since 2.3.0
  *
  * @param string $file       Optional. Style handle name or file name (without ".css" extension) relative
- *                           to wp-admin/. Defaults to 'wp-admin'.
+ *                           to admin/. Defaults to 'admin'.
  * @param bool   $force_echo Optional. Force the stylesheet link to be printed rather than enqueued.
  */
-function wp_admin_css( $file = 'wp-admin', $force_echo = false ) {
+function wp_admin_css( $file = 'admin', $force_echo = false ) {
 	// For backward compatibility.
 	$handle = 0 === strpos( $file, 'css/' ) ? substr( $file, 4 ) : $file;
 
@@ -4576,7 +4576,7 @@ function wp_admin_css( $file = 'wp-admin', $force_echo = false ) {
 	 * @since 2.3.0
 	 * @param string $stylesheet_link HTML link element for the stylesheet.
 	 * @param string $file            Style handle name or filename (without ".css" extension)
-	 *                                relative to wp-admin/. Defaults to 'wp-admin'.
+	 *                                relative to admin/. Defaults to 'admin'.
 	 */
 	echo apply_filters( 'wp_admin_css', $stylesheet_link, $file );
 

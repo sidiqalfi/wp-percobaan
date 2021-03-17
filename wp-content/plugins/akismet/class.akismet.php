@@ -172,7 +172,7 @@ class Akismet {
 			if ( isset( $_POST['akismet_comment_nonce'] ) && wp_verify_nonce( $_POST['akismet_comment_nonce'], 'akismet_comment_nonce_' . $comment['comment_post_ID'] ) )
 				$comment['akismet_comment_nonce'] = 'passed';
 
-			// comment reply in wp-admin
+			// comment reply in admin
 			if ( isset( $_POST['_ajax_nonce-replyto-comment'] ) && check_ajax_referer( 'replyto-comment', '_ajax_nonce-replyto-comment' ) )
 				$comment['akismet_comment_nonce'] = 'passed';
 
@@ -679,18 +679,18 @@ class Akismet {
 			 // status=unspam: I'm not sure. Maybe this used to be used instead of status=approved? Or the UI for removing from spam but not approving has been since removed?...
 			 // status=approved: Unspamming via the REST API (Calypso) or...
 			 ( isset( $_POST['status'] ) && in_array( $_POST['status'], array( 'spam', 'unspam', 'approved', ) ) )
-			 // spam=1: Clicking "Spam" underneath a comment in wp-admin and allowing the AJAX request to happen.
+			 // spam=1: Clicking "Spam" underneath a comment in admin and allowing the AJAX request to happen.
 			 || ( isset( $_POST['spam'] ) && (int) $_POST['spam'] == 1 )
-			 // unspam=1: Clicking "Not Spam" underneath a comment in wp-admin and allowing the AJAX request to happen. Or, clicking "Undo" after marking something as spam.
+			 // unspam=1: Clicking "Not Spam" underneath a comment in admin and allowing the AJAX request to happen. Or, clicking "Undo" after marking something as spam.
 			 || ( isset( $_POST['unspam'] ) && (int) $_POST['unspam'] == 1 )
 			 // comment_status=spam/unspam: It's unclear where this is happening.
 			 || ( isset( $_POST['comment_status'] )  && in_array( $_POST['comment_status'], array( 'spam', 'unspam' ) ) )
-			 // action=spam: Choosing "Mark as Spam" from the Bulk Actions dropdown in wp-admin (or the "Spam it" link in notification emails).
-			 // action=unspam: Choosing "Not Spam" from the Bulk Actions dropdown in wp-admin.
-			 // action=spamcomment: Following the "Spam" link below a comment in wp-admin (not allowing AJAX request to happen).
-			 // action=unspamcomment: Following the "Not Spam" link below a comment in wp-admin (not allowing AJAX request to happen).
+			 // action=spam: Choosing "Mark as Spam" from the Bulk Actions dropdown in admin (or the "Spam it" link in notification emails).
+			 // action=unspam: Choosing "Not Spam" from the Bulk Actions dropdown in admin.
+			 // action=spamcomment: Following the "Spam" link below a comment in admin (not allowing AJAX request to happen).
+			 // action=unspamcomment: Following the "Not Spam" link below a comment in admin (not allowing AJAX request to happen).
 			 || ( isset( $_GET['action'] ) && in_array( $_GET['action'], array( 'spam', 'unspam', 'spamcomment', 'unspamcomment', ) ) )
-			 // action=editedcomment: Editing a comment via wp-admin (and possibly changing its status).
+			 // action=editedcomment: Editing a comment via admin (and possibly changing its status).
 			 || ( isset( $_POST['action'] ) && in_array( $_POST['action'], array( 'editedcomment' ) ) )
 			 // for=jetpack: Moderation via the WordPress app, Calypso, anything powered by the Jetpack connection.
 			 || ( isset( $_GET['for'] ) && ( 'jetpack' == $_GET['for'] ) && ( ! defined( 'IS_WPCOM' ) || ! IS_WPCOM ) ) 
@@ -1370,7 +1370,7 @@ p {
 			$message = '<strong>'.sprintf(esc_html__( 'Akismet %s requires WordPress %s or higher.' , 'akismet'), AKISMET_VERSION, AKISMET__MINIMUM_WP_VERSION ).'</strong> '.sprintf(__('Please <a href="%1$s">upgrade WordPress</a> to a current version, or <a href="%2$s">downgrade to version 2.4 of the Akismet plugin</a>.', 'akismet'), 'https://codex.wordpress.org/Upgrading_WordPress', 'https://wordpress.org/extend/plugins/akismet/download/');
 
 			Akismet::bail_on_activation( $message );
-		} elseif ( ! empty( $_SERVER['SCRIPT_NAME'] ) && false !== strpos( $_SERVER['SCRIPT_NAME'], '/wp-admin/plugins.php' ) ) {
+		} elseif ( ! empty( $_SERVER['SCRIPT_NAME'] ) && false !== strpos( $_SERVER['SCRIPT_NAME'], '/admin/plugins.php' ) ) {
 			add_option( 'Activated_Akismet', true );
 		}
 	}

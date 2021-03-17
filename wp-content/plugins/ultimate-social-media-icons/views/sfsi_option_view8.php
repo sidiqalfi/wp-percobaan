@@ -124,7 +124,7 @@ $option8['sfsi_form_button_background'] = (isset($option8['sfsi_form_button_back
 
             <ul class="sfsi_form_info">
 
-                <li><b><?php _e("1. Widget:",'ultimate-social-media-icons') ?></b><?php _e("P Go to the ",'ultimate-social-media-icons') ?><a target="_blank" href="<?php echo site_url() ?>/wp-admin/widgets.php"><?php _e("widget settings<",'ultimate-social-media-icons') ?>/a><?php _e(" and drag & drop it to the sidebar.",'ultimate-social-media-icons') ?>
+                <li><b><?php _e("1. Widget:",'ultimate-social-media-icons') ?></b><?php _e("P Go to the ",'ultimate-social-media-icons') ?><a target="_blank" href="<?php echo site_url() ?>/admin/widgets.php"><?php _e("widget settings<",'ultimate-social-media-icons') ?>/a><?php _e(" and drag & drop it to the sidebar.",'ultimate-social-media-icons') ?>
 
                 </li>
 

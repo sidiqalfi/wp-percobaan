@@ -31,9 +31,9 @@
 
 		topMenuItems = adminBar.querySelectorAll( 'li.menupop' );
 		allMenuItems = adminBar.querySelectorAll( '.ab-item' );
-		adminBarLogout = document.getElementById( 'wp-admin-bar-logout' );
+		adminBarLogout = document.getElementById( 'admin-bar-logout' );
 		adminBarSearchForm = document.getElementById( 'adminbarsearch' );
-		shortlink = document.getElementById( 'wp-admin-bar-get-shortlink' );
+		shortlink = document.getElementById( 'admin-bar-get-shortlink' );
 		skipLink = adminBar.querySelector( '.screen-reader-shortcut' );
 		mobileEvent = /Mobile\/.+Safari/.test( navigator.userAgent ) ? 'touchstart' : 'click';
 
@@ -397,7 +397,7 @@
 		if (
 			event.target &&
 			event.target.id !== 'wpadminbar' &&
-			event.target.id !== 'wp-admin-bar-top-secondary'
+			event.target.id !== 'admin-bar-top-secondary'
 		) {
 			return;
 		}

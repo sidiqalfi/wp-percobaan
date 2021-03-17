@@ -11,7 +11,7 @@
  * The post title is fetched and if it is blank then a default string is
  * returned.
  *
- * Copied from `wp-admin/includes/template.php`, but we can't include that
+ * Copied from `admin/includes/template.php`, but we can't include that
  * file because:
  *
  * 1. It causes bugs with test fixture generation and strange Docker 255 error

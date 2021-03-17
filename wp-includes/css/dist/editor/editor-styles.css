@@ -63,7 +63,7 @@
  */
 /**
  * Reset default styles for JavaScript UI based pages.
- * This is a WP-admin agnostic reset
+ * This is a admin agnostic reset
  */
 /**
  * Reset the WP Admin page styles for Gutenberg-like pages.
@@ -77,7 +77,7 @@
 * These are only output in the editor, but styles here are prefixed .editor-styles-wrapper and affect the theming
 * of the editor by themes.
 * Why do these exist? Why not rely on browser defaults?
-* These styles are necessary so long as CSS can bleed from the wp-admin into the editing canvas itself.
+* These styles are necessary so long as CSS can bleed from the admin into the editing canvas itself.
 * Let's continue working to refactor these away, whether through Shadow DOM or better scoping of upstream styles.
 */
 body {

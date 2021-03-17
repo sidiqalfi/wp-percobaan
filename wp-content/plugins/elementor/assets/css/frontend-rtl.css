@@ -293,7 +293,7 @@
   -webkit-box-shadow: 0 0 13px inset rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 13px inset rgba(0, 0, 0, 0.05); }
 
-#wpadminbar #wp-admin-bar-elementor_app_site_editor a.ab-item {
+#wpadminbar #admin-bar-elementor_app_site_editor a.ab-item {
   border-top: 1px solid #464b50;
   margin-top: 6px; }
 
@@ -554,13 +554,13 @@
   .elementor-mobile-align-justify .elementor-button {
     width: 100%; } }
 
-#wpadminbar #wp-admin-bar-elementor_edit_page > .ab-item::before {
+#wpadminbar #admin-bar-elementor_edit_page > .ab-item::before {
   content: "\e813";
   font-family: eicons;
   top: 3px;
   font-size: 18px; }
 
-#wpadminbar #wp-admin-bar-elementor_inspector > .ab-item::before {
+#wpadminbar #admin-bar-elementor_inspector > .ab-item::before {
   content: "\f348";
   top: 2px; }
 
@@ -3817,20 +3817,20 @@ button.swiper-pagination-bullet {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg); }
 
-#wp-admin-bar-elementor_edit_page .ab-submenu .ab-item {
+#admin-bar-elementor_edit_page .ab-submenu .ab-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 200px; }
 
-#wp-admin-bar-elementor_edit_page .elementor-edit-link-title {
+#admin-bar-elementor_edit_page .elementor-edit-link-title {
   white-space: nowrap;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
   overflow: hidden;
   width: 100%; }
 
-#wp-admin-bar-elementor_edit_page .elementor-edit-link-type {
+#admin-bar-elementor_edit_page .elementor-edit-link-type {
   background: #55595c;
   font-size: 11px;
   line-height: 9px;

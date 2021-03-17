@@ -68,7 +68,7 @@ $notice = Plugin::$instance->editor->notice_bar->get_notice();
 </div>
 <?php
 	wp_footer();
-	/** This action is documented in wp-admin/admin-footer.php */
+	/** This action is documented in admin/admin-footer.php */
 	do_action( 'admin_print_footer_scripts' );
 ?>
 </body>

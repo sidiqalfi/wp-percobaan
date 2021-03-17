@@ -174,7 +174,7 @@ function sfsi_checkmetas()
 
     if (!function_exists('get_plugins')) {
 
-        require_once ABSPATH . 'wp-admin/includes/plugin.php';
+        require_once ABSPATH . 'admin/includes/plugin.php';
     }
     $adding_tags = "yes";
     $all_plugins = get_plugins();
@@ -1321,28 +1321,28 @@ function sfsi_admin_notice()
 
                 update_option('show_notification_plugin', "no");
 
-                //header("Location: ".site_url()."/wp-admin/admin.php?page=sfsi-options");die;
+                //header("Location: ".site_url()."/admin/admin.php?page=sfsi-options");die;
 
             }
             if (isset($_REQUEST['sfsi-dismiss-languageNotice']) && $_REQUEST['sfsi-dismiss-languageNotice'] == 'true') {
 
                 update_option('sfsi_languageNotice', "no");
 
-                //header("Location: ".site_url()."/wp-admin/admin.php?page=sfsi-options"); die;
+                //header("Location: ".site_url()."/admin/admin.php?page=sfsi-options"); die;
 
             }
             if (isset($_REQUEST['sfsi-dismiss-premiumNotice']) && $_REQUEST['sfsi-dismiss-premiumNotice'] == 'true') {
 
                 update_option('show_premium_notification', "no");
 
-                //header("Location: ".site_url()."/wp-admin/admin.php?page=sfsi-options");die;
+                //header("Location: ".site_url()."/admin/admin.php?page=sfsi-options");die;
 
             }
             if (isset($_REQUEST['sfsi-dismiss-mobileNotice']) && $_REQUEST['sfsi-dismiss-mobileNotice'] == 'true') {
 
                 update_option('show_mobile_notification', "no");
 
-                //header("Location: ".site_url()."/wp-admin/admin.php?page=sfsi-options");die;
+                //header("Location: ".site_url()."/admin/admin.php?page=sfsi-options");die;
 
             }
 
@@ -2530,7 +2530,7 @@ function sfsi_plugin_redirect()
 
             function install_plugin($plugin_zip)
             {
-                include_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+                include_once ABSPATH . 'admin/includes/class-wp-upgrader.php';
                 wp_cache_flush();
 
                 $upgrader = new Plugin_Upgrader();
@@ -2541,7 +2541,7 @@ function sfsi_plugin_redirect()
 
             function upgrade_plugin($plugin_slug)
             {
-                include_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+                include_once ABSPATH . 'admin/includes/class-wp-upgrader.php';
                 wp_cache_flush();
 
                 $upgrader = new Plugin_Upgrader();

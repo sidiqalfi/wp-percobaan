@@ -401,7 +401,7 @@ final class WP_Customize_Manager {
 
 		// Add theme update notices.
 		if ( current_user_can( 'install_themes' ) || current_user_can( 'update_themes' ) ) {
-			require_once ABSPATH . 'wp-admin/includes/update.php';
+			require_once ABSPATH . 'admin/includes/update.php';
 			add_action( 'customize_controls_print_footer_scripts', 'wp_print_admin_notice_templates' );
 		}
 	}
@@ -1648,9 +1648,9 @@ final class WP_Customize_Manager {
 		}
 
 		// Such is The WordPress Way.
-		require_once ABSPATH . 'wp-admin/includes/file.php';
-		require_once ABSPATH . 'wp-admin/includes/media.php';
-		require_once ABSPATH . 'wp-admin/includes/image.php';
+		require_once ABSPATH . 'admin/includes/file.php';
+		require_once ABSPATH . 'admin/includes/media.php';
+		require_once ABSPATH . 'admin/includes/image.php';
 
 		foreach ( $attachments as $symbol => $attachment ) {
 
@@ -5801,7 +5801,7 @@ final class WP_Customize_Manager {
 			$args['page'] = absint( $_POST['page'] );
 		}
 
-		require_once ABSPATH . 'wp-admin/includes/theme.php';
+		require_once ABSPATH . 'admin/includes/theme.php';
 
 		if ( 'installed' === $theme_action ) {
 
@@ -5838,7 +5838,7 @@ final class WP_Customize_Manager {
 				wp_send_json_error();
 			}
 
-			// This list matches the allowed tags in wp-admin/includes/theme-install.php.
+			// This list matches the allowed tags in admin/includes/theme-install.php.
 			$themes_allowedtags                     = array_fill_keys(
 				array( 'a', 'abbr', 'acronym', 'code', 'pre', 'em', 'strong', 'div', 'p', 'ul', 'ol', 'li', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'img' ),
 				array()

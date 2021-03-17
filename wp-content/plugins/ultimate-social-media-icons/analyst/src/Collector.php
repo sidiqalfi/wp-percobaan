@@ -114,7 +114,7 @@ class Collector
 	public function resolvePluginData($path)
 	{
         if( !function_exists('get_plugin_data') ){
-            require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+            require_once( ABSPATH . 'admin/includes/plugin.php' );
         }
 
 		return get_plugin_data($path);
@@ -203,7 +203,7 @@ class Collector
 	public function getActivePluginsList()
 	{
 		if (!function_exists('get_plugins')) {
-			require_once ABSPATH . 'wp-admin/includes/plugin.php';
+			require_once ABSPATH . 'admin/includes/plugin.php';
 		}
 
 		$allPlugins = get_plugins();

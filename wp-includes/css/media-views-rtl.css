@@ -73,7 +73,7 @@
 }
 
 .media-frame select,
-.wp-admin .media-frame select {
+.admin .media-frame select {
 	min-height: 30px;
 	vertical-align: middle;
 }
@@ -2627,7 +2627,7 @@
 		padding: 3px 6px;
 	}
 
-	.wp-admin .media-frame select {
+	.admin .media-frame select {
 		min-height: 40px;
 		font-size: 16px;
 		line-height: 1.625;

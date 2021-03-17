@@ -1,7 +1,7 @@
 /**
  * Script for our custom colorpicker control.
  *
- * This is copied from wp-admin/js/customize-controls.js
+ * This is copied from admin/js/customize-controls.js
  * with a few tweaks:
  * 		Removed the hue picker script because we don't use it here
  * 		Added the "palettes" argument in wpColorPicker().

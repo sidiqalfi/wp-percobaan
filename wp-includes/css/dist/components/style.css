@@ -64,7 +64,7 @@
  */
 /**
  * Reset default styles for JavaScript UI based pages.
- * This is a WP-admin agnostic reset
+ * This is a admin agnostic reset
  */
 /**
  * Reset the WP Admin page styles for Gutenberg-like pages.
@@ -73,14 +73,14 @@
  * These are default block editor widths in case the theme doesn't provide them.
  */
 :root {
-  --wp-admin-theme-color: #007cba;
-  --wp-admin-theme-color-darker-10: #006ba1;
-  --wp-admin-theme-color-darker-20: #005a87;
-  --wp-admin-border-width-focus: 2px;
+  --admin-theme-color: #007cba;
+  --admin-theme-color-darker-10: #006ba1;
+  --admin-theme-color-darker-20: #005a87;
+  --admin-border-width-focus: 2px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   :root {
-    --wp-admin-border-width-focus: 1.5px;
+    --admin-border-width-focus: 1.5px;
   }
 }
 
@@ -164,7 +164,7 @@
 }
 .components-autocomplete__result.components-button.is-selected {
   box-shadow: 0 0 0 2px #007cba;
-  box-shadow: 0 0 0 2px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 2px var(--admin-theme-color);
 }
 
 .components-button-group {
@@ -235,20 +235,20 @@
 }
 .components-button[aria-expanded=true], .components-button:hover {
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 .components-button[aria-disabled=true]:hover {
   color: initial;
 }
 .components-button:focus:not(:disabled) {
   box-shadow: 0 0 0 2px #007cba;
-  box-shadow: 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
   outline: 3px solid transparent;
 }
 .components-button.is-primary {
   white-space: nowrap;
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   color: #fff;
   text-decoration: none;
   text-shadow: none;
@@ -256,42 +256,42 @@
 }
 .components-button.is-primary:hover:not(:disabled) {
   background: #006ba1;
-  background: var(--wp-admin-theme-color-darker-10);
+  background: var(--admin-theme-color-darker-10);
   color: #fff;
 }
 .components-button.is-primary:active:not(:disabled) {
   background: #005a87;
-  background: var(--wp-admin-theme-color-darker-20);
+  background: var(--admin-theme-color-darker-20);
   border-color: #005a87;
-  border-color: var(--wp-admin-theme-color-darker-20);
+  border-color: var(--admin-theme-color-darker-20);
   color: #fff;
 }
 .components-button.is-primary:focus:not(:disabled) {
   box-shadow: inset 0 0 0 1px #fff, 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 1px #fff, 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 1px #fff, 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
 }
 .components-button.is-primary:disabled, .components-button.is-primary:disabled:active:enabled, .components-button.is-primary[aria-disabled=true], .components-button.is-primary[aria-disabled=true]:enabled, .components-button.is-primary[aria-disabled=true]:active:enabled {
   color: rgba(255, 255, 255, 0.4);
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   opacity: 1;
   outline: none;
 }
 .components-button.is-primary:disabled:focus:enabled, .components-button.is-primary:disabled:active:enabled:focus:enabled, .components-button.is-primary[aria-disabled=true]:focus:enabled, .components-button.is-primary[aria-disabled=true]:enabled:focus:enabled, .components-button.is-primary[aria-disabled=true]:active:enabled:focus:enabled {
   box-shadow: 0 0 0 1px #fff, 0 0 0 3px #007cba;
-  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--admin-theme-color);
 }
 .components-button.is-primary.is-busy, .components-button.is-primary.is-busy:disabled, .components-button.is-primary.is-busy[aria-disabled=true] {
   color: #fff;
   background-size: 100px 100%;
   /* stylelint-disable */
   background-image: linear-gradient(-45deg, #007cba 33%, #005a87 33%, #005a87 70%, #007cba 70%);
-  background-image: linear-gradient(-45deg, var(--wp-admin-theme-color) 33%, var(--wp-admin-theme-color-darker-20) 33%, var(--wp-admin-theme-color-darker-20) 70%, var(--wp-admin-theme-color) 70%);
+  background-image: linear-gradient(-45deg, var(--admin-theme-color) 33%, var(--admin-theme-color-darker-20) 33%, var(--admin-theme-color-darker-20) 70%, var(--admin-theme-color) 70%);
   /* stylelint-enable */
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
 }
 .components-button.is-secondary, .components-button.is-tertiary {
   outline: 1px solid transparent;
@@ -299,14 +299,14 @@
 .components-button.is-secondary:active:not(:disabled), .components-button.is-tertiary:active:not(:disabled) {
   background: #ddd;
   color: #006ba1;
-  color: var(--wp-admin-theme-color-darker-10);
+  color: var(--admin-theme-color-darker-10);
   box-shadow: none;
 }
 .components-button.is-secondary:hover:not(:disabled), .components-button.is-tertiary:hover:not(:disabled) {
   color: #006ba1;
-  color: var(--wp-admin-theme-color-darker-10);
+  color: var(--admin-theme-color-darker-10);
   box-shadow: inset 0 0 0 1px #006ba1;
-  box-shadow: inset 0 0 0 1px var(--wp-admin-theme-color-darker-10);
+  box-shadow: inset 0 0 0 1px var(--admin-theme-color-darker-10);
 }
 .components-button.is-secondary:disabled, .components-button.is-secondary[aria-disabled=true], .components-button.is-secondary[aria-disabled=true]:hover, .components-button.is-tertiary:disabled, .components-button.is-tertiary[aria-disabled=true], .components-button.is-tertiary[aria-disabled=true]:hover {
   color: #828282;
@@ -318,17 +318,17 @@
 }
 .components-button.is-secondary {
   box-shadow: inset 0 0 0 1px #007cba;
-  box-shadow: inset 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 1px var(--admin-theme-color);
   outline: 1px solid transparent;
   white-space: nowrap;
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
   background: transparent;
 }
 .components-button.is-tertiary {
   white-space: nowrap;
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
   background: transparent;
   padding: 6px;
 }
@@ -346,7 +346,7 @@
 }
 .components-button.is-destructive:focus:not(:disabled) {
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 .components-button.is-destructive:active:not(:disabled) {
   background: #ccc;
@@ -390,7 +390,7 @@
 .components-button.is-link:focus {
   color: #124964;
   box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, 0.8);
-  box-shadow: 0 0 0 1px #5b9dd9, 0 0 var(--wp-admin-border-width-focus) 1px rgba(30, 140, 190, 0.8);
+  box-shadow: 0 0 0 1px #5b9dd9, 0 0 var(--admin-border-width-focus) 1px rgba(30, 140, 190, 0.8);
 }
 .components-button.is-link.is-destructive {
   color: #cc1818;
@@ -401,7 +401,7 @@
 }
 .components-button.is-link.is-destructive:focus:not(:disabled) {
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 .components-button:not([aria-disabled=true]):active {
   color: inherit;
@@ -451,7 +451,7 @@
 }
 .components-button.is-pressed:focus:not(:disabled) {
   box-shadow: inset 0 0 0 1px #fff, 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 1px #fff, 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 1px #fff, 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-button.is-pressed:hover:not(:disabled) {
@@ -517,9 +517,9 @@
 }
 .components-checkbox-control__input[type=checkbox]:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-checkbox-control__input[type=checkbox]::-webkit-input-placeholder {
@@ -544,14 +544,14 @@
 }
 .components-checkbox-control__input[type=checkbox]:focus {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007cba;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-checkbox-control__input[type=checkbox]:checked {
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
 }
 .components-checkbox-control__input[type=checkbox]:checked::-ms-check {
   opacity: 0;
@@ -567,9 +567,9 @@
 }
 .components-checkbox-control__input[type=checkbox][aria-checked=mixed] {
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
 }
 .components-checkbox-control__input[type=checkbox][aria-checked=mixed]::before {
   content: "";
@@ -603,14 +603,14 @@
 }
 .components-checkbox-control__input[type=checkbox]:focus {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007cba;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-checkbox-control__input[type=checkbox]:checked {
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
 }
 .components-checkbox-control__input[type=checkbox]:checked::-ms-check {
   opacity: 0;
@@ -1028,15 +1028,15 @@ svg.components-checkbox-control__checked {
 
 .components-color-picker__saturation-pointer:focus {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007cba, 0 0 5px 0 #007cba, inset 0 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--wp-admin-theme-color), 0 0 5px 0 var(--wp-admin-theme-color), inset 0 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--admin-theme-color), 0 0 5px 0 var(--admin-theme-color), inset 0 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 .components-color-picker__hue-pointer:focus,
 .components-color-picker__alpha-pointer:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 2px #007cba, 0 0 3px 0 #007cba;
-  box-shadow: 0 0 0 2px var(--wp-admin-theme-color), 0 0 3px 0 var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 2px var(--admin-theme-color), 0 0 3px 0 var(--admin-theme-color);
   outline: 2px solid transparent;
   outline-offset: -2px;
 }
@@ -1139,9 +1139,9 @@ input.components-combobox-control__input[type=text]:focus {
 }
 .components-combobox-control__suggestions-container:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-combobox-control__suggestions-container::-webkit-input-placeholder {
@@ -1166,9 +1166,9 @@ input.components-combobox-control__input[type=text]:focus {
 }
 .components-combobox-control__suggestions-container:focus-within {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 
@@ -1213,7 +1213,7 @@ input.components-combobox-control__input[type=text]:focus {
 .components-custom-gradient-picker__gradient-bar .components-custom-gradient-picker__control-point-button {
   border: 2px solid transparent;
   box-shadow: inset 0 0 0 2px #fff;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) #fff;
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) #fff;
   border-radius: 50%;
   height: 24px;
   width: 24px;
@@ -1285,9 +1285,9 @@ input.components-combobox-control__input[type=text]:focus {
 }
 .components-custom-select-control__button:focus:not(:disabled) {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
 }
 .components-custom-select-control__button .components-custom-select-control__button-icon {
   height: 100%;
@@ -2409,17 +2409,17 @@ input.components-combobox-control__input[type=text]:focus {
 }
 .components-datetime__date .CalendarDay:focus {
   box-shadow: inset 0 0 0 2px #007cba, inset 0 0 0 3px #fff;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color), inset 0 0 0 3px #fff;
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color), inset 0 0 0 3px #fff;
   outline: 2px solid transparent;
 }
 .components-datetime__date .CalendarDay__selected {
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   border: 2px solid transparent;
 }
 .components-datetime__date .CalendarDay__selected:hover {
   background: #005a87;
-  background: var(--wp-admin-theme-color-darker-20);
+  background: var(--admin-theme-color-darker-20);
 }
 .components-datetime__date .CalendarDay__selected:focus {
   box-shadow: inset 0 0 0 1px #fff;
@@ -2430,9 +2430,9 @@ input.components-combobox-control__input[type=text]:focus {
 }
 .components-datetime__date .DayPickerNavigation_button__horizontalDefault:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-datetime__date .DayPicker_weekHeader {
@@ -2584,7 +2584,7 @@ body.is-dragging-components-draggable {
   opacity: 0;
   transition: 0.3s opacity, 0.3s background-color, 0s visibility 0.3s;
   border: 2px solid #007cba;
-  border: 2px solid var(--wp-admin-theme-color);
+  border: 2px solid var(--admin-theme-color);
   border-radius: 2px;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2604,7 +2604,7 @@ body.is-dragging-components-draggable {
 }
 .components-drop-zone.is-dragging-over-element {
   background-color: #007cba;
-  background-color: var(--wp-admin-theme-color);
+  background-color: var(--admin-theme-color);
 }
 
 .components-drop-zone__content {
@@ -2776,9 +2776,9 @@ body.is-dragging-components-draggable {
 }
 .components-font-size-picker__controls .components-font-size-picker__number:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-font-size-picker__controls .components-font-size-picker__number::-webkit-input-placeholder {
@@ -2870,14 +2870,14 @@ body.is-dragging-components-draggable {
 }
 .components-form-toggle.is-checked .components-form-toggle__track {
   background-color: #007cba;
-  background-color: var(--wp-admin-theme-color);
+  background-color: var(--admin-theme-color);
   border: 1px solid #007cba;
-  border: 1px solid var(--wp-admin-theme-color);
+  border: 1px solid var(--admin-theme-color);
   border: 9px solid transparent;
 }
 .components-form-toggle .components-form-toggle__input:focus + .components-form-toggle__track {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007cba;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--admin-theme-color);
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
@@ -2942,9 +2942,9 @@ body.is-dragging-components-draggable {
 }
 .components-form-token-field__input-container:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-form-token-field__input-container::-webkit-input-placeholder {
@@ -2973,9 +2973,9 @@ body.is-dragging-components-draggable {
 }
 .components-form-token-field__input-container.is-active {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-form-token-field__input-container input[type=text].components-form-token-field__input {
@@ -3043,7 +3043,7 @@ body.is-dragging-components-draggable {
 .components-form-token-field__token.is-borderless .components-form-token-field__token-text {
   background: transparent;
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 .components-form-token-field__token.is-borderless .components-form-token-field__remove-token {
   background: transparent;
@@ -3131,7 +3131,7 @@ body.is-dragging-components-draggable {
 }
 .components-form-token-field__suggestion.is-selected {
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   color: #fff;
 }
 
@@ -3267,7 +3267,7 @@ body.is-dragging-components-draggable {
   pointer-events: none;
   outline: 4px solid transparent;
   box-shadow: inset 0 0 0 4px #007cba;
-  box-shadow: inset 0 0 0 4px var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 4px var(--admin-theme-color);
 }
 @supports (outline-offset: 1px) {
   .is-focusing-regions [role=region]:focus::after {
@@ -3276,7 +3276,7 @@ body.is-dragging-components-draggable {
   .is-focusing-regions [role=region]:focus {
     outline-style: solid;
     outline-color: #007cba;
-    outline-color: var(--wp-admin-theme-color);
+    outline-color: var(--admin-theme-color);
     outline-width: 4px;
     outline-offset: -4px;
   }
@@ -3491,7 +3491,7 @@ body.is-dragging-components-draggable {
   font-size: 13px;
   background-color: #fff;
   border-left: 4px solid #007cba;
-  border-left: 4px solid var(--wp-admin-theme-color);
+  border-left: 4px solid var(--admin-theme-color);
   margin: 5px 15px 2px;
   padding: 8px 12px;
   align-items: center;
@@ -3650,7 +3650,7 @@ body.is-dragging-components-draggable {
 }
 .components-panel__body-toggle.components-button:focus {
   box-shadow: inset 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
   border-radius: 0;
 }
 .components-panel__body-toggle.components-button .components-panel__arrow {
@@ -3806,9 +3806,9 @@ body.rtl .components-panel__body-toggle.components-button .dashicons-arrow-right
 }
 .components-placeholder__input[type=url]:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-placeholder__input[type=url]::-webkit-input-placeholder {
@@ -4120,9 +4120,9 @@ body.rtl .components-panel__body-toggle.components-button .dashicons-arrow-right
 }
 .components-radio-control__input[type=radio]:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-radio-control__input[type=radio]::-webkit-input-placeholder {
@@ -4166,14 +4166,14 @@ body.rtl .components-panel__body-toggle.components-button .dashicons-arrow-right
 }
 .components-radio-control__input[type=radio]:focus {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007cba;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-radio-control__input[type=radio]:checked {
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
 }
 
 .components-resizable-box__handle {
@@ -4194,7 +4194,7 @@ body.rtl .components-panel__body-toggle.components-button .dashicons-arrow-right
   border: 2px solid #fff;
   border-radius: 50%;
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   cursor: inherit;
   position: absolute;
   top: calc(50% - 8px);
@@ -4208,7 +4208,7 @@ body.rtl .components-panel__body-toggle.components-button .dashicons-arrow-right
   height: 7px;
   border: 2px solid #fff;
   background: #007cba;
-  background: var(--wp-admin-theme-color);
+  background: var(--admin-theme-color);
   cursor: inherit;
   position: absolute;
   top: calc(50% - 4px);
@@ -4419,7 +4419,7 @@ body.lockscroll {
 }
 .components-snackbar:focus {
   box-shadow: 0 0 0 1px #fff, 0 0 0 3px #007cba;
-  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--admin-theme-color);
 }
 .components-snackbar.components-snackbar-explicit-dismiss {
   cursor: default;
@@ -4456,7 +4456,7 @@ body.lockscroll {
 }
 .components-snackbar__action.components-button:not(:disabled):not([aria-disabled=true]):not(.is-secondary):hover {
   color: #007cba;
-  color: var(--wp-admin-theme-color);
+  color: var(--admin-theme-color);
 }
 
 .components-snackbar__content {
@@ -4510,11 +4510,11 @@ body.lockscroll {
 }
 .components-tab-panel__tabs-item:focus:not(:disabled) {
   box-shadow: inset 0 2px #007cba;
-  box-shadow: inset 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 var(--admin-border-width-focus) var(--admin-theme-color);
 }
 .components-tab-panel__tabs-item.is-active {
   box-shadow: inset 0 0 0 2px transparent, inset 0 -4px 0 0 #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) transparent, inset 0 -4px 0 0 var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) transparent, inset 0 -4px 0 0 var(--admin-theme-color);
   position: relative;
 }
 .components-tab-panel__tabs-item.is-active::before {
@@ -4528,11 +4528,11 @@ body.lockscroll {
 }
 .components-tab-panel__tabs-item:focus {
   box-shadow: inset 0 0 0 2px #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color);
 }
 .components-tab-panel__tabs-item.is-active:focus {
   box-shadow: inset 0 0 0 2px #007cba, inset 0 -4px 0 0 #007cba;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color), inset 0 -4px 0 0 var(--wp-admin-theme-color);
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color), inset 0 -4px 0 0 var(--admin-theme-color);
 }
 
 .components-text-control__input,
@@ -4614,9 +4614,9 @@ body.lockscroll {
 .components-text-control__input[type=month]:focus,
 .components-text-control__input[type=number]:focus {
   border-color: #007cba;
-  border-color: var(--wp-admin-theme-color);
+  border-color: var(--admin-theme-color);
   box-shadow: 0 0 0 1px #007cba;
-  box-shadow: 0 0 0 1px var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 1px var(--admin-theme-color);
   outline: 2px solid transparent;
 }
 .components-text-control__input::-webkit-input-placeholder,
@@ -4809,7 +4809,7 @@ body.lockscroll {
 .components-accessible-toolbar .components-button:focus::before,
 .components-toolbar .components-button:focus::before {
   box-shadow: inset 0 0 0 2px #007cba, inset 0 0 0 4px #fff;
-  box-shadow: inset 0 0 0 var(--wp-admin-border-width-focus) var(--wp-admin-theme-color), inset 0 0 0 4px #fff;
+  box-shadow: inset 0 0 0 var(--admin-border-width-focus) var(--admin-theme-color), inset 0 0 0 4px #fff;
   outline: 2px solid transparent;
 }
 .components-accessible-toolbar .components-button.has-icon,

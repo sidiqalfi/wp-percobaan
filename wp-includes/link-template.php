@@ -3300,7 +3300,7 @@ function get_home_url( $blog_id = null, $path = '', $scheme = null ) {
 
 /**
  * Retrieves the URL for the current site where WordPress application files
- * (e.g. wp-blog-header.php or the wp-admin/ folder) are accessible.
+ * (e.g. wp-blog-header.php or the admin/ folder) are accessible.
  *
  * Returns the 'site_url' option with the appropriate protocol, 'https' if
  * is_ssl() and 'http' otherwise. If $scheme is 'http' or 'https', is_ssl() is
@@ -3318,7 +3318,7 @@ function site_url( $path = '', $scheme = null ) {
 
 /**
  * Retrieves the URL for a given site where WordPress application files
- * (e.g. wp-blog-header.php or the wp-admin/ folder) are accessible.
+ * (e.g. wp-blog-header.php or the admin/ folder) are accessible.
  *
  * Returns the 'site_url' option with the appropriate protocol, 'https' if
  * is_ssl() and 'http' otherwise. If `$scheme` is 'http' or 'https',
@@ -3389,7 +3389,7 @@ function admin_url( $path = '', $scheme = 'admin' ) {
  * @return string Admin URL link with optional path appended.
  */
 function get_admin_url( $blog_id = null, $path = '', $scheme = 'admin' ) {
-	$url = get_site_url( $blog_id, 'wp-admin/', $scheme );
+	$url = get_site_url( $blog_id, 'admin/', $scheme );
 
 	if ( $path && is_string( $path ) ) {
 		$url .= ltrim( $path, '/' );
@@ -3628,7 +3628,7 @@ function network_admin_url( $path = '', $scheme = 'admin' ) {
 		return admin_url( $path, $scheme );
 	}
 
-	$url = network_site_url( 'wp-admin/network/', $scheme );
+	$url = network_site_url( 'admin/network/', $scheme );
 
 	if ( $path && is_string( $path ) ) {
 		$url .= ltrim( $path, '/' );
@@ -3657,7 +3657,7 @@ function network_admin_url( $path = '', $scheme = 'admin' ) {
  * @return string Admin URL link with optional path appended.
  */
 function user_admin_url( $path = '', $scheme = 'admin' ) {
-	$url = network_site_url( 'wp-admin/user/', $scheme );
+	$url = network_site_url( 'admin/user/', $scheme );
 
 	if ( $path && is_string( $path ) ) {
 		$url .= ltrim( $path, '/' );

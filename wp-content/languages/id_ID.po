@@ -37,8 +37,8 @@ msgid "words"
 msgstr "words"
 
 #: newlogin.php:123 wp-includes/admin-bar.php:165
-#: wp-includes/widgets/class-wp-widget-meta.php:90 wp-admin/upgrade.php:68
-#: wp-admin/admin-footer.php:38 wp-admin/maint/repair.php:24
+#: wp-includes/widgets/class-wp-widget-meta.php:90 admin/upgrade.php:68
+#: admin/admin-footer.php:38 admin/maint/repair.php:24
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
@@ -94,7 +94,7 @@ msgstr ","
 #: wp-includes/js/dist/block-editor.js:20198
 #: wp-includes/js/dist/block-editor.js:20203
 #: wp-includes/js/dist/block-editor.js:20483
-#: wp-includes/js/dist/edit-post.js:4103 wp-admin/includes/upgrade.php:158
+#: wp-includes/js/dist/edit-post.js:4103 admin/includes/upgrade.php:158
 msgid "Uncategorized"
 msgstr "Tak Berkategori"
 
@@ -150,8 +150,8 @@ msgid "This personal data request has expired."
 msgstr "Permintaan data pribadi ini telah kedaluwarsa."
 
 #: wp-includes/user.php:4062 wp-includes/user.php:4250
-#: wp-admin/includes/privacy-tools.php:23
-#: wp-admin/includes/privacy-tools.php:52
+#: admin/includes/privacy-tools.php:23
+#: admin/includes/privacy-tools.php:52
 msgid "Invalid personal data request."
 msgstr "Permintaan data pribadi tidak valid."
 
@@ -403,7 +403,7 @@ msgid "&#8592; Go to library"
 msgstr "&#8592; Pergi ke pustaka"
 
 #: wp-includes/js/dist/block-editor.js:9394
-#: wp-includes/js/dist/edit-post.js:4361 wp-admin/menu.php:188
+#: wp-includes/js/dist/edit-post.js:4361 admin/menu.php:188
 msgid "Appearance"
 msgstr "Tampilan"
 
@@ -554,7 +554,7 @@ msgid "An application name is required to create an application password."
 msgstr "Nama aplikasi diperlukan untuk membuat sebuah kata sandi aplikasi."
 
 #: wp-includes/media-template.php:513 wp-includes/media-template.php:742
-#: wp-admin/includes/media.php:3334
+#: admin/includes/media.php:3334
 msgid "Copy URL to clipboard"
 msgstr "Salin URL ke clipboard"
 
@@ -643,12 +643,12 @@ msgid "Application password not found."
 msgstr "Kata sandi aplikasi tidak ditemukan."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:717
-#: wp-includes/user.php:366 wp-admin/authorize-application.php:105
+#: wp-includes/user.php:366 admin/authorize-application.php:105
 msgid "Application passwords are not available for your account. Please contact the site administrator for assistance."
 msgstr "Kata sandi aplikasi tidak tersedia untuk akun Anda. Silakan hubungi administrator situs untuk bantuan."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:673
-#: wp-includes/user.php:361 wp-admin/authorize-application.php:107
+#: wp-includes/user.php:361 admin/authorize-application.php:107
 msgid "Application passwords are not available."
 msgstr "Kata sandi aplikasi tidak tersedia."
 
@@ -745,22 +745,22 @@ msgstr "Pensil gambar Don Duixote"
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:161
-#: wp-admin/includes/theme.php:893 wp-admin/includes/update.php:755
-#: wp-admin/themes.php:447 wp-admin/themes.php:790 wp-admin/themes.php:1053
+#: admin/includes/theme.php:893 admin/includes/update.php:755
+#: admin/themes.php:447 admin/themes.php:790 admin/themes.php:1053
 msgid "There is a new version of %s available, but it doesn&#8217;t work with your version of PHP."
 msgstr "Tersedia %s versi baru, namun tidak dapat berkerja dengan versi PHP Anda."
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:146
-#: wp-admin/includes/theme.php:878 wp-admin/includes/update.php:742
-#: wp-admin/themes.php:434 wp-admin/themes.php:775 wp-admin/themes.php:1038
+#: admin/includes/theme.php:878 admin/includes/update.php:742
+#: admin/themes.php:434 admin/themes.php:775 admin/themes.php:1038
 msgid "There is a new version of %s available, but it doesn&#8217;t work with your version of WordPress."
 msgstr "Tersedia %s versi baru, namun tidak dapat bekerja dengan versi WordPress Anda."
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:116
-#: wp-admin/includes/theme.php:848 wp-admin/includes/update.php:714
-#: wp-admin/themes.php:406 wp-admin/themes.php:745 wp-admin/themes.php:1008
+#: admin/includes/theme.php:848 admin/includes/update.php:714
+#: admin/themes.php:406 admin/themes.php:745 admin/themes.php:1008
 msgid "There is a new version of %s available, but it doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr "Tersedia %s versi baru, namun tidak dapat bekerja dengan versi WordPress dan PHP Anda."
 
@@ -892,16 +892,16 @@ msgid "Large header with a heading and a button "
 msgstr "Header lebar dengan judul dan tombol"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:220
-#: wp-admin/includes/theme.php:964 wp-admin/themes.php:501
-#: wp-admin/themes.php:848 wp-admin/themes.php:980
-#: wp-admin/theme-install.php:320 wp-admin/theme-install.php:506
+#: admin/includes/theme.php:964 admin/themes.php:501
+#: admin/themes.php:848 admin/themes.php:980
+#: admin/theme-install.php:320 admin/theme-install.php:506
 msgid "This theme doesn&#8217;t work with your version of PHP."
 msgstr "Tema ini tidak berfungsi dengan versi PHP Anda."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:209
-#: wp-admin/includes/theme.php:953 wp-admin/themes.php:492
-#: wp-admin/themes.php:837 wp-admin/themes.php:969
-#: wp-admin/theme-install.php:309 wp-admin/theme-install.php:495
+#: admin/includes/theme.php:953 admin/themes.php:492
+#: admin/themes.php:837 admin/themes.php:969
+#: admin/theme-install.php:309 admin/theme-install.php:495
 msgid "This theme doesn&#8217;t work with your version of WordPress."
 msgstr "Tema ini tidak berfungsi dengan versi WordPress Anda."
 
@@ -910,21 +910,21 @@ msgstr "Tema ini tidak berfungsi dengan versi WordPress Anda."
 #: wp-includes/customize/class-wp-customize-theme-control.php:167
 #: wp-includes/customize/class-wp-customize-theme-control.php:201
 #: wp-includes/customize/class-wp-customize-theme-control.php:224
-#: wp-admin/includes/theme.php:868 wp-admin/includes/theme.php:899
-#: wp-admin/includes/theme.php:945 wp-admin/includes/theme.php:968
-#: wp-admin/includes/update.php:734 wp-admin/includes/update.php:761
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:672
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:691
-#: wp-admin/includes/update-core.php:983 wp-admin/includes/plugin.php:1157
-#: wp-admin/install.php:244 wp-admin/update-core.php:90
-#: wp-admin/update-core.php:505 wp-admin/update-core.php:661
-#: wp-admin/update-core.php:685 wp-admin/themes.php:426 wp-admin/themes.php:453
-#: wp-admin/themes.php:486 wp-admin/themes.php:505 wp-admin/themes.php:765
-#: wp-admin/themes.php:796 wp-admin/themes.php:829 wp-admin/themes.php:852
-#: wp-admin/themes.php:961 wp-admin/themes.php:984 wp-admin/themes.php:1028
-#: wp-admin/themes.php:1059 wp-admin/upgrade.php:86
-#: wp-admin/theme-install.php:301 wp-admin/theme-install.php:324
-#: wp-admin/theme-install.php:487 wp-admin/theme-install.php:510
+#: admin/includes/theme.php:868 admin/includes/theme.php:899
+#: admin/includes/theme.php:945 admin/includes/theme.php:968
+#: admin/includes/update.php:734 admin/includes/update.php:761
+#: admin/includes/class-wp-plugin-install-list-table.php:672
+#: admin/includes/class-wp-plugin-install-list-table.php:691
+#: admin/includes/update-core.php:983 admin/includes/plugin.php:1157
+#: admin/install.php:244 admin/update-core.php:90
+#: admin/update-core.php:505 admin/update-core.php:661
+#: admin/update-core.php:685 admin/themes.php:426 admin/themes.php:453
+#: admin/themes.php:486 admin/themes.php:505 admin/themes.php:765
+#: admin/themes.php:796 admin/themes.php:829 admin/themes.php:852
+#: admin/themes.php:961 admin/themes.php:984 admin/themes.php:1028
+#: admin/themes.php:1059 admin/upgrade.php:86
+#: admin/theme-install.php:301 admin/theme-install.php:324
+#: admin/theme-install.php:487 admin/theme-install.php:510
 msgid "<a href=\"%s\">Learn more about updating PHP</a>."
 msgstr "<a href=\"%s\">Pelajari lebih lanjut tentang memperbarui PHP</a>."
 
@@ -933,38 +933,38 @@ msgstr "<a href=\"%s\">Pelajari lebih lanjut tentang memperbarui PHP</a>."
 #: wp-includes/customize/class-wp-customize-theme-control.php:152
 #: wp-includes/customize/class-wp-customize-theme-control.php:195
 #: wp-includes/customize/class-wp-customize-theme-control.php:213
-#: wp-admin/includes/theme.php:862 wp-admin/includes/theme.php:884
-#: wp-admin/includes/theme.php:939 wp-admin/includes/theme.php:957
-#: wp-admin/includes/update.php:728 wp-admin/includes/update.php:748
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:666
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:682
-#: wp-admin/update-core.php:655 wp-admin/update-core.php:676
-#: wp-admin/themes.php:420 wp-admin/themes.php:440 wp-admin/themes.php:480
-#: wp-admin/themes.php:496 wp-admin/themes.php:759 wp-admin/themes.php:781
-#: wp-admin/themes.php:823 wp-admin/themes.php:841 wp-admin/themes.php:955
-#: wp-admin/themes.php:973 wp-admin/themes.php:1022 wp-admin/themes.php:1044
-#: wp-admin/theme-install.php:295 wp-admin/theme-install.php:313
-#: wp-admin/theme-install.php:481 wp-admin/theme-install.php:499
+#: admin/includes/theme.php:862 admin/includes/theme.php:884
+#: admin/includes/theme.php:939 admin/includes/theme.php:957
+#: admin/includes/update.php:728 admin/includes/update.php:748
+#: admin/includes/class-wp-plugin-install-list-table.php:666
+#: admin/includes/class-wp-plugin-install-list-table.php:682
+#: admin/update-core.php:655 admin/update-core.php:676
+#: admin/themes.php:420 admin/themes.php:440 admin/themes.php:480
+#: admin/themes.php:496 admin/themes.php:759 admin/themes.php:781
+#: admin/themes.php:823 admin/themes.php:841 admin/themes.php:955
+#: admin/themes.php:973 admin/themes.php:1022 admin/themes.php:1044
+#: admin/theme-install.php:295 admin/theme-install.php:313
+#: admin/theme-install.php:481 admin/theme-install.php:499
 msgid "<a href=\"%s\">Please update WordPress</a>."
 msgstr "<a href=\"%s\">Mohon perbarui WordPress</a>."
 
 #. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
 #: wp-includes/customize/class-wp-customize-theme-control.php:122
 #: wp-includes/customize/class-wp-customize-theme-control.php:187
-#: wp-admin/includes/theme.php:854 wp-admin/includes/theme.php:931
-#: wp-admin/includes/update.php:720
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:658
-#: wp-admin/update-core.php:642 wp-admin/themes.php:412 wp-admin/themes.php:472
-#: wp-admin/themes.php:751 wp-admin/themes.php:815 wp-admin/themes.php:947
-#: wp-admin/themes.php:1014 wp-admin/theme-install.php:287
-#: wp-admin/theme-install.php:473
+#: admin/includes/theme.php:854 admin/includes/theme.php:931
+#: admin/includes/update.php:720
+#: admin/includes/class-wp-plugin-install-list-table.php:658
+#: admin/update-core.php:642 admin/themes.php:412 admin/themes.php:472
+#: admin/themes.php:751 admin/themes.php:815 admin/themes.php:947
+#: admin/themes.php:1014 admin/theme-install.php:287
+#: admin/theme-install.php:473
 msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
 msgstr "<a href=\"%1$s\">Mohon perbarui WordPress</a>, lalu <a href=\"%2$s\">pelajari lebih lanjut tentang memperbarui PHP</a>."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:183
-#: wp-admin/includes/theme.php:927 wp-admin/themes.php:468
-#: wp-admin/themes.php:811 wp-admin/themes.php:943
-#: wp-admin/theme-install.php:283 wp-admin/theme-install.php:469
+#: admin/includes/theme.php:927 admin/themes.php:468
+#: admin/themes.php:811 admin/themes.php:943
+#: admin/theme-install.php:283 admin/theme-install.php:469
 msgid "This theme doesn&#8217;t work with your versions of WordPress and PHP."
 msgstr "Tema ini tidak berfungsi dengan versi WordPress dan PHP Anda."
 
@@ -1004,7 +1004,7 @@ msgid "Could not update attachment in the database."
 msgstr "Tidak dapat memperbarui lampiran dalam basis data."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:680
-#: wp-admin/plugins.php:48 wp-admin/plugins.php:175
+#: admin/plugins.php:48 admin/plugins.php:175
 msgid "Sorry, you are not allowed to activate this plugin."
 msgstr "Maaf, Anda tidak diizinkan untuk mengaktifkan plugin ini."
 
@@ -1016,18 +1016,18 @@ msgid "by %s"
 msgstr "oleh %s"
 
 #: wp-includes/js/dist/core-data.js:3111
-#: wp-admin/includes/ajax-actions.php:1506
+#: admin/includes/ajax-actions.php:1506
 msgid "Menu Item"
 msgstr "Bagian Menu"
 
-#: wp-includes/js/dist/core-data.js:3099 wp-admin/includes/template.php:459
-#: wp-admin/edit-form-comment.php:72
+#: wp-includes/js/dist/core-data.js:3099 admin/includes/template.php:459
+#: admin/edit-form-comment.php:72
 msgid "Comment"
 msgstr "Komentar"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1361
 #: wp-includes/js/dist/block-library.js:5837
-#: wp-admin/includes/image-edit.php:54
+#: admin/includes/image-edit.php:54
 msgid "Crop"
 msgstr "Potong"
 
@@ -1208,7 +1208,7 @@ msgid "Could not update comment in the database."
 msgstr "Tidak dapat memperbarui komentar di basis data."
 
 #: wp-includes/media-template.php:510 wp-includes/media-template.php:739
-#: wp-admin/includes/media.php:3331
+#: admin/includes/media.php:3331
 msgid "File URL:"
 msgstr "URL berkas:"
 
@@ -1282,10 +1282,10 @@ msgstr "Kata kunci skema \"tipe\" untuk %1$s hanya dapat terdiri atas tipe yang 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message.
 #. translators: 1: Theme name. 2: Theme slug.
-#: wp-includes/rest-api.php:652 wp-admin/includes/class-wp-debug-data.php:1059
-#: wp-admin/includes/class-wp-debug-data.php:1078
-#: wp-admin/includes/class-wp-debug-data.php:1173
-#: wp-admin/includes/class-wp-debug-data.php:1334
+#: wp-includes/rest-api.php:652 admin/includes/class-wp-debug-data.php:1059
+#: admin/includes/class-wp-debug-data.php:1078
+#: admin/includes/class-wp-debug-data.php:1173
+#: admin/includes/class-wp-debug-data.php:1334
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
@@ -1294,7 +1294,7 @@ msgstr "%1$s (%2$s)"
 msgid "This notice was triggered by the %s handle."
 msgstr "Peringatan berikut dipicu oleh handle %s. "
 
-#: wp-includes/comment.php:1344 wp-admin/options.php:215
+#: wp-includes/comment.php:1344 admin/options.php:215
 msgid "Please consider writing more inclusive code."
 msgstr "Mohon untuk mempertimbangkan penulisan kode yang lebih inklusif."
 
@@ -1452,7 +1452,7 @@ msgid "Network only plugin must be network activated."
 msgstr "Plugin khusus untuk jaringan wajib diaktifkan pada jaringan."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:688
-#: wp-admin/plugins.php:198
+#: admin/plugins.php:198
 msgid "Sorry, you are not allowed to deactivate this plugin."
 msgstr "Maaf, Anda tidak diizinkan mengaktifkan plugin berikut."
 
@@ -1461,7 +1461,7 @@ msgid "Cannot delete an active plugin. Please deactivate it first."
 msgstr "Tidak dapat menghapus plugin aktif. Silakan non-aktifkan plugin lebih dahulu."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:490
-#: wp-admin/includes/ajax-actions.php:4547 wp-admin/plugins.php:268
+#: admin/includes/ajax-actions.php:4547 admin/plugins.php:268
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "Maaf, Anda tidak diizinkan menghapus plugin untuk situs berikut."
 
@@ -1470,12 +1470,12 @@ msgid "Unable to determine what plugin was installed."
 msgstr "Tidak dapat menentukan plugin yang telah terpasang."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:338
-#: wp-admin/includes/ajax-actions.php:4081
-#: wp-admin/includes/ajax-actions.php:4211
-#: wp-admin/includes/ajax-actions.php:4275
-#: wp-admin/includes/ajax-actions.php:4375
-#: wp-admin/includes/ajax-actions.php:4502
-#: wp-admin/includes/ajax-actions.php:4571
+#: admin/includes/ajax-actions.php:4081
+#: admin/includes/ajax-actions.php:4211
+#: admin/includes/ajax-actions.php:4275
+#: admin/includes/ajax-actions.php:4375
+#: admin/includes/ajax-actions.php:4502
+#: admin/includes/ajax-actions.php:4571
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "Tidak dapat terhubung ke filesystem. Silakan konfirmasi kredensial Anda."
 
@@ -1484,9 +1484,9 @@ msgid "Sorry, you are not allowed to activate plugins."
 msgstr "Maaf, Anda tidak diizinkan untuk mengaktifkan plugin."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:245
-#: wp-admin/includes/ajax-actions.php:4328 wp-admin/update.php:106
-#: wp-admin/update.php:149 wp-admin/update.php:181
-#: wp-admin/plugin-install.php:19
+#: admin/includes/ajax-actions.php:4328 admin/update.php:106
+#: admin/update.php:149 admin/update.php:181
+#: admin/plugin-install.php:19
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "Maaf, Anda tidak diizinkan menginstal plugin pada situs ini."
 
@@ -1499,8 +1499,8 @@ msgstr "Plugin tidak ditemukan."
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:166
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:412
 #: wp-includes/rest-api/endpoints/class-wp-rest-plugins-controller.php:482
-#: wp-admin/includes/ajax-actions.php:4623
-#: wp-admin/includes/ajax-actions.php:4675 wp-admin/plugins.php:13
+#: admin/includes/ajax-actions.php:4623
+#: admin/includes/ajax-actions.php:4675 admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "Maaf, Anda tidak diizinkan mengelola plugin untuk situs ini."
 
@@ -1839,7 +1839,7 @@ msgstr "Ubah Frekuensi"
 
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:62
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:176
-#: wp-admin/includes/class-wp-posts-list-table.php:1114
+#: admin/includes/class-wp-posts-list-table.php:1114
 msgid "Last Modified"
 msgstr "Terakhir Diperbarui"
 
@@ -1898,8 +1898,8 @@ msgstr "Pendaftaran selesai. Silakan periksa e-mail Anda, kemudian kunjungi <a h
 msgid "Check your email for the confirmation link, then visit the <a href=\"%s\">login page</a>."
 msgstr "Periksa e-mail Anda untuk tautan konfirmasi, lalu kunjungi <a href=\"%s\">laman masuk</a>."
 
-#: wp-includes/comment-template.php:603 wp-admin/includes/meta-boxes.php:172
-#: wp-admin/includes/meta-boxes.php:201
+#: wp-includes/comment-template.php:603 admin/includes/meta-boxes.php:172
+#: admin/includes/meta-boxes.php:201
 msgid "Password protected"
 msgstr "Diproteksi kata sandi"
 
@@ -1927,21 +1927,21 @@ msgstr "Maaf, artikel tidak dapat diperbaharui"
 msgid "Select poster image"
 msgstr "PIlih gambar poster"
 
-#: wp-includes/js/dist/edit-post.js:6663 wp-admin/edit-form-advanced.php:145
+#: wp-includes/js/dist/edit-post.js:6663 admin/edit-form-advanced.php:145
 msgid "View post"
 msgstr "Lihat artikel"
 
 #: wp-includes/js/dist/components.js:30546 wp-includes/js/dist/editor.js:10816
-#: wp-admin/edit-tags.php:451 wp-admin/includes/meta-boxes.php:890
-#: wp-admin/includes/meta-boxes.php:1563
-#: wp-admin/includes/class-wp-terms-list-table.php:189
-#: wp-admin/includes/class-wp-terms-list-table.php:657
-#: wp-admin/includes/class-wp-posts-list-table.php:1566
-#: wp-admin/edit-tag-form.php:138
+#: admin/edit-tags.php:451 admin/includes/meta-boxes.php:890
+#: admin/includes/meta-boxes.php:1563
+#: admin/includes/class-wp-terms-list-table.php:189
+#: admin/includes/class-wp-terms-list-table.php:657
+#: admin/includes/class-wp-posts-list-table.php:1566
+#: admin/edit-tag-form.php:138
 msgid "Slug"
 msgstr "Slug"
 
-#: wp-includes/js/dist/editor.js:7748 wp-admin/includes/meta-boxes.php:708
+#: wp-includes/js/dist/editor.js:7748 admin/includes/meta-boxes.php:708
 msgid "https://wordpress.org/support/article/excerpt/"
 msgstr "https://wordpress.org/support/article/excerpt/"
 
@@ -1952,8 +1952,8 @@ msgstr "Status artikel %1$s tidak terdaftar, jadi tidak mungkin untuk memeriksa 
 
 #. translators: %s: Comment link.
 #: wp-includes/comment-template.php:981
-#: wp-admin/includes/class-wp-comments-list-table.php:879
-#: wp-admin/comment.php:204
+#: admin/includes/class-wp-comments-list-table.php:879
+#: admin/comment.php:204
 msgid "In reply to %s."
 msgstr "Sebagai balasan untuk %s."
 
@@ -2019,7 +2019,7 @@ msgid "Filter %s returned items with reserved names."
 msgstr "Penyaring %s menampilkan hasil dengan nama yang sudah dipakai."
 
 #: wp-includes/media-template.php:441 wp-includes/media-template.php:664
-#: wp-admin/includes/media.php:3472
+#: admin/includes/media.php:3472
 msgid "Original image:"
 msgstr "Gambar orisinil:"
 
@@ -2030,7 +2030,7 @@ msgstr "Sekali Seminggu"
 #. translators: Comment moderation. %s: Parent comment edit URL.
 #. translators: %s: Comment link.
 #: wp-includes/pluggable.php:1663 wp-includes/pluggable.php:1847
-#: wp-admin/edit-form-comment.php:177
+#: admin/edit-form-comment.php:177
 msgid "In reply to: %s"
 msgstr "Balasan untuk: %s"
 
@@ -2185,37 +2185,37 @@ msgstr "Saring media"
 #: wp-includes/media-template.php:316
 #: wp-includes/js/dist/block-library.js:19287
 #: wp-includes/js/dist/block-library.js:21677
-#: wp-admin/includes/class-wp-media-list-table.php:45
+#: admin/includes/class-wp-media-list-table.php:45
 msgid "Grid view"
 msgstr "Tampilan kisi"
 
 #: wp-includes/media-template.php:313 wp-includes/js/dist/block-editor.js:28489
 #: wp-includes/js/dist/block-library.js:19278
 #: wp-includes/js/dist/block-library.js:21668
-#: wp-admin/includes/class-wp-media-list-table.php:44
+#: admin/includes/class-wp-media-list-table.php:44
 msgid "List view"
 msgstr "Tampilan daftar"
 
-#: wp-includes/js/dist/block-library.js:7550 wp-admin/credits.php:25
-#: wp-admin/privacy.php:22 wp-admin/freedoms.php:28 wp-admin/about.php:26
+#: wp-includes/js/dist/block-library.js:7550 admin/credits.php:25
+#: admin/privacy.php:22 admin/freedoms.php:28 admin/about.php:26
 msgid "Code is Poetry"
 msgstr "Kode Itu Puisi"
 
 #: wp-includes/js/dist/block-directory.js:1829
-#: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:63
-#: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:136
-#: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:142
-#: wp-admin/includes/class-wp-privacy-data-removal-requests-list-table.php:68
-#: wp-admin/includes/class-wp-privacy-data-removal-requests-list-table.php:142
-#: wp-admin/includes/class-wp-privacy-data-removal-requests-list-table.php:149
+#: admin/includes/class-wp-privacy-data-export-requests-list-table.php:63
+#: admin/includes/class-wp-privacy-data-export-requests-list-table.php:136
+#: admin/includes/class-wp-privacy-data-export-requests-list-table.php:142
+#: admin/includes/class-wp-privacy-data-removal-requests-list-table.php:68
+#: admin/includes/class-wp-privacy-data-removal-requests-list-table.php:142
+#: admin/includes/class-wp-privacy-data-removal-requests-list-table.php:149
 msgid "Retry"
 msgstr "Coba Lagi"
 
-#: wp-includes/js/dist/editor.js:6923 wp-admin/includes/template.php:2585
+#: wp-includes/js/dist/editor.js:6923 admin/includes/template.php:2585
 msgid "Restore the backup"
 msgstr "Kembalikan cadangan"
 
-#: wp-includes/js/dist/editor.js:6920 wp-admin/includes/template.php:2584
+#: wp-includes/js/dist/editor.js:6920 admin/includes/template.php:2584
 msgid "The backup of this post in your browser is different from the version below."
 msgstr "Cadangan pos ini di peramban Anda berbeda dengan versi dibawah ini."
 
@@ -2240,7 +2240,7 @@ msgstr "Tema saat ini: %1$s (versi %2$s)"
 
 #. translators: %s: Your current version of WordPress.
 #: wp-includes/class-wp-recovery-mode-email-service.php:336
-#: wp-admin/includes/class-wp-site-health.php:266
+#: admin/includes/class-wp-site-health.php:266
 msgid "WordPress version %s"
 msgstr "Versi WordPress %s"
 
@@ -2254,7 +2254,7 @@ msgstr "https://wordpress.org/support/article/using-permalinks/#choosing-your-pe
 
 #: wp-includes/link-template.php:2658 wp-includes/link-template.php:2740
 #: wp-includes/link-template.php:2808
-#: wp-admin/includes/class-wp-users-list-table.php:365
+#: admin/includes/class-wp-users-list-table.php:365
 msgid "Posts"
 msgstr "Pos"
 
@@ -2288,7 +2288,7 @@ msgstr "Nama blok harus berupa untaian."
 
 #. translators: Documentation explaining debugging in WordPress.
 #: wp-includes/functions.php:5302
-#: wp-admin/includes/class-wp-site-health.php:1440
+#: admin/includes/class-wp-site-health.php:1440
 msgid "https://wordpress.org/support/article/debugging-in-wordpress/"
 msgstr "https://wordpress.org/support/article/debugging-in-wordpress/"
 
@@ -2370,7 +2370,7 @@ msgstr "Kelola Dokumen"
 msgid "Documents"
 msgstr "Dokumen"
 
-#: wp-includes/load.php:169 wp-admin/install.php:287
+#: wp-includes/load.php:169 admin/install.php:287
 msgid "Requirements Not Met"
 msgstr "Tidak Memenuhi Persyaratan"
 
@@ -2428,7 +2428,7 @@ msgstr "Feed entri"
 msgid "Unexpected response from the server. The file may have been uploaded successfully. Check in the Media Library or reload the page."
 msgstr "Respons yang tidak terduga dari server. Berkas mungkin berhasil diunggah. Periksa di Pustaka Media atau muat ulang laman."
 
-#: wp-load.php:83 wp-admin/setup-config.php:194
+#: wp-load.php:83 admin/setup-config.php:194
 msgid "https://wordpress.org/support/article/editing-wp-config-php/"
 msgstr "https://wordpress.org/support/article/editing-wp-config-php/"
 
@@ -2477,7 +2477,7 @@ msgid "55"
 msgstr "55"
 
 #: wp-includes/class-wp-customize-manager.php:5531
-#: wp-admin/includes/class-custom-background.php:430
+#: admin/includes/class-custom-background.php:430
 msgctxt "Original Size"
 msgid "Original"
 msgstr "Asli"
@@ -2526,9 +2526,9 @@ msgid "Caption&hellip;"
 msgstr "Penjelas&hellip;"
 
 #: wp-includes/media-template.php:407 wp-includes/js/dist/editor.js:12154
-#: wp-admin/includes/class-wp-themes-list-table.php:271
-#: wp-admin/includes/class-wp-theme-install-list-table.php:369
-#: wp-admin/import.php:205
+#: admin/includes/class-wp-themes-list-table.php:271
+#: admin/includes/class-wp-theme-install-list-table.php:369
+#: admin/import.php:205
 msgid "Details"
 msgstr "Rincian"
 
@@ -2554,7 +2554,7 @@ msgid "https://wordpress.org/support/article/resetting-your-password/"
 msgstr "https://wordpress.org/support/article/resetting-your-password/"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:98
-#: wp-admin/themes.php:397 wp-admin/themes.php:736
+#: admin/themes.php:397 admin/themes.php:736
 msgid "New version available."
 msgstr "Tersedia versi baru."
 
@@ -2564,7 +2564,7 @@ msgstr "Tidak dapat memasukkan item taksonomi ke dalam database."
 
 #. translators: 1: Link to tutorial, 2: Additional link attributes, 3:
 #. Accessibility text.
-#: wp-includes/media-template.php:161 wp-admin/includes/media.php:3219
+#: wp-includes/media-template.php:161 admin/includes/media.php:3219
 msgid "<a href=\"%1$s\" %2$s>Describe the purpose of the image%3$s</a>. Leave empty if the image is purely decorative."
 msgstr "<a href=\"%1$s\" %2$s> Tuliskan keterangan gambar %3$s</a>. Biarkan kosong jika hanya gambar dekoratif."
 
@@ -2630,7 +2630,7 @@ msgstr "Terjadi error pada endpoint yang tidak terproteksi."
 
 #. translators: %s: Login screen title.
 #. translators: %s: Admin screen title.
-#: newlogin.php:76 wp-admin/admin-header.php:57
+#: newlogin.php:76 admin/admin-header.php:57
 msgid "Recovery Mode &#8212; %s"
 msgstr "Mode Pemulihan &#8212; %s"
 
@@ -2640,12 +2640,12 @@ msgid "[%s] Login Details"
 msgstr "[%s] Rincian Login"
 
 #: wp-includes/media-template.php:538 wp-includes/media-template.php:689
-#: wp-includes/media.php:4395 wp-admin/includes/meta-boxes.php:337
-#: wp-admin/includes/meta-boxes.php:441 wp-admin/includes/media.php:1736
-#: wp-admin/includes/class-wp-media-list-table.php:179
-#: wp-admin/includes/class-wp-comments-list-table.php:374
-#: wp-admin/includes/class-wp-posts-list-table.php:418 wp-admin/comment.php:136
-#: wp-admin/edit-form-comment.php:205
+#: wp-includes/media.php:4395 admin/includes/meta-boxes.php:337
+#: admin/includes/meta-boxes.php:441 admin/includes/media.php:1736
+#: admin/includes/class-wp-media-list-table.php:179
+#: admin/includes/class-wp-comments-list-table.php:374
+#: admin/includes/class-wp-posts-list-table.php:418 admin/comment.php:136
+#: admin/edit-form-comment.php:205
 msgid "Move to Trash"
 msgstr "Pindah ke Tempat Sampah"
 
@@ -2659,16 +2659,16 @@ msgstr "Pulihkan dari Tempat Sampah"
 #: wp-includes/update.php:173 wp-includes/update.php:408
 #: wp-includes/update.php:612
 #: wp-includes/customize/class-wp-customize-themes-section.php:90
-#: wp-admin/includes/theme.php:544 wp-admin/includes/theme.php:558
-#: wp-admin/includes/theme.php:573 wp-admin/includes/translation-install.php:66
-#: wp-admin/includes/translation-install.php:80
-#: wp-admin/includes/translation-install.php:92
-#: wp-admin/includes/update.php:141 wp-admin/includes/plugin-install.php:181
-#: wp-admin/includes/plugin-install.php:196
-#: wp-admin/includes/plugin-install.php:211
-#: wp-admin/includes/class-wp-automatic-updater.php:803
-#: wp-admin/includes/class-wp-automatic-updater.php:1216
-#: wp-admin/theme-install.php:63
+#: admin/includes/theme.php:544 admin/includes/theme.php:558
+#: admin/includes/theme.php:573 admin/includes/translation-install.php:66
+#: admin/includes/translation-install.php:80
+#: admin/includes/translation-install.php:92
+#: admin/includes/update.php:141 admin/includes/plugin-install.php:181
+#: admin/includes/plugin-install.php:196
+#: admin/includes/plugin-install.php:211
+#: admin/includes/class-wp-automatic-updater.php:803
+#: admin/includes/class-wp-automatic-updater.php:1216
+#: admin/theme-install.php:63
 msgid "https://wordpress.org/support/forums/"
 msgstr "https://wordpress.org/support/forums/"
 
@@ -2703,7 +2703,7 @@ msgstr "[%s] Permintaan Perubahan Email"
 msgid "[%s] Email Changed"
 msgstr "[%s] Email Dirubah"
 
-#: wp-includes/js/dist/block-library.js:12218 wp-admin/options-reading.php:152
+#: wp-includes/js/dist/block-library.js:12218 admin/options-reading.php:152
 msgid "posts"
 msgstr "pos"
 
@@ -2839,9 +2839,9 @@ msgid "An error of type %1$s was caused in line %2$s of the file %3$s. Error mes
 msgstr "Error %1$s disebabkan oleh kode di baris %2$s dari berkas %3$s. Pesan error: %4$s"
 
 #: wp-includes/class-wp-theme.php:321
-#: wp-admin/includes/class-wp-themes-list-table.php:286
-#: wp-admin/theme-editor.php:43 wp-admin/theme-editor.php:368
-#: wp-admin/update-core.php:605
+#: admin/includes/class-wp-themes-list-table.php:286
+#: admin/theme-editor.php:43 admin/theme-editor.php:368
+#: admin/update-core.php:605
 msgid "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 msgstr "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 
@@ -2864,10 +2864,10 @@ msgid "Exit Recovery Mode"
 msgstr "Keluar dari Mode Pemulihan"
 
 #. translators: %s: Number of comments.
-#: wp-includes/admin-bar.php:921 wp-admin/includes/ajax-actions.php:469
-#: wp-admin/includes/ajax-actions.php:540
-#: wp-admin/includes/ajax-actions.php:1376 wp-admin/includes/dashboard.php:321
-#: wp-admin/menu.php:94
+#: wp-includes/admin-bar.php:921 admin/includes/ajax-actions.php:469
+#: admin/includes/ajax-actions.php:540
+#: admin/includes/ajax-actions.php:1376 admin/includes/dashboard.php:321
+#: admin/menu.php:94
 msgid "%s Comment in moderation"
 msgid_plural "%s Comments in moderation"
 msgstr[0] "%s komentar perlu moderasi"
@@ -2893,8 +2893,8 @@ msgstr "https://wordpress.org/support/article/cookies/"
 msgid "Missing confirm key."
 msgstr "Kunci konfirmasi tidak ada."
 
-#: newlogin.php:1054 wp-admin/includes/ajax-actions.php:4738
-#: wp-admin/includes/ajax-actions.php:4928
+#: newlogin.php:1054 admin/includes/ajax-actions.php:4738
+#: admin/includes/ajax-actions.php:4928
 msgid "Missing request ID."
 msgstr "ID permohonan tidak ada."
 
@@ -3091,7 +3091,7 @@ msgid "Sorry, you are not allowed to view autosaves of this post."
 msgstr "Maaf, Anda tidak diijinkan untuk melihat autosave dari postingan ini."
 
 #: wp-includes/js/dist/block-editor.js:21601
-#: wp-includes/js/dist/block-library.js:3065 wp-admin/edit-form-blocks.php:306
+#: wp-includes/js/dist/block-library.js:3065 admin/edit-form-blocks.php:306
 msgid "Start writing or type / to choose a block"
 msgstr "Mulai menulis atau ketik garis miring (\"/\") untuk memilih blok"
 
@@ -3109,34 +3109,34 @@ msgstr "Sunting gambar"
 msgid "Write title…"
 msgstr "Tulis judul..."
 
-#: wp-includes/js/dist/blocks.js:6107 wp-admin/options-media.php:100
+#: wp-includes/js/dist/blocks.js:6107 admin/options-media.php:100
 msgid "Embeds"
 msgstr "Sematan"
 
 #: wp-includes/js/dist/edit-post.js:4412 wp-includes/js/dist/edit-post.js:6768
-#: wp-admin/includes/meta-boxes.php:1545 wp-admin/menu.php:296
+#: admin/includes/meta-boxes.php:1545 admin/menu.php:296
 msgid "Discussion"
 msgstr "Diskusi"
 
 #: wp-includes/js/dist/editor.js:11839 wp-includes/js/dist/editor.js:11845
-#: wp-admin/edit-form-advanced.php:519 wp-admin/edit-form-blocks.php:317
+#: admin/edit-form-advanced.php:519 admin/edit-form-blocks.php:317
 msgid "Add title"
 msgstr "Tambahkan judul"
 
-#: wp-includes/js/dist/editor.js:10055 wp-admin/includes/meta-boxes.php:163
+#: wp-includes/js/dist/editor.js:10055 admin/includes/meta-boxes.php:163
 msgid "Visibility:"
 msgstr "Visibilitas:"
 
 #: wp-includes/media-template.php:514 wp-includes/media-template.php:743
 #: wp-includes/js/dist/editor.js:10220 wp-includes/js/dist/edit-post.js:3030
 #: wp-includes/js/dist/block-library.js:16809
-#: wp-admin/includes/class-wp-privacy-policy-content.php:421
-#: wp-admin/includes/media.php:3335 wp-admin/site-health-info.php:102
+#: admin/includes/class-wp-privacy-policy-content.php:421
+#: admin/includes/media.php:3335 admin/site-health-info.php:102
 msgid "Copied!"
 msgstr "Disalin!"
 
-#: wp-includes/js/dist/editor.js:8866 wp-admin/includes/meta-boxes.php:364
-#: wp-admin/includes/meta-boxes.php:365
+#: wp-includes/js/dist/editor.js:8866 admin/includes/meta-boxes.php:364
+#: admin/includes/meta-boxes.php:365
 msgid "Submit for Review"
 msgstr "Kirimkan untuk Ditinjau"
 
@@ -3144,24 +3144,24 @@ msgstr "Kirimkan untuk Ditinjau"
 msgid "Replace image"
 msgstr "Ganti gambar"
 
-#: wp-includes/js/dist/editor.js:7708 wp-admin/includes/meta-boxes.php:801
+#: wp-includes/js/dist/editor.js:7708 admin/includes/meta-boxes.php:801
 msgid "Allow comments"
 msgstr "Izinkan komentar"
 
-#: wp-includes/js/dist/editor.js:7140 wp-admin/includes/meta-boxes.php:1008
-#: wp-admin/includes/media.php:1411 wp-admin/includes/media.php:2570
-#: wp-admin/includes/class-wp-posts-list-table.php:1728
+#: wp-includes/js/dist/editor.js:7140 admin/includes/meta-boxes.php:1008
+#: admin/includes/media.php:1411 admin/includes/media.php:2570
+#: admin/includes/class-wp-posts-list-table.php:1728
 msgid "Order"
 msgstr "Urutan"
 
 #: wp-includes/js/dist/block-editor.js:18851
-#: wp-admin/includes/class-theme-installer-skin.php:248
-#: wp-admin/includes/class-plugin-installer-skin.php:224
+#: admin/includes/class-theme-installer-skin.php:248
+#: admin/includes/class-plugin-installer-skin.php:224
 msgid "Current"
 msgstr "Sekarang"
 
 #: wp-includes/js/dist/components.js:40654
-#: wp-admin/includes/edit-tag-messages.php:14
+#: admin/includes/edit-tag-messages.php:14
 msgid "Item added."
 msgstr "Item ditambahkan."
 
@@ -3175,20 +3175,20 @@ msgstr "Item ditambahkan."
 #: wp-includes/class-wp-customize-manager.php:5664
 #: wp-includes/class-wp-customize-manager.php:5685
 #: wp-includes/js/dist/components.js:37709 wp-includes/js/dist/editor.js:8472
-#: wp-includes/js/dist/edit-post.js:3218 wp-admin/includes/theme.php:827
-#: wp-admin/includes/class-wp-privacy-policy-content.php:360
-#: wp-admin/includes/meta-boxes.php:80 wp-admin/includes/media.php:3225
-#: wp-admin/includes/class-wp-site-health.php:738
-#: wp-admin/includes/class-wp-site-health.php:850
-#: wp-admin/includes/class-wp-site-health.php:1168
-#: wp-admin/includes/class-wp-site-health.php:1405
-#: wp-admin/includes/class-wp-site-health.php:1443
-#: wp-admin/includes/class-wp-site-health.php:1523
-#: wp-admin/includes/class-wp-site-health.php:1605
-#: wp-admin/includes/class-wp-site-health.php:1624
-#: wp-admin/includes/class-wp-site-health.php:2258
-#: wp-admin/includes/dashboard.php:1243 wp-admin/includes/dashboard.php:1255
-#: wp-admin/includes/dashboard.php:1268 wp-admin/includes/dashboard.php:1796
+#: wp-includes/js/dist/edit-post.js:3218 admin/includes/theme.php:827
+#: admin/includes/class-wp-privacy-policy-content.php:360
+#: admin/includes/meta-boxes.php:80 admin/includes/media.php:3225
+#: admin/includes/class-wp-site-health.php:738
+#: admin/includes/class-wp-site-health.php:850
+#: admin/includes/class-wp-site-health.php:1168
+#: admin/includes/class-wp-site-health.php:1405
+#: admin/includes/class-wp-site-health.php:1443
+#: admin/includes/class-wp-site-health.php:1523
+#: admin/includes/class-wp-site-health.php:1605
+#: admin/includes/class-wp-site-health.php:1624
+#: admin/includes/class-wp-site-health.php:2258
+#: admin/includes/dashboard.php:1243 admin/includes/dashboard.php:1255
+#: admin/includes/dashboard.php:1268 admin/includes/dashboard.php:1796
 msgid "(opens in a new tab)"
 msgstr "(buka di tab baru)"
 
@@ -3312,13 +3312,13 @@ msgstr "Tidak ada revisi yang tersimpan otomatis untuk pos ini."
 msgid "The ID for the object."
 msgstr "ID untuk objek."
 
-#: wp-includes/post.php:1759 wp-admin/edit-form-advanced.php:197
-#: wp-admin/edit-form-advanced.php:200
+#: wp-includes/post.php:1759 admin/edit-form-advanced.php:197
+#: admin/edit-form-advanced.php:200
 msgid "Page updated."
 msgstr "Laman diperbarui."
 
-#: wp-includes/post.php:1759 wp-admin/edit-form-advanced.php:182
-#: wp-admin/edit-form-advanced.php:185
+#: wp-includes/post.php:1759 admin/edit-form-advanced.php:182
+#: admin/edit-form-advanced.php:185
 msgid "Post updated."
 msgstr "Pos diperbarui."
 
@@ -3346,11 +3346,11 @@ msgstr "Laman diterbitkan secara privat."
 msgid "Post published privately."
 msgstr "Pos diterbitkan secara privat."
 
-#: wp-includes/post.php:1755 wp-admin/edit-form-advanced.php:203
+#: wp-includes/post.php:1755 admin/edit-form-advanced.php:203
 msgid "Page published."
 msgstr "Laman diterbitkan."
 
-#: wp-includes/post.php:1755 wp-admin/edit-form-advanced.php:188
+#: wp-includes/post.php:1755 admin/edit-form-advanced.php:188
 msgid "Post published."
 msgstr "Pos diterbtikan."
 
@@ -3427,13 +3427,13 @@ msgid "The current user can publish this post."
 msgstr "Pengguna ini dapat menerbitkan pos ini."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1302
-#: wp-admin/includes/ms.php:45
+#: admin/includes/ms.php:45
 msgid "You have used your space quota. Please delete files before uploading."
 msgstr "Anda telah menggunakan habis kuota Anda. Silakan hapus berkas sebelum mengunggah."
 
 #. translators: %s: Required disk space in kilobytes.
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1282
-#: wp-admin/includes/ms.php:36
+#: admin/includes/ms.php:36
 msgid "Not enough space to upload. %s KB needed."
 msgstr "Tak cukup ruang untuk mengunggah. Perlu %s KB lagi."
 
@@ -3550,8 +3550,8 @@ msgstr ""
 msgid "[%1$s] Confirm Action: %2$s"
 msgstr "[%1$s] Konfirmasi Tindakan: %2$s"
 
-#: wp-includes/user.php:4028 wp-admin/erase-personal-data.php:104
-#: wp-admin/menu.php:284
+#: wp-includes/user.php:4028 admin/erase-personal-data.php:104
+#: admin/menu.php:284
 msgid "Erase Personal Data"
 msgstr "Hapus Data Pribadi"
 
@@ -3620,8 +3620,8 @@ msgstr "Tindakan pengguna terkonfirmasi."
 msgid "Confirm the \"%s\" action"
 msgstr "Konfirmasi tindakan \"%s\""
 
-#: wp-includes/user.php:4025 wp-admin/export-personal-data.php:104
-#: wp-admin/menu.php:283
+#: wp-includes/user.php:4025 admin/export-personal-data.php:104
+#: admin/menu.php:283
 msgid "Export Personal Data"
 msgstr "Ekspor Data Pribadi"
 
@@ -3745,7 +3745,7 @@ msgstr "URL Penulis Komentar"
 msgid "Comment Author Email"
 msgstr "Email Penulis Komentar"
 
-#: wp-includes/comment.php:3619 wp-admin/edit-form-comment.php:45
+#: wp-includes/comment.php:3619 admin/edit-form-comment.php:45
 msgid "Comment Author"
 msgstr "Penulis Komentar"
 
@@ -3762,7 +3762,7 @@ msgid "Sorry, you are not allowed to query users by this parameter."
 msgstr "Maaf, Anda tidak diizinkan untuk mencari pengguna menggunakan parameter ini."
 
 #: wp-includes/media.php:4388
-#: wp-admin/includes/class-wp-media-list-table.php:155
+#: admin/includes/class-wp-media-list-table.php:155
 msgctxt "media items"
 msgid "Mine"
 msgstr "Mine"
@@ -3776,30 +3776,30 @@ msgid "The link you followed has expired."
 msgstr "Tautan yang Anda ikuti telah kadaluwarsa."
 
 #: wp-includes/script-loader.php:1168
-#: wp-includes/class-wp-customize-manager.php:514 wp-admin/edit-tags.php:28
-#: wp-admin/edit-tags.php:85 wp-admin/edit-tags.php:116
-#: wp-admin/edit-tags.php:136 wp-admin/edit-tags.php:172
-#: wp-admin/includes/bookmark.php:31 wp-admin/press-this.php:21
-#: wp-admin/nav-menus.php:25 wp-admin/customize.php:17
-#: wp-admin/customize.php:34 wp-admin/user-new.php:15 wp-admin/user-new.php:22
-#: wp-admin/user-new.php:55 wp-admin/user-new.php:182 wp-admin/themes.php:14
-#: wp-admin/themes.php:42 wp-admin/themes.php:62 wp-admin/edit-comments.php:13
-#: wp-admin/term.php:42 wp-admin/options.php:49 wp-admin/options.php:77
-#: wp-admin/widgets.php:17 wp-admin/users.php:15 wp-admin/post-new.php:60
-#: wp-admin/edit.php:41 wp-admin/media-upload.php:46
+#: wp-includes/class-wp-customize-manager.php:514 admin/edit-tags.php:28
+#: admin/edit-tags.php:85 admin/edit-tags.php:116
+#: admin/edit-tags.php:136 admin/edit-tags.php:172
+#: admin/includes/bookmark.php:31 admin/press-this.php:21
+#: admin/nav-menus.php:25 admin/customize.php:17
+#: admin/customize.php:34 admin/user-new.php:15 admin/user-new.php:22
+#: admin/user-new.php:55 admin/user-new.php:182 admin/themes.php:14
+#: admin/themes.php:42 admin/themes.php:62 admin/edit-comments.php:13
+#: admin/term.php:42 admin/options.php:49 admin/options.php:77
+#: admin/widgets.php:17 admin/users.php:15 admin/post-new.php:60
+#: admin/edit.php:41 admin/media-upload.php:46
 msgid "You need a higher level of permission."
 msgstr "Anda membutuhkan izin yang lebih tinggi."
 
 #: wp-includes/script-loader.php:694 wp-includes/script-loader.php:1167
 #: wp-includes/class-wp-xmlrpc-server.php:3956 wp-includes/functions.php:3300
 #: wp-includes/class-wp-customize-manager.php:449
-#: wp-admin/includes/class-custom-image-header.php:775
-#: wp-admin/includes/class-custom-image-header.php:939
-#: wp-admin/includes/class-custom-image-header.php:947
-#: wp-admin/includes/file.php:618 wp-admin/customize.php:79
-#: wp-admin/themes.php:27 wp-admin/themes.php:70 wp-admin/users.php:149
-#: wp-admin/media-upload.php:38 wp-admin/js/tags.js:62
-#: wp-admin/js/updates.js:1910 wp-admin/network/site-users.php:158
+#: admin/includes/class-custom-image-header.php:775
+#: admin/includes/class-custom-image-header.php:939
+#: admin/includes/class-custom-image-header.php:947
+#: admin/includes/file.php:618 admin/customize.php:79
+#: admin/themes.php:27 admin/themes.php:70 admin/users.php:149
+#: admin/media-upload.php:38 admin/js/tags.js:62
+#: admin/js/updates.js:1910 admin/network/site-users.php:158
 msgid "Something went wrong."
 msgstr "Ada masalah."
 
@@ -3814,7 +3814,7 @@ msgid "%s is already customizing this changeset. Please wait until they are done
 msgstr "%s sudah menyesuaikan changeset ini. Silakan tunggu sampai mereka selesai mencoba menyesuaikan. Perubahan terbaru Anda telah disimpan secara otomatis."
 
 #: wp-includes/class-wp-customize-manager.php:4315
-#: wp-admin/includes/file.php:335
+#: admin/includes/file.php:335
 msgid "Update anyway, even though it might break your site?"
 msgstr "Tetap perbarui, meskipun bisa merusak situs Anda?"
 
@@ -3829,9 +3829,9 @@ msgstr "Terjadwal"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:243
 #: wp-includes/customize/class-wp-customize-theme-control.php:255
-#: wp-admin/includes/class-wp-theme-install-list-table.php:317
-#: wp-admin/includes/class-wp-theme-install-list-table.php:475
-#: wp-admin/theme-install.php:276
+#: admin/includes/class-wp-theme-install-list-table.php:317
+#: admin/includes/class-wp-theme-install-list-table.php:475
+#: admin/theme-install.php:276
 msgctxt "theme"
 msgid "Installed"
 msgstr "Terpasang"
@@ -3847,7 +3847,7 @@ msgid "You won&#8217;t be able to install new themes from here yet since your in
 msgstr "Kamu belum bisa menambahkan tema baru dari sini karena penambahan membutuhkan kredensial SFTP. Untuk saat ini, silakan <a href=\"%s\">tambahkan tema melalui admin</a>."
 
 #. translators: Tab heading when selecting from the most used terms.
-#: wp-includes/taxonomy.php:614 wp-admin/includes/meta-boxes.php:1119
+#: wp-includes/taxonomy.php:614 admin/includes/meta-boxes.php:1119
 msgctxt "categories"
 msgid "Most Used"
 msgstr "Paling Banyak Digunakan"
@@ -3902,14 +3902,14 @@ msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then 
 msgstr "Sepertinya ada masalah. Tunggu beberapa detik, lalu coba lagi."
 
 #: wp-includes/class-wp-customize-manager.php:4301
-#: wp-admin/includes/post.php:1773
+#: admin/includes/post.php:1773
 msgid "Take over"
 msgstr "Ambil alih"
 
 #: wp-includes/class-wp-customize-manager.php:4297
-#: wp-admin/includes/post.php:1690 wp-admin/comment.php:78
-#: wp-admin/comment.php:276 wp-admin/theme-editor.php:376
-#: wp-admin/plugin-editor.php:330
+#: admin/includes/post.php:1690 admin/comment.php:78
+#: admin/comment.php:276 admin/theme-editor.php:376
+#: admin/plugin-editor.php:330
 msgid "Go back"
 msgstr "Kembali"
 
@@ -3984,8 +3984,8 @@ msgid "View Location"
 msgstr "Lihat Lokasi"
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:97
-#: wp-admin/themes.php:235 wp-admin/themes.php:565
-#: wp-admin/theme-install.php:68 wp-admin/theme-install.php:245
+#: admin/themes.php:235 admin/themes.php:565
+#: admin/theme-install.php:68 admin/theme-install.php:245
 msgid "No themes found. Try a different search."
 msgstr "Tema tidak ditemukan. Coba pencarian lain."
 
@@ -4002,7 +4002,7 @@ msgstr "Nama Situs: %s"
 #. name.
 #. translators: Admin screen title. 1: Admin screen name, 2: Network or site
 #. name.
-#: newlogin.php:72 wp-admin/admin-header.php:52
+#: newlogin.php:72 admin/admin-header.php:52
 msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
 msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
 
@@ -4035,7 +4035,7 @@ msgstr "Tampilkan galeri gambar."
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:28
 #: wp-includes/js/dist/editor.js:8098 wp-includes/js/dist/block-library.js:9590
-#: wp-admin/includes/media.php:20
+#: admin/includes/media.php:20
 msgid "Gallery"
 msgstr "Galeri"
 
@@ -4158,7 +4158,7 @@ msgstr "Sedang memperbarui"
 msgid "Draft Saved"
 msgstr "Draf Tersimpan"
 
-#: wp-includes/script-loader.php:1149 wp-admin/customize.php:189
+#: wp-includes/script-loader.php:1149 admin/customize.php:189
 msgid "Activate &amp; Publish"
 msgstr "Aktifkan &amp; Terbitkan"
 
@@ -4323,7 +4323,7 @@ msgid "Estonian"
 msgstr "Bahasa Estonia"
 
 #: wp-includes/script-loader.php:981 wp-includes/js/dist/block-library.js:25435
-#: wp-admin/includes/ms.php:664
+#: admin/includes/ms.php:664
 msgid "English"
 msgstr "Bahasa Inggris"
 
@@ -4529,7 +4529,7 @@ msgid "Only UUID V4 is supported at this time."
 msgstr "Hanya UUID V4 yang didukung saat ini."
 
 #: wp-includes/deprecated.php:3960 wp-includes/deprecated.php:3977
-#: wp-admin/press-this.php:74
+#: admin/press-this.php:74
 msgid "The Press This plugin is required."
 msgstr "Membutuhkan plugin Press This."
 
@@ -4553,7 +4553,7 @@ msgstr "Mencari tema WordPress.org"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:261
 #: wp-includes/customize/class-wp-customize-theme-control.php:263
-#: wp-admin/includes/theme.php:1004 wp-admin/includes/theme.php:1007
+#: admin/includes/theme.php:1004 admin/includes/theme.php:1007
 msgid "Install &amp; Preview"
 msgstr "Memasang &amp; Pratinjau"
 
@@ -4605,7 +4605,7 @@ msgstr "Klik &#8220;Tambah gambar baru&#8221; untuk mengunggah berkas gambar dar
 
 #. translators: 1: Month number (01, 02, etc.), 2: Month abbreviation.
 #: wp-includes/customize/class-wp-customize-date-time-control.php:204
-#: wp-admin/includes/template.php:822
+#: admin/includes/template.php:822
 msgid "%1$s-%2$s"
 msgstr "%1$s-%2$s"
 
@@ -4614,12 +4614,12 @@ msgid "Meridian"
 msgstr "Meridian"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:167
-#: wp-admin/includes/template.php:829
+#: admin/includes/template.php:829
 msgid "Minute"
 msgstr "Menit"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:162
-#: wp-admin/includes/template.php:828
+#: admin/includes/template.php:828
 msgid "Hour"
 msgstr "Jam"
 
@@ -4629,20 +4629,20 @@ msgid "Time"
 msgstr "Waktu"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:146
-#: wp-includes/js/dist/components.js:35915 wp-admin/includes/template.php:826
+#: wp-includes/js/dist/components.js:35915 admin/includes/template.php:826
 msgid "Day"
 msgstr "Hari"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:130
-#: wp-includes/js/dist/components.js:35930 wp-admin/includes/template.php:816
+#: wp-includes/js/dist/components.js:35930 admin/includes/template.php:816
 msgid "Month"
 msgstr "Bulan"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:127
 #: wp-includes/js/dist/components.js:35968
-#: wp-admin/includes/ajax-actions.php:2182
-#: wp-admin/includes/class-wp-posts-list-table.php:660
-#: wp-admin/includes/class-wp-posts-list-table.php:1578
+#: admin/includes/ajax-actions.php:2182
+#: admin/includes/class-wp-posts-list-table.php:660
+#: admin/includes/class-wp-posts-list-table.php:1578
 msgid "Date"
 msgstr "Tanggal"
 
@@ -4700,26 +4700,26 @@ msgid "The edit field automatically highlights code syntax. You can disable this
 msgstr "Bidang sunting otomatis menyoroti kode sintak. Anda bisa mematikan ini pada <a href=\"%1$s\" %2$s>profil pengguna%3$s</a> Anda untuk bekerja dalam mode teks biasa."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:326
-#: wp-includes/class-wp-customize-manager.php:5672 wp-admin/theme-editor.php:36
-#: wp-admin/plugin-editor.php:133
+#: wp-includes/class-wp-customize-manager.php:5672 admin/theme-editor.php:36
+#: admin/plugin-editor.php:133
 msgid "Screen reader users: when in forms mode, you may need to press the Esc key twice."
 msgstr "Layar baca pengguna: pada mode formulir, Anda harus menekan tombol Esc dua kali."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:325
-#: wp-includes/class-wp-customize-manager.php:5671 wp-admin/theme-editor.php:35
-#: wp-admin/plugin-editor.php:132
+#: wp-includes/class-wp-customize-manager.php:5671 admin/theme-editor.php:35
+#: admin/plugin-editor.php:132
 msgid "To move away from this area, press the Esc key followed by the Tab key."
 msgstr "Untuk meninggalkan area ini, tekan tombol Esc diikuti dengan tombol Tab."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:324
-#: wp-includes/class-wp-customize-manager.php:5670 wp-admin/theme-editor.php:34
-#: wp-admin/plugin-editor.php:131
+#: wp-includes/class-wp-customize-manager.php:5670 admin/theme-editor.php:34
+#: admin/plugin-editor.php:131
 msgid "In the editing area, the Tab key enters a tab character."
 msgstr "Di area penyuntingan, tombol Tab akan mengetikkan karakter tab."
 
 #: wp-includes/widgets/class-wp-widget-custom-html.php:322
-#: wp-includes/class-wp-customize-manager.php:5668 wp-admin/theme-editor.php:32
-#: wp-admin/plugin-editor.php:129
+#: wp-includes/class-wp-customize-manager.php:5668 admin/theme-editor.php:32
+#: admin/plugin-editor.php:129
 msgid "When using a keyboard to navigate:"
 msgstr "Ketika menggunakan papan ketik untuk menjelajah:"
 
@@ -4728,7 +4728,7 @@ msgid "Add your own CSS code here to customize the appearance and layout of your
 msgstr "Tambahkan kode CSS Anda sendiri untuk menata penampilan dan tata letak situs Anda."
 
 #: wp-includes/class-wp-customize-manager.php:5610
-#: wp-admin/options-reading.php:86 wp-admin/options-reading.php:87
+#: admin/options-reading.php:86 admin/options-reading.php:87
 msgid "Your homepage displays"
 msgstr "Tampilan beranda Anda"
 
@@ -4757,8 +4757,8 @@ msgstr "Tema WordPress.org"
 msgid "Installed themes"
 msgstr "Tema terpasang"
 
-#: wp-includes/script-loader.php:1209 wp-admin/customize.php:192
-#: wp-admin/customize.php:197 wp-admin/edit-form-advanced.php:396
+#: wp-includes/script-loader.php:1209 admin/customize.php:192
+#: admin/customize.php:197 admin/edit-form-advanced.php:396
 msgid "Publish Settings"
 msgstr "Pengaturan penerbitan"
 
@@ -4878,9 +4878,9 @@ msgstr "Tampilkan jumlah tag"
 #. translators: Number of items.
 #. translators: %s: Number of comments.
 #: wp-includes/category-template.php:865 wp-includes/category-template.php:876
-#: wp-admin/includes/class-wp-list-table.php:884
-#: wp-admin/includes/class-wp-list-table.php:1491
-#: wp-admin/includes/ajax-actions.php:532
+#: admin/includes/class-wp-list-table.php:884
+#: admin/includes/class-wp-list-table.php:1491
+#: admin/includes/ajax-actions.php:532
 msgid "%s item"
 msgid_plural "%s items"
 msgstr[0] "%s item"
@@ -4906,7 +4906,7 @@ msgctxt "label for button in the audio widget"
 msgid "Add Audio"
 msgstr "Tambah Audio"
 
-#: wp-includes/media.php:3956 wp-admin/includes/media.php:3295
+#: wp-includes/media.php:3956 admin/includes/media.php:3295
 msgid "(no author)"
 msgstr "(tanpa penulis)"
 
@@ -5234,7 +5234,7 @@ msgid "Suggested image dimensions: %1$s by %2$s pixels."
 msgstr "Ukuran gambar yang disarankan: %1$s x %2$s piksel."
 
 #: wp-includes/script-loader.php:869 wp-includes/functions.php:2679
-#: wp-includes/js/dist/media-utils.js:1084 wp-admin/includes/file.php:890
+#: wp-includes/js/dist/media-utils.js:1084 admin/includes/file.php:890
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Maaf, jenis berkas ini tidak diizinkan karena alasan keamanan."
 
@@ -5290,7 +5290,7 @@ msgstr "Sisipkan/sunting media"
 msgid "Insert/edit code sample"
 msgstr "Sisipkan/sunting contoh kode"
 
-#: wp-includes/class-wp-editor.php:1226 wp-admin/includes/privacy-tools.php:450
+#: wp-includes/class-wp-editor.php:1226 admin/includes/privacy-tools.php:450
 msgid "Table of Contents"
 msgstr "Daftar Isi"
 
@@ -5570,7 +5570,7 @@ msgstr "Slug tidak sah."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:717
 #: wp-includes/rest-api.php:2139 wp-includes/user.php:3965
-#: wp-admin/network/site-new.php:96
+#: admin/network/site-new.php:96
 msgid "Invalid email address."
 msgstr "Alamat email tidak sah."
 
@@ -5588,7 +5588,7 @@ msgid "Invalid page template."
 msgstr "Templat laman tidak sah."
 
 #: wp-includes/script-loader.php:1210 wp-includes/rest-api.php:2133
-#: wp-includes/post.php:3917 wp-admin/includes/post.php:188
+#: wp-includes/post.php:3917 admin/includes/post.php:188
 msgid "Invalid date."
 msgstr "Tanggal tidak sah."
 
@@ -5656,8 +5656,8 @@ msgstr "Maaf, Anda tidak diperbolehkan untuk mengganti tipe komentar."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1208
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1222
-#: wp-admin/includes/user.php:62 wp-admin/users.php:123
-#: wp-admin/network/site-users.php:146
+#: admin/includes/user.php:62 admin/users.php:123
+#: admin/network/site-users.php:146
 msgid "Sorry, you are not allowed to give users that role."
 msgstr "Maaf, Anda tidak diizinkan memberikan peran tersebut kepada para pengguna."
 
@@ -5903,7 +5903,7 @@ msgctxt "label for hide controls button without length constraints"
 msgid "Show Controls"
 msgstr "Tampilkan Kontrol"
 
-#: wp-includes/script-loader.php:1172 wp-admin/customize.php:245
+#: wp-includes/script-loader.php:1172 admin/customize.php:245
 msgctxt "label for hide controls button without length constraints"
 msgid "Hide Controls"
 msgstr "Sembunyikan Kontrol"
@@ -5923,7 +5923,7 @@ msgstr "Rute dasar REST untuk taksonomi."
 #. translators: %s: Add New Page label.
 #. translators: %s: Add New taxonomy label.
 #: wp-includes/class-wp-customize-control.php:631
-#: wp-admin/includes/meta-boxes.php:636
+#: admin/includes/meta-boxes.php:636
 msgid "+ %s"
 msgstr "+ %s"
 
@@ -6028,7 +6028,7 @@ msgid "Contact us"
 msgstr "Hubungi kami"
 
 #: wp-includes/class-wp-customize-manager.php:5631
-#: wp-admin/includes/file.php:38
+#: admin/includes/file.php:38
 msgid "Homepage"
 msgstr "Beranda"
 
@@ -6392,7 +6392,7 @@ msgstr "Pos telah dihapus."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:150
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:387
-#: wp-admin/edit-comments.php:14
+#: admin/edit-comments.php:14
 msgid "Sorry, you are not allowed to edit comments."
 msgstr "Maaf, Anda tak diizinkan menyunting komentar."
 
@@ -6772,7 +6772,7 @@ msgstr "Maaf, Anda tak diizinkan mengunggah media ke situs ini."
 msgid "The REST API can no longer be completely disabled, the %s filter can be used to restrict access to the API, instead."
 msgstr "REST API tidak dapat dinonaktifkan sepenuhnya, namun filter %s bisa dipakai untuk membatasi akses ke API."
 
-#: wp-includes/post.php:1744 wp-admin/edit-form-advanced.php:419
+#: wp-includes/post.php:1744 admin/edit-form-advanced.php:419
 msgid "Page Attributes"
 msgstr "Atribut Laman"
 
@@ -6863,8 +6863,8 @@ msgstr "%1$s %2$s, %3$s yang lalu (%4$s)"
 #. translators: %s: privacy
 #: wp-includes/option.php:2272 wp-includes/option.php:2285
 #: wp-includes/option.php:2345 wp-includes/option.php:2358
-#: wp-admin/includes/template.php:1563 wp-admin/includes/template.php:1576
-#: wp-admin/includes/template.php:1634 wp-admin/includes/template.php:1647
+#: admin/includes/template.php:1563 admin/includes/template.php:1576
+#: admin/includes/template.php:1634 admin/includes/template.php:1647
 msgid "The \"%s\" options group has been removed. Use another settings group."
 msgstr "Kumpulan pengaturan \"%s\" telah disingkirkan. Gunakan penggaturan lain."
 
@@ -6945,7 +6945,7 @@ msgid "Change theme"
 msgstr "Ganti tema"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:103
-#: wp-admin/update-core.php:61
+#: admin/update-core.php:61
 msgid "Update now"
 msgstr "Perbarui sekarang"
 
@@ -7083,25 +7083,25 @@ msgid "Additional CSS"
 msgstr "CSS Tambahan"
 
 #: wp-includes/class-wp-customize-manager.php:5568
-#: wp-admin/includes/class-custom-background.php:449
+#: admin/includes/class-custom-background.php:449
 msgid "Scroll with Page"
 msgstr "Bergulir bersama Laman"
 
 #: wp-includes/class-wp-customize-manager.php:5550
-#: wp-admin/includes/class-custom-background.php:441
+#: admin/includes/class-custom-background.php:441
 msgid "Repeat Background Image"
 msgstr "Gambar Latar Berulang"
 
 #: wp-includes/class-wp-customize-manager.php:5527
-#: wp-admin/includes/class-custom-background.php:427
-#: wp-admin/includes/class-custom-background.php:428
+#: admin/includes/class-custom-background.php:427
+#: admin/includes/class-custom-background.php:428
 msgid "Image Size"
 msgstr "Ukuran Gambar"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:93
 #: wp-includes/class-wp-customize-manager.php:5505
-#: wp-admin/includes/class-custom-background.php:408
-#: wp-admin/includes/class-custom-background.php:409
+#: admin/includes/class-custom-background.php:408
+#: admin/includes/class-custom-background.php:409
 msgid "Image Position"
 msgstr "Posisi Gambar"
 
@@ -7117,7 +7117,7 @@ msgstr "Berulang"
 
 #: wp-includes/class-wp-customize-manager.php:5475
 #: wp-includes/class-wp-customize-manager.php:5532
-#: wp-admin/includes/class-custom-background.php:431
+#: admin/includes/class-custom-background.php:431
 msgid "Fit to Screen"
 msgstr "Sesuaikan dengan Layar"
 
@@ -7179,7 +7179,7 @@ msgid "%d themes found"
 msgstr "%d tema ditemukan"
 
 #: wp-includes/class-wp-customize-manager.php:4903
-#: wp-admin/network/themes.php:157
+#: admin/network/themes.php:157
 msgid "Are you sure you want to delete this theme?"
 msgstr "Apakah Anda yakin ingin menghapus tema ini?"
 
@@ -7215,8 +7215,8 @@ msgstr "Judul laman baru&hellip;"
 msgid "New page title"
 msgstr "Judul laman baru"
 
-#: wp-includes/feed.php:588 wp-admin/link-parse-opml.php:77
-#: wp-admin/link-parse-opml.php:78
+#: wp-includes/feed.php:588 admin/link-parse-opml.php:77
+#: admin/link-parse-opml.php:78
 msgid "PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension."
 msgstr "Ekstensi XML PHP tak tersedia. Silakan hubungi provider hosting Anda untuk mengaktifkan ekstensi XML PHP."
 
@@ -7226,7 +7226,7 @@ msgid "Howdy, %s"
 msgstr "Hai, %s"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-location-control.php:86
-#: wp-admin/nav-menus.php:780
+#: admin/nav-menus.php:780
 msgid "Edit selected menu"
 msgstr "Sunting menu terpilih"
 
@@ -7284,7 +7284,7 @@ msgid "Sorry, you are not allowed to access user data on this site."
 msgstr "Maaf, Anda tak diizinkan mengakses data pengguna pada situs ini."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2972
-#: wp-includes/class-wp-xmlrpc-server.php:3194 wp-admin/includes/post.php:478
+#: wp-includes/class-wp-xmlrpc-server.php:3194 admin/includes/post.php:478
 msgid "Sorry, you are not allowed to edit pages."
 msgstr "Maaf, Anda tidak diizinkan menyunting laman."
 
@@ -7295,9 +7295,9 @@ msgstr "Maaf, Anda tidak diizinkan menyunting profil Anda."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2654
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:680
-#: wp-admin/user-edit.php:97 wp-admin/user-edit.php:129
-#: wp-admin/user-edit.php:185 wp-admin/users.php:106 wp-admin/users.php:136
-#: wp-admin/users.php:235
+#: admin/user-edit.php:97 admin/user-edit.php:129
+#: admin/user-edit.php:185 admin/users.php:106 admin/users.php:136
+#: admin/users.php:235
 msgid "Sorry, you are not allowed to edit this user."
 msgstr "Maaf, Anda tidak diizinkan menyunting pengguna ini."
 
@@ -7330,8 +7330,8 @@ msgid "Tan"
 msgstr "Coklat"
 
 #: wp-includes/class-wp-xmlrpc-server.php:2929
-#: wp-includes/class-wp-xmlrpc-server.php:3145 wp-admin/includes/post.php:265
-#: wp-admin/includes/ajax-actions.php:1993
+#: wp-includes/class-wp-xmlrpc-server.php:3145 admin/includes/post.php:265
+#: admin/includes/ajax-actions.php:1993
 msgid "Sorry, you are not allowed to edit this page."
 msgstr "Maaf, Anda tak dizinkan menyunting laman ini."
 
@@ -7360,7 +7360,7 @@ msgstr "Tak mampu mengambil pesan galat dari MySQL"
 msgid "Edit Menu"
 msgstr "Sunting Menu"
 
-#: wp-includes/script-loader.php:1728 wp-admin/includes/dashboard.php:974
+#: wp-includes/script-loader.php:1728 admin/includes/dashboard.php:974
 msgid "Today"
 msgstr "Hari ini"
 
@@ -7368,8 +7368,8 @@ msgstr "Hari ini"
 msgid "Deleted:"
 msgstr "Dihapus:"
 
-#: newlogin.php:876 wp-admin/install.php:171 wp-admin/user-new.php:589
-#: wp-admin/user-edit.php:667 wp-admin/js/user-profile.js:45
+#: newlogin.php:876 admin/install.php:171 admin/user-new.php:589
+#: admin/user-edit.php:667 admin/js/user-profile.js:45
 msgid "Confirm use of weak password"
 msgstr "Setujui penggunaan sandi yang lemah"
 
@@ -7379,7 +7379,7 @@ msgid "Password strength unknown"
 msgstr "Kekuatan sandi tak diketahui"
 
 #: wp-includes/script-loader.php:693
-#: wp-includes/rest-api/class-wp-rest-server.php:1113 wp-admin/js/tags.js:58
+#: wp-includes/rest-api/class-wp-rest-server.php:1113 admin/js/tags.js:58
 msgid "Sorry, you are not allowed to do that."
 msgstr "Maaf, Anda tak dizinkan melakukannya."
 
@@ -7409,10 +7409,10 @@ msgstr "Tag struktur diperlukan saat menggunakan permalink kustom. <a href=\"%s\
 #: wp-includes/class-wp-xmlrpc-server.php:4310
 #: wp-includes/class-wp-xmlrpc-server.php:4363
 #: wp-includes/class-wp-xmlrpc-server.php:6340
-#: wp-admin/includes/ajax-actions.php:2429
-#: wp-admin/includes/ajax-actions.php:2495 wp-admin/async-upload.php:38
-#: wp-admin/upload.php:13 wp-admin/media-new.php:16
-#: wp-admin/media-upload.php:20
+#: admin/includes/ajax-actions.php:2429
+#: admin/includes/ajax-actions.php:2495 admin/async-upload.php:38
+#: admin/upload.php:13 admin/media-new.php:16
+#: admin/media-upload.php:20
 msgid "Sorry, you are not allowed to upload files."
 msgstr "Maaf, Anda tak dizinkan mengunggah berkas."
 
@@ -7424,7 +7424,7 @@ msgstr "Maaf, Anda tak dizinkan menambahkan kategori."
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:204
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:426
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:432
-#: wp-admin/users.php:16
+#: admin/users.php:16
 msgid "Sorry, you are not allowed to list users."
 msgstr "Maaf, Anda tak dizinkan melihat daftar pengguna."
 
@@ -7435,7 +7435,7 @@ msgid "Invalid value."
 msgstr "Nilai tidak sah."
 
 #: wp-includes/script-loader.php:1169
-#: wp-includes/class-wp-customize-manager.php:515 wp-admin/customize.php:18
+#: wp-includes/class-wp-customize-manager.php:515 admin/customize.php:18
 msgid "Sorry, you are not allowed to customize this site."
 msgstr "Maaf, Anda tak dizinkan menyesuaikan situs ini."
 
@@ -7556,22 +7556,22 @@ msgctxt "post status"
 msgid "Trash"
 msgstr "Terhapus"
 
-#: wp-includes/post.php:373 wp-admin/includes/template.php:2182
+#: wp-includes/post.php:373 admin/includes/template.php:2182
 msgctxt "post status"
 msgid "Private"
 msgstr "Privat"
 
-#: wp-includes/post.php:358 wp-admin/includes/template.php:2196
+#: wp-includes/post.php:358 admin/includes/template.php:2196
 msgctxt "post status"
 msgid "Pending"
 msgstr "Tertunda"
 
-#: wp-includes/post.php:343 wp-admin/includes/template.php:2189
+#: wp-includes/post.php:343 admin/includes/template.php:2189
 msgctxt "post status"
 msgid "Draft"
 msgstr "Draf"
 
-#: wp-includes/post.php:329 wp-admin/includes/template.php:2204
+#: wp-includes/post.php:329 admin/includes/template.php:2204
 msgctxt "post status"
 msgid "Scheduled"
 msgstr "Terjadwal"
@@ -7654,12 +7654,12 @@ msgctxt "comment status"
 msgid "Trash"
 msgstr "Dibuang"
 
-#: wp-includes/comment.php:261 wp-admin/edit-form-comment.php:118
+#: wp-includes/comment.php:261 admin/edit-form-comment.php:118
 msgctxt "comment status"
 msgid "Spam"
 msgstr "Spam"
 
-#: wp-includes/comment.php:260 wp-admin/edit-form-comment.php:116
+#: wp-includes/comment.php:260 admin/edit-form-comment.php:116
 msgctxt "comment status"
 msgid "Approved"
 msgstr "Disetujui"
@@ -7680,7 +7680,7 @@ msgid "Paste URL or type to search"
 msgstr "Tempelkan URL atau ketik untuk mencari"
 
 #: wp-includes/class-wp-customize-manager.php:5190
-#: wp-admin/includes/template.php:2335
+#: admin/includes/template.php:2335
 msgid "Logo"
 msgstr "Logo"
 
@@ -7710,7 +7710,7 @@ msgstr "Tekan Shift-klik untuk mengedit elemen ini."
 msgid "Comment Submission Failure"
 msgstr "Kegagalan Pengiriman Komentar"
 
-#: wp-includes/user.php:2904 wp-admin/includes/user.php:196
+#: wp-includes/user.php:2904 admin/includes/user.php:196
 msgid "<strong>Error</strong>: Sorry, that username is not allowed."
 msgstr "<strong>Eror</strong>: Maaf, nama pengguna tersebut tidak diperbolehkan."
 
@@ -7921,7 +7921,7 @@ msgstr "Misi selesai. Pesan %s terhapus."
 msgid "Posted title:"
 msgstr "Judul artikel:"
 
-#: wp-mail.php:244 wp-admin/includes/plugin-install.php:656
+#: wp-mail.php:244 admin/includes/plugin-install.php:656
 msgid "Author:"
 msgstr "Penulis:"
 
@@ -8319,7 +8319,7 @@ msgid "Reorder widgets"
 msgstr "Urutkan ulang widget"
 
 #: wp-includes/class-wp-customize-section.php:359
-#: wp-admin/includes/template.php:1512
+#: admin/includes/template.php:1512
 msgid "Press return or enter to open this section"
 msgstr "Tekan return atau enter untuk membuka bagian ini"
 
@@ -8329,14 +8329,14 @@ msgid "Live Preview: %s"
 msgstr "Pratinjau Langsung: %s"
 
 #: wp-includes/class-wp-customize-manager.php:580
-#: wp-admin/includes/ajax-actions.php:4260 wp-admin/includes/file.php:430
-#: wp-admin/includes/file.php:440 wp-admin/theme-editor.php:69
-#: wp-admin/theme-editor.php:73 wp-admin/themes.php:28 wp-admin/themes.php:71
+#: admin/includes/ajax-actions.php:4260 admin/includes/file.php:430
+#: admin/includes/file.php:440 admin/theme-editor.php:69
+#: admin/theme-editor.php:73 admin/themes.php:28 admin/themes.php:71
 msgid "The requested theme does not exist."
 msgstr "Tema yang diminta tidak ada."
 
-#: wp-includes/class-wp-customize-manager.php:570 wp-admin/nav-menus.php:26
-#: wp-admin/themes.php:15 wp-admin/widgets.php:18
+#: wp-includes/class-wp-customize-manager.php:570 admin/nav-menus.php:26
+#: admin/themes.php:15 admin/widgets.php:18
 msgid "Sorry, you are not allowed to edit theme options on this site."
 msgstr "Maaf, Anda tak dizinkan menyunting opsi tema pada situs ini."
 
@@ -8381,16 +8381,16 @@ msgstr "Hapus Item Menu: %1$s (%2$s)"
 msgid "Edit menu item: %1$s (%2$s)"
 msgstr "Edit menu: %1$s (%2$s)"
 
-#: newlogin.php:869 wp-admin/install.php:144 wp-admin/user-new.php:569
-#: wp-admin/user-edit.php:639 wp-admin/js/user-profile.js:71
+#: newlogin.php:869 admin/install.php:144 admin/user-new.php:569
+#: admin/user-edit.php:639 admin/js/user-profile.js:71
 msgid "Hide password"
 msgstr "Sembunyikan sandi"
 
-#: newlogin.php:1312 wp-admin/js/user-profile.js:71
+#: newlogin.php:1312 admin/js/user-profile.js:71
 msgid "Show password"
 msgstr "Tampilkan sandi"
 
-#: wp-includes/class-wp-customize-nav-menus.php:511 wp-admin/nav-menus.php:963
+#: wp-includes/class-wp-customize-nav-menus.php:511 admin/nav-menus.php:963
 msgid "Menu Name"
 msgstr "Nama Menu"
 
@@ -8457,7 +8457,7 @@ msgid "Hide header image"
 msgstr "Sembunyikan gambar tajuk"
 
 #: wp-includes/class-wp-customize-manager.php:5161
-#: wp-includes/js/dist/edit-post.js:4751 wp-admin/includes/template.php:2331
+#: wp-includes/js/dist/edit-post.js:4751 admin/includes/template.php:2331
 msgid "Site Icon"
 msgstr "Ikon Situs"
 
@@ -8751,22 +8751,22 @@ msgid "Menu Options"
 msgstr "Opsi Menu"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1266
-#: wp-admin/includes/nav-menu.php:312 wp-admin/includes/nav-menu.php:667
-#: wp-admin/includes/nav-menu.php:898
+#: admin/includes/nav-menu.php:312 admin/includes/nav-menu.php:667
+#: admin/includes/nav-menu.php:898
 msgid "Add to Menu"
 msgstr "Tambahkan ke Menu"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1248
-#: wp-admin/includes/nav-menu.php:148
+#: admin/includes/nav-menu.php:148
 msgid "Custom Links"
 msgstr "Taut Tersuai"
 
 #: wp-includes/class-wp-customize-widgets.php:838
 #: wp-includes/customize/class-wp-customize-themes-section.php:130
 #: wp-includes/customize/class-wp-customize-themes-section.php:145
-#: wp-includes/class-wp-customize-nav-menus.php:1160 wp-admin/plugins.php:546
-#: wp-admin/themes.php:137 wp-admin/theme-install.php:101
-#: wp-admin/plugin-install.php:91
+#: wp-includes/class-wp-customize-nav-menus.php:1160 admin/plugins.php:546
+#: admin/themes.php:137 admin/theme-install.php:101
+#: admin/plugin-install.php:91
 msgid "The search results will be updated as you type."
 msgstr "Hasil pencarian akan diperbarui saat Anda mengetik."
 
@@ -8815,44 +8815,44 @@ msgid "This panel is used for managing navigation menus for content you have alr
 msgstr "Panel ini digunakan untuk mengelola menu navigasi untuk konten yang sudah Anda terbitkan. Anda bisa membuat menu-menu dan menambahkan item-item untuk konten yang sudah ada, seperti laman, pos, kategori, tag, format, atau tautan tersuai."
 
 #. translators: 1: Item name, 2: Item position, 3: Parent item name.
-#: wp-includes/class-wp-customize-nav-menus.php:566 wp-admin/nav-menus.php:496
+#: wp-includes/class-wp-customize-nav-menus.php:566 admin/nav-menus.php:496
 msgid "%1$s. Sub item number %2$d under %3$s."
 msgstr "%1$s. Sub item ke-%2$d di bawah %3$s."
 
 #. translators: 1: Item name, 2: Item position, 3: Total number of items.
-#: wp-includes/class-wp-customize-nav-menus.php:564 wp-admin/nav-menus.php:494
+#: wp-includes/class-wp-customize-nav-menus.php:564 admin/nav-menus.php:494
 msgid "%1$s. Menu item %2$d of %3$d."
 msgstr "%1$s. Item menu ke-%2$d dari %3$d."
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:562 wp-admin/nav-menus.php:492
+#: wp-includes/class-wp-customize-nav-menus.php:562 admin/nav-menus.php:492
 msgid "Out from under %s"
 msgstr "Keluarkan dari bawah %s"
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:560 wp-admin/nav-menus.php:490
+#: wp-includes/class-wp-customize-nav-menus.php:560 admin/nav-menus.php:490
 msgid "Under %s"
 msgstr "Di bawah %s"
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:558 wp-admin/nav-menus.php:488
+#: wp-includes/class-wp-customize-nav-menus.php:558 admin/nav-menus.php:488
 msgid "Move out from under %s"
 msgstr "Pindahkan dari bawah %s"
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:556 wp-admin/nav-menus.php:486
+#: wp-includes/class-wp-customize-nav-menus.php:556 admin/nav-menus.php:486
 msgid "Move under %s"
 msgstr "Pindahkan ke bawah %s"
 
-#: wp-includes/class-wp-customize-nav-menus.php:554 wp-admin/nav-menus.php:484
+#: wp-includes/class-wp-customize-nav-menus.php:554 admin/nav-menus.php:484
 msgid "Move to the top"
 msgstr "Naikkan ke paling atas"
 
-#: wp-includes/class-wp-customize-nav-menus.php:553 wp-admin/nav-menus.php:483
+#: wp-includes/class-wp-customize-nav-menus.php:553 admin/nav-menus.php:483
 msgid "Move down one"
 msgstr "Turunkan satu"
 
-#: wp-includes/class-wp-customize-nav-menus.php:552 wp-admin/nav-menus.php:482
+#: wp-includes/class-wp-customize-nav-menus.php:552 admin/nav-menus.php:482
 msgid "Move up one"
 msgstr "Naikkan satu"
 
@@ -8872,13 +8872,13 @@ msgstr "Jumlah item yang ditemukan: %d"
 
 #. translators: %s: Title of a menu item in draft status.
 #: wp-includes/class-wp-customize-nav-menus.php:526
-#: wp-admin/includes/class-walker-nav-menu-edit.php:107
+#: admin/includes/class-walker-nav-menu-edit.php:107
 msgid "%s (Pending)"
 msgstr "%s (Menunggu)"
 
 #. translators: %s: Title of an invalid menu item.
 #: wp-includes/class-wp-customize-nav-menus.php:524
-#: wp-admin/includes/class-walker-nav-menu-edit.php:103
+#: admin/includes/class-walker-nav-menu-edit.php:103
 msgid "%s (Invalid)"
 msgstr "%s (Tidak sah)"
 
@@ -8916,42 +8916,42 @@ msgstr "Item menu ditambahkan"
 
 #: wp-includes/class-wp-customize-nav-menus.php:166
 #: wp-includes/class-wp-customize-nav-menus.php:450
-#: wp-admin/includes/nav-menu.php:393
+#: admin/includes/nav-menu.php:393
 msgctxt "nav menu home label"
 msgid "Home"
 msgstr "Beranda"
 
 #: wp-includes/customize/class-wp-customize-new-menu-control.php:59
-#: wp-admin/nav-menus.php:966 wp-admin/nav-menus.php:1101
+#: admin/nav-menus.php:966 admin/nav-menus.php:1101
 msgid "Create Menu"
 msgstr "Buat Menu"
 
 #. translators: Nav menu item original title. %s: Original title.
 #. translators: %s: Link to menu item's original object.
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:153
-#: wp-admin/includes/class-walker-nav-menu-edit.php:259
+#: admin/includes/class-walker-nav-menu-edit.php:259
 msgid "Original: %s"
 msgstr "Asli: %s"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:133
-#: wp-admin/includes/class-walker-nav-menu-edit.php:226
+#: admin/includes/class-walker-nav-menu-edit.php:226
 msgid "The description will be displayed in the menu if the current theme supports it."
 msgstr "Deskripsi tersebut akan ditampilkan dalam menu jika tema saat ini mendukungnya."
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:125
-#: wp-admin/includes/class-walker-nav-menu-edit.php:218
-#: wp-admin/includes/nav-menu.php:1108 wp-admin/edit-link-form.php:33
+#: admin/includes/class-walker-nav-menu-edit.php:218
+#: admin/includes/nav-menu.php:1108 admin/edit-link-form.php:33
 msgid "Link Relationship (XFN)"
 msgstr "Relasi Tautan (XFN)"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:119
-#: wp-admin/includes/nav-menu.php:1107
+#: admin/includes/nav-menu.php:1107
 msgid "CSS Classes"
 msgstr "Kelas CSS"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:113
-#: wp-admin/includes/class-walker-nav-menu-edit.php:200
-#: wp-admin/includes/nav-menu.php:1106
+#: admin/includes/class-walker-nav-menu-edit.php:200
+#: admin/includes/nav-menu.php:1106
 msgid "Title Attribute"
 msgstr "Atribut Judul"
 
@@ -8959,17 +8959,17 @@ msgstr "Atribut Judul"
 #: wp-includes/media-template.php:1206
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:108
 #: wp-includes/class-wp-editor.php:1849
-#: wp-admin/includes/class-walker-nav-menu-edit.php:207
+#: admin/includes/class-walker-nav-menu-edit.php:207
 msgid "Open link in a new tab"
 msgstr "Buka tautan di tab baru"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:101
-#: wp-admin/includes/class-walker-nav-menu-edit.php:194
+#: admin/includes/class-walker-nav-menu-edit.php:194
 msgid "Navigation Label"
 msgstr "Label Navigasi"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-auto-add-control.php:46
-#: wp-admin/nav-menus.php:1035
+#: admin/nav-menus.php:1035
 msgid "Automatically add new top-level pages to this menu"
 msgstr "Tambahkan laman tingkat-atas baru ke menu ini secara otomatis"
 
@@ -8979,7 +8979,7 @@ msgid "Menu Location"
 msgstr "Lokasi Menu"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1103
-#: wp-admin/nav-menus.php:1095
+#: admin/nav-menus.php:1095
 msgid "Delete Menu"
 msgstr "Hapus Menu"
 
@@ -8989,7 +8989,7 @@ msgstr "Tambahkan Item"
 
 #. translators: %s: Site title.
 #. translators: User dashboard screen title. %s: Network title.
-#: wp-includes/admin-bar.php:359 wp-admin/admin-header.php:42
+#: wp-includes/admin-bar.php:359 admin/admin-header.php:42
 msgid "User Dashboard: %s"
 msgstr "Dasbor Pengguna: %s"
 
@@ -9088,7 +9088,7 @@ msgstr ""
 
 #. translators: Do not translate USERNAME, SITE_NAME, BLOG_URL, PASSWORD: those
 #. are placeholders.
-#: wp-includes/ms-functions.php:1621 wp-admin/includes/schema.php:1195
+#: wp-includes/ms-functions.php:1621 admin/includes/schema.php:1195
 msgid ""
 "Howdy USERNAME,\n"
 "\n"
@@ -9180,20 +9180,20 @@ msgstr "Tak ada komentar<span class=\"screen-reader-text\"> pada %s</span>"
 
 #: wp-includes/media-template.php:995 wp-includes/class-wp-editor.php:1844
 #: wp-includes/class-wp-customize-nav-menus.php:1261
-#: wp-admin/includes/nav-menu.php:306
+#: admin/includes/nav-menu.php:306
 msgid "Link Text"
 msgstr "Teks Tautan"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:249
 #: wp-includes/customize/class-wp-customize-theme-control.php:251
-#: wp-admin/includes/class-wp-themes-list-table.php:223
-#: wp-admin/includes/theme.php:997 wp-admin/includes/theme.php:999
-#: wp-admin/includes/class-theme-installer-skin.php:131
-#: wp-admin/includes/class-theme-upgrader-skin.php:103 wp-admin/themes.php:544
-#: wp-admin/themes.php:553 wp-admin/themes.php:891 wp-admin/themes.php:898
-#: wp-admin/themes.php:1106 wp-admin/themes.php:1115
-#: wp-admin/theme-install.php:361 wp-admin/theme-install.php:377
-#: wp-admin/js/updates.js:1408
+#: admin/includes/class-wp-themes-list-table.php:223
+#: admin/includes/theme.php:997 admin/includes/theme.php:999
+#: admin/includes/class-theme-installer-skin.php:131
+#: admin/includes/class-theme-upgrader-skin.php:103 admin/themes.php:544
+#: admin/themes.php:553 admin/themes.php:891 admin/themes.php:898
+#: admin/themes.php:1106 admin/themes.php:1115
+#: admin/theme-install.php:361 admin/theme-install.php:377
+#: admin/js/updates.js:1408
 msgid "Live Preview"
 msgstr "Pratinjau Langsung"
 
@@ -9204,7 +9204,7 @@ msgstr "Mempratinjau:"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:83
 #: wp-includes/customize/class-wp-customize-themes-section.php:78
-#: wp-admin/themes.php:515 wp-admin/themes.php:563 wp-admin/themes.php:862
+#: admin/themes.php:515 admin/themes.php:563 admin/themes.php:862
 msgid "Theme Details"
 msgstr "Rincian Tema"
 
@@ -9523,7 +9523,7 @@ msgstr "Pilih semua"
 msgid "%s: %l."
 msgstr "%s: %l."
 
-#: wp-includes/class-wp-customize-nav-menus.php:503 wp-admin/js/nav-menu.js:591
+#: wp-includes/class-wp-customize-nav-menus.php:503 admin/js/nav-menu.js:591
 msgctxt "missing menu item navigation label"
 msgid "(no label)"
 msgstr "(tanpa label)"
@@ -9537,7 +9537,7 @@ msgid "Search media"
 msgstr "Cari media"
 
 #: wp-includes/media.php:4400
-#: wp-admin/includes/class-wp-media-list-table.php:271
+#: admin/includes/class-wp-media-list-table.php:271
 msgid "Filter by type"
 msgstr "Saring berdasarkan tipe"
 
@@ -9546,12 +9546,12 @@ msgid "Filter by date"
 msgstr "Saring berdasarkan tanggal"
 
 #: wp-includes/media.php:4387
-#: wp-admin/includes/class-wp-media-list-table.php:150
+#: admin/includes/class-wp-media-list-table.php:150
 msgid "Unattached"
 msgstr "Tak terlampir"
 
-#: wp-includes/media.php:4384 wp-admin/includes/media.php:2833
-#: wp-admin/includes/class-wp-list-table.php:650
+#: wp-includes/media.php:4384 admin/includes/media.php:2833
+#: admin/includes/class-wp-list-table.php:650
 msgid "All dates"
 msgstr "Semua tanggal"
 
@@ -9571,26 +9571,26 @@ msgstr "Edit rincian"
 msgid "View attachment page"
 msgstr "Tampilkan laman lampiran"
 
-#: wp-includes/media-template.php:419 wp-admin/includes/media.php:3320
-#: wp-admin/includes/media.php:3322
+#: wp-includes/media-template.php:419 admin/includes/media.php:3320
+#: admin/includes/media.php:3322
 msgid "Uploaded to:"
 msgstr "Diunggah Ke"
 
-#: wp-includes/media-template.php:410 wp-admin/includes/media.php:3305
-#: wp-admin/includes/media.php:3307
+#: wp-includes/media-template.php:410 admin/includes/media.php:3305
+#: admin/includes/media.php:3307
 msgid "Uploaded by:"
 msgstr "Diunggah Oleh"
 
-#: wp-includes/media-template.php:455 wp-admin/includes/media.php:3383
+#: wp-includes/media-template.php:455 admin/includes/media.php:3383
 msgid "Bitrate:"
 msgstr "Bitrate:"
 
-#: wp-includes/media-template.php:432 wp-admin/includes/media.php:1697
-#: wp-admin/includes/media.php:3464
+#: wp-includes/media-template.php:432 admin/includes/media.php:1697
+#: admin/includes/media.php:3464
 msgid "Dimensions:"
 msgstr "Dimensi:"
 
-#: wp-includes/media-template.php:429 wp-admin/includes/media.php:3375
+#: wp-includes/media-template.php:429 admin/includes/media.php:3375
 msgid "File size:"
 msgstr "Ukuran berkas:"
 
@@ -9598,14 +9598,14 @@ msgstr "Ukuran berkas:"
 msgid "Uploaded on:"
 msgstr "Diunggah pada:"
 
-#: wp-includes/media-template.php:428 wp-admin/includes/media.php:1693
-#: wp-admin/includes/media.php:3342
+#: wp-includes/media-template.php:428 admin/includes/media.php:1693
+#: admin/includes/media.php:3342
 msgid "File type:"
 msgstr "Tipe berkas:"
 
-#: wp-includes/media-template.php:427 wp-admin/includes/media.php:1692
-#: wp-admin/includes/media.php:3339
-#: wp-admin/includes/class-wp-media-list-table.php:437
+#: wp-includes/media-template.php:427 admin/includes/media.php:1692
+#: admin/includes/media.php:3339
+#: admin/includes/class-wp-media-list-table.php:437
 msgid "File name:"
 msgstr "Nama berkas:"
 
@@ -9618,7 +9618,7 @@ msgid "Edit previous media item"
 msgstr "Edit media sebelumnya"
 
 #. translators: %s: Maximum allowed file size.
-#: wp-includes/media-template.php:286 wp-admin/includes/media.php:2280
+#: wp-includes/media-template.php:286 admin/includes/media.php:2280
 msgid "Maximum upload file size: %s."
 msgstr "Ukuran maksimal unggahan berkas: %s."
 
@@ -9645,7 +9645,7 @@ msgstr "Widget adalah bagian-bagian independen dari konten yang bisa ditempatkan
 #. translators: %s: The site/panel title in the Customizer.
 #: wp-includes/class-wp-customize-panel.php:374
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:78
-#: wp-admin/customize.php:226
+#: admin/customize.php:226
 msgid "You are customizing %s"
 msgstr "Anda sedang menyesuaikan %s"
 
@@ -9654,9 +9654,9 @@ msgid "<strong>Error</strong>: The comment could not be saved. Please try again 
 msgstr "<strong>Eror</strong>: Komentar tak dapat disimpan. Silakan coba lagi nanti."
 
 #: wp-includes/update.php:174 wp-includes/update.php:409
-#: wp-includes/update.php:613 wp-admin/includes/theme.php:545
-#: wp-admin/includes/translation-install.php:67
-#: wp-admin/includes/update.php:142 wp-admin/includes/plugin-install.php:182
+#: wp-includes/update.php:613 admin/includes/theme.php:545
+#: admin/includes/translation-install.php:67
+#: admin/includes/update.php:142 admin/includes/plugin-install.php:182
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "(WordPress tidak bisa membuat sambungan aman ke WordPress.org. Silakan hubungi administrator server Anda.)"
 
@@ -9673,7 +9673,7 @@ msgstr "Alamat"
 msgid "If you&#8217;re looking to paste rich content from Microsoft Word, try turning this option off. The editor will clean up text pasted from Word automatically."
 msgstr "Jika Anda hendak menyematkan konten kaya dari Microsoft Word, coba nonaktifkan opsi ini. Penyunting akan merapikan teks yang disematkan dari Word secara otomatis."
 
-#: wp-includes/class-wp-editor.php:1393 wp-admin/user-edit.php:321
+#: wp-includes/class-wp-editor.php:1393 admin/user-edit.php:321
 msgid "Keyboard Shortcuts"
 msgstr "Pintasan Keyboard"
 
@@ -9722,7 +9722,7 @@ msgstr "Durasi"
 
 #: wp-includes/media.php:2878
 #: wp-includes/customize/class-wp-customize-date-time-control.php:151
-#: wp-includes/js/dist/components.js:35973 wp-admin/includes/template.php:827
+#: wp-includes/js/dist/components.js:35973 admin/includes/template.php:827
 msgid "Year"
 msgstr "Tahun"
 
@@ -10185,8 +10185,8 @@ msgstr "Buat daftar putar baru"
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:72
 #: wp-includes/class-wp-customize-nav-menus.php:1144
 #: wp-includes/js/dist/components.js:43071
-#: wp-includes/js/dist/edit-post.js:4774 wp-admin/includes/ms.php:49
-#: wp-admin/theme-install.php:59
+#: wp-includes/js/dist/edit-post.js:4774 admin/includes/ms.php:49
+#: admin/theme-install.php:59
 msgid "Back"
 msgstr "Kembali"
 
@@ -10208,7 +10208,7 @@ msgstr "Putar otomatis"
 #: wp-includes/js/dist/block-library.js:10401
 #: wp-includes/js/dist/block-library.js:25198
 #: wp-includes/js/dist/block-library.js:25309
-#: wp-admin/includes/meta-boxes.php:1462
+#: admin/includes/meta-boxes.php:1462
 msgid "Metadata"
 msgstr "Metadata"
 
@@ -10243,7 +10243,7 @@ msgstr "Nyalakan Bilah Perkakas"
 
 #. translators: button label text should, if possible, be under 16 characters.
 #: wp-includes/js/dist/edit-post.js:3143 wp-includes/js/dist/edit-post.js:4972
-#: wp-admin/tools.php:42 wp-admin/menu.php:278
+#: admin/tools.php:42 admin/menu.php:278
 msgid "Tools"
 msgstr "Peralatan"
 
@@ -10451,9 +10451,9 @@ msgid "Align right"
 msgstr "Rata kanan"
 
 #: wp-includes/class-wp-customize-widgets.php:779
-#: wp-admin/includes/ajax-actions.php:1074
-#: wp-admin/includes/ajax-actions.php:2304 wp-admin/js/media.js:127
-#: wp-admin/js/media.js:132 wp-admin/js/updates.js:1919
+#: admin/includes/ajax-actions.php:1074
+#: admin/includes/ajax-actions.php:2304 admin/js/media.js:127
+#: admin/js/media.js:132 admin/js/updates.js:1919
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "Terjadi galat. Silakan muat ulang laman ini dan coba lagi."
 
@@ -10464,16 +10464,16 @@ msgstr "Pilih satu area untuk menempatkan widget ini:"
 #: wp-includes/class-wp-customize-widgets.php:697
 #: wp-includes/class-wp-customize-nav-menus.php:1091
 #: wp-includes/js/dist/block-editor.js:18554
-#: wp-admin/includes/class-walker-nav-menu-edit.php:138
-#: wp-admin/includes/template.php:1339
+#: admin/includes/class-walker-nav-menu-edit.php:138
+#: admin/includes/template.php:1339
 msgid "Move up"
 msgstr "Pindahkan ke atas"
 
 #: wp-includes/class-wp-customize-widgets.php:696
 #: wp-includes/class-wp-customize-nav-menus.php:1092
 #: wp-includes/js/dist/block-editor.js:18560
-#: wp-admin/includes/class-walker-nav-menu-edit.php:155
-#: wp-admin/includes/template.php:1349
+#: admin/includes/class-walker-nav-menu-edit.php:155
+#: admin/includes/template.php:1349
 msgid "Move down"
 msgstr "Pindahkan ke bawah"
 
@@ -10530,9 +10530,9 @@ msgid "https://wordpress.org/support/"
 msgstr "https://wordpress.org/support/"
 
 #: wp-includes/js/dist/editor.js:8113
-#: wp-admin/includes/class-wp-privacy-requests-table.php:44
-#: wp-admin/includes/ajax-actions.php:2182
-#: wp-admin/includes/class-wp-posts-list-table.php:1838
+#: admin/includes/class-wp-privacy-requests-table.php:44
+#: admin/includes/ajax-actions.php:2182
+#: admin/includes/class-wp-posts-list-table.php:1838
 msgid "Status"
 msgstr "Status"
 
@@ -10601,13 +10601,13 @@ msgstr "Daftar Laman situs Anda."
 #: wp-includes/update.php:172 wp-includes/update.php:407
 #: wp-includes/update.php:611
 #: wp-includes/customize/class-wp-customize-themes-section.php:89
-#: wp-admin/includes/theme.php:543 wp-admin/includes/theme.php:557
-#: wp-admin/includes/theme.php:572 wp-admin/includes/translation-install.php:65
-#: wp-admin/includes/translation-install.php:79
-#: wp-admin/includes/translation-install.php:91
-#: wp-admin/includes/update.php:140 wp-admin/includes/plugin-install.php:180
-#: wp-admin/includes/plugin-install.php:195
-#: wp-admin/includes/plugin-install.php:210 wp-admin/theme-install.php:62
+#: admin/includes/theme.php:543 admin/includes/theme.php:557
+#: admin/includes/theme.php:572 admin/includes/translation-install.php:65
+#: admin/includes/translation-install.php:79
+#: admin/includes/translation-install.php:91
+#: admin/includes/update.php:140 admin/includes/plugin-install.php:180
+#: admin/includes/plugin-install.php:195
+#: admin/includes/plugin-install.php:210 admin/theme-install.php:62
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "Terjadi galat tak terduga. Mungkin ada yang salah dengan WordPress.org atau konfigurasi server ini. Jika masalah berlanjut, silakan coba <a href=\"%s\">forum dukungan</a>."
 
@@ -10691,7 +10691,7 @@ msgid "Embed or Link"
 msgstr "Sematan atau Tautan"
 
 #: wp-includes/media-template.php:447 wp-includes/media-template.php:674
-#: wp-admin/includes/media.php:3382
+#: admin/includes/media.php:3382
 msgid "Length:"
 msgstr "Panjang:"
 
@@ -10758,7 +10758,7 @@ msgstr "JavaScript harus diaktifkan untuk menggunakan fitur ini."
 #. translators: Links last updated date format, see
 #. https://www.php.net/manual/datetime.format.php
 #: wp-includes/script-loader.php:162 wp-includes/script-loader.php:378
-#: wp-includes/class-wp-locale.php:367 wp-admin/includes/schema.php:430
+#: wp-includes/class-wp-locale.php:367 admin/includes/schema.php:430
 msgid "F j, Y g:i a"
 msgstr "j F Y H:i"
 
@@ -10777,16 +10777,16 @@ msgstr "j F Y H:i"
 #. Post edited time.
 #. translators: 1: Post edited date, 2: Post edited time.
 #: wp-includes/script-loader.php:158 wp-includes/script-loader.php:374
-#: wp-includes/class-wp-locale.php:365 wp-admin/includes/schema.php:428
-#: wp-admin/includes/class-wp-comments-list-table.php:961
-#: wp-admin/includes/ajax-actions.php:1563
-#: wp-admin/includes/ajax-actions.php:2802
-#: wp-admin/includes/ajax-actions.php:2805
-#: wp-admin/includes/class-wp-posts-list-table.php:1098
-#: wp-admin/options-general.php:292 wp-admin/options-general.php:355
-#: wp-admin/comment.php:221 wp-admin/update-core.php:1011
-#: wp-admin/admin.php:114 wp-admin/edit-form-advanced.php:627
-#: wp-admin/edit-form-advanced.php:630
+#: wp-includes/class-wp-locale.php:365 admin/includes/schema.php:428
+#: admin/includes/class-wp-comments-list-table.php:961
+#: admin/includes/ajax-actions.php:1563
+#: admin/includes/ajax-actions.php:2802
+#: admin/includes/ajax-actions.php:2805
+#: admin/includes/class-wp-posts-list-table.php:1098
+#: admin/options-general.php:292 admin/options-general.php:355
+#: admin/comment.php:221 admin/update-core.php:1011
+#: admin/admin.php:114 admin/edit-form-advanced.php:627
+#: admin/edit-form-advanced.php:630
 msgid "g:i a"
 msgstr "g:i a"
 
@@ -10802,19 +10802,19 @@ msgstr "g:i a"
 #. translators: 1: Post edited date, 2: Post edited time.
 #: wp-includes/script-loader.php:161 wp-includes/script-loader.php:376
 #: wp-includes/media.php:3939 wp-includes/class-wp-locale.php:363
-#: wp-admin/includes/class-wp-privacy-policy-content.php:378
-#: wp-admin/includes/schema.php:426 wp-admin/includes/media.php:1694
-#: wp-admin/includes/ajax-actions.php:1563
-#: wp-admin/includes/ajax-actions.php:2801
-#: wp-admin/includes/ajax-actions.php:2804
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:71
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:86
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:228
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:231
-#: wp-admin/includes/dashboard.php:633 wp-admin/options-general.php:292
-#: wp-admin/options-general.php:318 wp-admin/update-core.php:1011
-#: wp-admin/admin.php:113 wp-admin/edit-form-advanced.php:627
-#: wp-admin/edit-form-advanced.php:630
+#: admin/includes/class-wp-privacy-policy-content.php:378
+#: admin/includes/schema.php:426 admin/includes/media.php:1694
+#: admin/includes/ajax-actions.php:1563
+#: admin/includes/ajax-actions.php:2801
+#: admin/includes/ajax-actions.php:2804
+#: admin/includes/class-wp-application-passwords-list-table.php:71
+#: admin/includes/class-wp-application-passwords-list-table.php:86
+#: admin/includes/class-wp-application-passwords-list-table.php:228
+#: admin/includes/class-wp-application-passwords-list-table.php:231
+#: admin/includes/dashboard.php:633 admin/options-general.php:292
+#: admin/options-general.php:318 admin/update-core.php:1011
+#: admin/admin.php:113 admin/edit-form-advanced.php:627
+#: admin/edit-form-advanced.php:630
 msgid "F j, Y"
 msgstr "j F Y"
 
@@ -10827,7 +10827,7 @@ msgid "Login Address (URL)"
 msgstr "Alamat Log Masuk (URL)"
 
 #. translators: %s: https://apps.wordpress.org
-#: wp-includes/media-template.php:237 wp-admin/includes/media.php:2091
+#: wp-includes/media-template.php:237 admin/includes/media.php:2091
 msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"%s\">native app for your device</a> instead."
 msgstr "Peramban yang Anda gunakan tidak bisa digunakan untuk mengunggah berkas. Anda bisa menggunakan <a href=\"%s\">app bawaan perangkat Anda</a> sebagai pengganti."
 
@@ -10888,13 +10888,13 @@ msgstr "Tidak ada tag yang ditemukan."
 msgid "Do not deregister the %1$s script in the administration area. To target the front-end theme, use the %2$s hook."
 msgstr "Jangan men-deregister skrip %1$s dalam area administrasi. Untuk menargetkan tema front-end, gunakan kait %2$s."
 
-#: wp-includes/class-wp-xmlrpc-server.php:493 wp-admin/options-general.php:92
-#: wp-admin/network/site-info.php:162 wp-admin/network/site-info.php:170
-#: wp-admin/network/site-new.php:208
+#: wp-includes/class-wp-xmlrpc-server.php:493 admin/options-general.php:92
+#: admin/network/site-info.php:162 admin/network/site-info.php:170
+#: admin/network/site-new.php:208
 msgid "Site Address (URL)"
 msgstr "Alamat Situs (URL)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:488 wp-admin/options-general.php:87
+#: wp-includes/class-wp-xmlrpc-server.php:488 admin/options-general.php:87
 msgid "WordPress Address (URL)"
 msgstr "Alamat WordPress (URL)"
 
@@ -10903,8 +10903,8 @@ msgstr "Alamat WordPress (URL)"
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:383
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:707
 #: wp-includes/user.php:1757 wp-includes/user.php:2150
-#: wp-includes/user.php:2156 wp-admin/user-edit.php:23
-#: wp-admin/user-edit.php:25
+#: wp-includes/user.php:2156 admin/user-edit.php:23
+#: admin/user-edit.php:25
 msgid "Invalid user ID."
 msgstr "ID pengguna tidak sah."
 
@@ -10926,10 +10926,10 @@ msgid "Random"
 msgstr "Acak"
 
 #: wp-includes/media-template.php:1475 wp-includes/media.php:4385
-#: wp-admin/includes/class-wp-themes-list-table.php:93
-#: wp-admin/includes/class-wp-list-table.php:335
-#: wp-admin/includes/ajax-actions.php:2179
-#: wp-admin/includes/ajax-actions.php:3783
+#: admin/includes/class-wp-themes-list-table.php:93
+#: admin/includes/class-wp-list-table.php:335
+#: admin/includes/ajax-actions.php:2179
+#: admin/includes/ajax-actions.php:3783
 msgid "No items found."
 msgstr "Tidak menemukan apa-apa."
 
@@ -10942,12 +10942,12 @@ msgid "Deselect"
 msgstr "Batalkan Pilihan"
 
 #: wp-includes/media-template.php:541 wp-includes/media-template.php:692
-#: wp-includes/media.php:4397 wp-admin/includes/meta-boxes.php:335
-#: wp-admin/includes/meta-boxes.php:444
-#: wp-admin/includes/class-wp-media-list-table.php:177
-#: wp-admin/includes/class-wp-media-list-table.php:182
-#: wp-admin/includes/class-wp-comments-list-table.php:372
-#: wp-admin/includes/class-wp-posts-list-table.php:416
+#: wp-includes/media.php:4397 admin/includes/meta-boxes.php:335
+#: admin/includes/meta-boxes.php:444
+#: admin/includes/class-wp-media-list-table.php:177
+#: admin/includes/class-wp-media-list-table.php:182
+#: admin/includes/class-wp-comments-list-table.php:372
+#: admin/includes/class-wp-posts-list-table.php:416
 msgid "Delete permanently"
 msgstr "Hapus secara permanen"
 
@@ -11025,7 +11025,7 @@ msgid "Uploaded to this post"
 msgstr "Terunggah ke pos ini"
 
 #: wp-includes/media.php:4383
-#: wp-admin/includes/class-wp-media-list-table.php:127
+#: admin/includes/class-wp-media-list-table.php:127
 msgid "All media items"
 msgstr "Semua berkas media"
 
@@ -11040,7 +11040,7 @@ msgstr "URL Tersuai"
 #: wp-includes/js/dist/block-library.js:19246
 #: wp-includes/js/dist/block-library.js:21724
 #: wp-includes/js/dist/block-library.js:24802
-#: wp-admin/includes/class-wp-screen.php:1158
+#: admin/includes/class-wp-screen.php:1158
 msgid "Columns"
 msgstr "Kolom"
 
@@ -11048,7 +11048,7 @@ msgstr "Kolom"
 msgid "Alt Text"
 msgstr "Teks Alt"
 
-#: wp-includes/media-template.php:606 wp-admin/upload.php:65
+#: wp-includes/media-template.php:606 admin/upload.php:65
 msgid "Attachment Details"
 msgstr "Detil Lampiran"
 
@@ -11057,8 +11057,8 @@ msgstr "Detil Lampiran"
 #: wp-includes/js/dist/components.js:36371
 #: wp-includes/js/dist/block-editor.js:11998
 #: wp-includes/js/dist/block-library.js:26608
-#: wp-admin/includes/class-custom-background.php:599
-#: wp-admin/includes/media.php:1170 wp-admin/edit-form-blocks.php:240
+#: admin/includes/class-custom-background.php:599
+#: admin/includes/media.php:1170 admin/edit-form-blocks.php:240
 msgid "Large"
 msgstr "Besar"
 
@@ -11070,7 +11070,7 @@ msgstr "&#8592; Batalkan galeri"
 msgid "Upload images"
 msgstr "Unggah gambar"
 
-#: wp-includes/media-template.php:878 wp-admin/includes/media.php:2598
+#: wp-includes/media-template.php:878 admin/includes/media.php:2598
 msgid "Gallery Settings"
 msgstr "Pengaturan Galeri"
 
@@ -11086,13 +11086,13 @@ msgstr "WordPress &rsaquo; Sukses"
 msgid "Upload files"
 msgstr "Unggah berkas"
 
-#: wp-includes/media.php:4423 wp-admin/includes/media.php:2669
+#: wp-includes/media.php:4423 admin/includes/media.php:2669
 msgid "Insert gallery"
 msgstr "Sisipkan galeri"
 
 #: wp-includes/media-template.php:209 wp-includes/media-template.php:216
 #: wp-includes/media-template.php:253 wp-includes/js/dist/components.js:37178
-#: wp-admin/includes/media.php:2233
+#: admin/includes/media.php:2233
 msgid "Drop files to upload"
 msgstr "Taruh berkas yang akan diunggah"
 
@@ -11101,16 +11101,16 @@ msgid "Create gallery"
 msgstr "Buat galeri"
 
 #: wp-includes/media.php:4377 wp-includes/js/dist/block-editor.js:32770
-#: wp-admin/includes/media.php:21 wp-admin/upload.php:79
-#: wp-admin/upload.php:216
+#: admin/includes/media.php:21 admin/upload.php:79
+#: admin/upload.php:216
 msgid "Media Library"
 msgstr "Pustaka Media"
 
-#: wp-includes/ms-deprecated.php:617 wp-admin/install.php:218
+#: wp-includes/ms-deprecated.php:617 admin/install.php:218
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Anda rupanya sudah memasang WordPress. Untuk memasang ulang silahkan bersihkan tabel basis data lama Anda terlebih dahulu."
 
-#: wp-includes/ms-deprecated.php:617 wp-admin/install.php:217
+#: wp-includes/ms-deprecated.php:617 admin/install.php:217
 msgid "Already Installed"
 msgstr "Sudah Terpasang"
 
@@ -11169,7 +11169,7 @@ msgstr "Berkas Media"
 #: wp-includes/media-template.php:826 wp-includes/media-template.php:891
 #: wp-includes/media-template.php:1170
 #: wp-includes/js/dist/block-editor.js:33527
-#: wp-includes/js/dist/block-library.js:9298 wp-admin/includes/media.php:2611
+#: wp-includes/js/dist/block-library.js:9298 admin/includes/media.php:2611
 msgid "Attachment Page"
 msgstr "Laman Lampiran"
 
@@ -11183,15 +11183,15 @@ msgstr "Tautkan Ke"
 msgid "Update gallery"
 msgstr "Perbarui galeri"
 
-#: wp-includes/user.php:2898 wp-admin/includes/user.php:189
+#: wp-includes/user.php:2898 admin/includes/user.php:189
 msgid "<strong>Error</strong>: This username is already registered. Please choose another one."
 msgstr "<strong>Eror</strong>: Nama pengguna ini sudah terdaftar. Mohon pilih nama lain."
 
-#: wp-includes/ms-functions.php:507 wp-admin/user-new.php:356
+#: wp-includes/ms-functions.php:507 admin/user-new.php:356
 msgid "Please enter a valid email address."
 msgstr "Mohon masukan alamat email yang sah."
 
-#: wp-includes/ms-functions.php:174 wp-admin/user-new.php:353
+#: wp-includes/ms-functions.php:174 admin/user-new.php:353
 msgid "The requested user does not exist."
 msgstr "Pengguna yang diminta tidak ada."
 
@@ -11247,8 +11247,8 @@ msgid "Could not insert term relationship into the database."
 msgstr "Gagal menyimpan relasi istilah ke dalam basis data."
 
 #: wp-includes/media-template.php:756 wp-includes/js/dist/components.js:30752
-#: wp-includes/js/dist/components.js:41704 wp-admin/theme-install.php:209
-#: wp-admin/theme-install.php:232 wp-admin/js/color-picker.js:154
+#: wp-includes/js/dist/components.js:41704 admin/theme-install.php:209
+#: admin/theme-install.php:232 admin/js/color-picker.js:154
 msgid "Clear"
 msgstr "Kosongkan"
 
@@ -11268,19 +11268,19 @@ msgstr "Buat galeri baru"
 msgid "View Attachment Page"
 msgstr "Lihat Laman Lampiran"
 
-#: wp-includes/media-template.php:255 wp-admin/includes/media.php:2235
+#: wp-includes/media-template.php:255 admin/includes/media.php:2235
 msgid "Select Files"
 msgstr "Pilih Berkas"
 
-#: wp-includes/media-template.php:254 wp-admin/includes/media.php:2234
+#: wp-includes/media-template.php:254 admin/includes/media.php:2234
 msgctxt "Uploader: Drop files here - or - Select Files"
 msgid "or"
 msgstr "atau"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:98
 #: wp-includes/media-template.php:477 wp-includes/media-template.php:1012
-#: wp-includes/media-template.php:1075 wp-admin/includes/media.php:1475
-#: wp-admin/includes/media.php:2954 wp-admin/includes/media.php:3211
+#: wp-includes/media-template.php:1075 admin/includes/media.php:1475
+#: admin/includes/media.php:2954 admin/includes/media.php:3211
 msgid "Alternative Text"
 msgstr "Teks Alternatif"
 
@@ -11293,8 +11293,8 @@ msgstr "%1$s %2$s %3$s Umpan"
 msgid "Display post date?"
 msgstr "Perlihatkan tanggal pos?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5395 wp-admin/includes/post.php:40
-#: wp-admin/includes/post.php:85
+#: wp-includes/class-wp-xmlrpc-server.php:5395 admin/includes/post.php:40
+#: admin/includes/post.php:85
 msgid "Sorry, you are not allowed to create pages as this user."
 msgstr "Maaf, Anda tak dizinkan untuk membuat laman sebagai pengguna ini."
 
@@ -11306,7 +11306,7 @@ msgstr "Maaf, revisi tidak bisa digunakan."
 #: wp-includes/class-wp-xmlrpc-server.php:3255
 #: wp-includes/class-wp-xmlrpc-server.php:4638
 #: wp-includes/class-wp-xmlrpc-server.php:4964
-#: wp-includes/class-wp-xmlrpc-server.php:6151 wp-admin/includes/post.php:480
+#: wp-includes/class-wp-xmlrpc-server.php:6151 admin/includes/post.php:480
 msgid "Sorry, you are not allowed to edit posts."
 msgstr "Maaf, Anda tidak diizinkan mengedit pos."
 
@@ -11331,7 +11331,7 @@ msgctxt "Name for the Text editor tab (formerly HTML)"
 msgid "Text"
 msgstr "Teks"
 
-#: wp-includes/class-wp-admin-bar.php:442 wp-admin/menu-header.php:288
+#: wp-includes/class-admin-bar.php:442 admin/menu-header.php:288
 msgid "Skip to toolbar"
 msgstr "Lewat ke baris perkakas"
 
@@ -11344,7 +11344,7 @@ msgid "Colors"
 msgstr "Warna"
 
 #: wp-includes/script-loader.php:1162 wp-includes/js/dist/editor.js:10658
-#: wp-admin/js/widgets.js:130 wp-admin/js/widgets.js:575
+#: admin/js/widgets.js:130 admin/js/widgets.js:575
 msgid "Saved"
 msgstr "Tersimpan"
 
@@ -11359,11 +11359,11 @@ msgstr "Pilih berkas"
 
 #: wp-includes/admin-bar.php:447
 #: wp-includes/customize/class-wp-customize-theme-control.php:240
-#: wp-admin/includes/theme.php:988
-#: wp-admin/includes/class-theme-upgrader-skin.php:92
-#: wp-admin/customize.php:202 wp-admin/themes.php:535 wp-admin/themes.php:882
-#: wp-admin/themes.php:1094 wp-admin/theme-install.php:363
-#: wp-admin/menu.php:192
+#: admin/includes/theme.php:988
+#: admin/includes/class-theme-upgrader-skin.php:92
+#: admin/customize.php:202 admin/themes.php:535 admin/themes.php:882
+#: admin/themes.php:1094 admin/theme-install.php:363
+#: admin/menu.php:192
 msgid "Customize"
 msgstr "Sesuaikan"
 
@@ -11381,9 +11381,9 @@ msgstr "Maaf, Anda tak dizinkan menerbitkan laman ini."
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:54
 #: wp-includes/class-wp-customize-manager.php:5320
-#: wp-admin/includes/class-custom-image-header.php:107
-#: wp-admin/includes/class-custom-image-header.php:502
-#: wp-admin/includes/template.php:2293 wp-admin/includes/template.php:2300
+#: admin/includes/class-custom-image-header.php:107
+#: admin/includes/class-custom-image-header.php:502
+#: admin/includes/template.php:2293 admin/includes/template.php:2300
 msgid "Header Image"
 msgstr "Gambar Tajuk"
 
@@ -11432,8 +11432,8 @@ msgstr "Sebuah laman statis"
 
 #: wp-includes/customize/class-wp-customize-background-image-control.php:33
 #: wp-includes/class-wp-customize-manager.php:5429
-#: wp-admin/includes/class-custom-background.php:253
-#: wp-admin/includes/template.php:2321
+#: admin/includes/class-custom-background.php:253
+#: admin/includes/template.php:2321
 msgid "Background Image"
 msgstr "Gambar Latar belakang"
 
@@ -11441,15 +11441,15 @@ msgstr "Gambar Latar belakang"
 #: wp-includes/js/dist/block-editor.js:8668
 #: wp-includes/js/dist/block-editor.js:10801
 #: wp-includes/js/dist/block-library.js:11329
-#: wp-admin/includes/class-custom-background.php:454
-#: wp-admin/includes/class-custom-background.php:455
+#: admin/includes/class-custom-background.php:454
+#: admin/includes/class-custom-background.php:455
 msgid "Background Color"
 msgstr "Warna Latar belakang"
 
 #: wp-includes/js/dist/block-editor.js:8664
 #: wp-includes/js/dist/block-editor.js:10800
 #: wp-includes/js/dist/block-library.js:11325
-#: wp-admin/includes/class-custom-image-header.php:716
+#: admin/includes/class-custom-image-header.php:716
 msgid "Text Color"
 msgstr "Warna Teks"
 
@@ -11463,7 +11463,7 @@ msgid "Remove image"
 msgstr "Hapus Gambar"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:784
-#: wp-admin/comment.php:82
+#: admin/comment.php:82
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "Maaf, Anda tak diizinkan mengedit komentar ini."
 
@@ -11485,9 +11485,9 @@ msgstr "Berkas yang Diijinkan"
 #: wp-includes/class-wp-customize-manager.php:5200
 #: wp-includes/class-wp-editor.php:1383 wp-includes/js/dist/edit-post.js:2944
 #: wp-includes/js/dist/block-library.js:25792
-#: wp-admin/includes/class-walker-nav-menu-edit.php:278
-#: wp-admin/includes/class-wp-users-list-table.php:269
-#: wp-admin/includes/class-wp-users-list-table.php:463
+#: admin/includes/class-walker-nav-menu-edit.php:278
+#: admin/includes/class-wp-users-list-table.php:269
+#: admin/includes/class-wp-users-list-table.php:463
 msgid "Remove"
 msgstr "Singkirkan"
 
@@ -11495,10 +11495,10 @@ msgstr "Singkirkan"
 #: wp-includes/js/dist/block-editor.js:32784
 #: wp-includes/js/dist/block-editor.js:32797
 #: wp-includes/js/dist/block-library.js:25574
-#: wp-admin/includes/class-custom-background.php:333
-#: wp-admin/includes/media.php:2260 wp-admin/includes/media.php:2262
-#: wp-admin/includes/class-custom-image-header.php:613
-#: wp-admin/includes/class-wp-theme-install-list-table.php:63
+#: admin/includes/class-custom-background.php:333
+#: admin/includes/media.php:2260 admin/includes/media.php:2262
+#: admin/includes/class-custom-image-header.php:613
+#: admin/includes/class-wp-theme-install-list-table.php:63
 msgid "Upload"
 msgstr "Unggah"
 
@@ -11513,7 +11513,7 @@ msgstr "Maaf, penghapusan istilah gagal."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:99
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:166
-#: wp-admin/edit-tags.php:29
+#: admin/edit-tags.php:29
 msgid "Sorry, you are not allowed to manage terms in this taxonomy."
 msgstr "Maaf, Anda tak dizinkan mengelola terma-terma dalam taksonomi ini."
 
@@ -11529,7 +11529,7 @@ msgid "Invalid term ID."
 msgstr "ID istilah tidak sah."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:155
-#: wp-admin/edit-tags.php:23
+#: admin/edit-tags.php:23
 msgid "Sorry, you are not allowed to edit terms in this taxonomy."
 msgstr "Maaf, Anda tak dizinkan mengedit istilah-istilah dalam taksonomi ini."
 
@@ -11552,7 +11552,7 @@ msgstr "Nama istilah tidak boleh kosong."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2045
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:411
-#: wp-admin/edit-tags.php:86
+#: admin/edit-tags.php:86
 msgid "Sorry, you are not allowed to create terms in this taxonomy."
 msgstr "Maaf, Anda tak dizinkan membuat terma-terma dalam taksonomi ini."
 
@@ -11570,8 +11570,8 @@ msgstr "Maaf, Anda tak dizinkan membuat terma-terma dalam taksonomi ini."
 #: wp-includes/taxonomy.php:1055 wp-includes/taxonomy.php:1228
 #: wp-includes/taxonomy.php:2087 wp-includes/taxonomy.php:2229
 #: wp-includes/taxonomy.php:2587 wp-includes/taxonomy.php:2774
-#: wp-includes/taxonomy.php:2985 wp-admin/edit-tags.php:13
-#: wp-admin/edit-tags.php:19 wp-admin/includes/class-wp-terms-list-table.php:58
+#: wp-includes/taxonomy.php:2985 admin/edit-tags.php:13
+#: admin/edit-tags.php:19 admin/includes/class-wp-terms-list-table.php:58
 msgid "Invalid taxonomy."
 msgstr "Taksonomi tidak sah."
 
@@ -11579,14 +11579,14 @@ msgstr "Taksonomi tidak sah."
 msgid "Select Link Category:"
 msgstr "Pilih Kategori Tautan:"
 
-#: wp-includes/class-wp-xmlrpc-server.php:528 wp-admin/includes/file.php:53
-#: wp-admin/includes/file.php:61
+#: wp-includes/class-wp-xmlrpc-server.php:528 admin/includes/file.php:53
+#: admin/includes/file.php:61
 msgid "Stylesheet"
 msgstr "Lembar-gaya"
 
 #: wp-includes/class-wp-xmlrpc-server.php:523
-#: wp-includes/js/dist/edit-post.js:6254 wp-admin/includes/meta-boxes.php:976
-#: wp-admin/includes/class-wp-posts-list-table.php:1739
+#: wp-includes/js/dist/edit-post.js:6254 admin/includes/meta-boxes.php:976
+#: admin/includes/class-wp-posts-list-table.php:1739
 msgid "Template"
 msgstr "Templat"
 
@@ -11627,21 +11627,21 @@ msgstr "Sesuaikan: %s"
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:185
 #: wp-includes/class-wp-customize-control.php:589
 #: wp-includes/class-wp-customize-nav-menus.php:704
-#: wp-admin/options-reading.php:114 wp-admin/options-reading.php:131
-#: wp-admin/includes/template.php:728 wp-admin/nav-menus.php:853
-#: wp-admin/widgets.php:333 wp-admin/export.php:211 wp-admin/export.php:216
-#: wp-admin/export.php:258 wp-admin/export.php:263 wp-admin/export.php:298
-#: wp-admin/export.php:303 wp-admin/options-privacy.php:278
+#: admin/options-reading.php:114 admin/options-reading.php:131
+#: admin/includes/template.php:728 admin/nav-menus.php:853
+#: admin/widgets.php:333 admin/export.php:211 admin/export.php:216
+#: admin/export.php:258 admin/export.php:263 admin/export.php:298
+#: admin/export.php:303 admin/options-privacy.php:278
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Pilih &mdash;"
 
 #: wp-includes/class-wp-customize-manager.php:5120
-#: wp-admin/options-general.php:69
+#: admin/options-general.php:69
 msgid "Tagline"
 msgstr "Slogan"
 
 #: wp-includes/class-wp-customize-manager.php:5614
-#: wp-admin/options-reading.php:90
+#: admin/options-reading.php:90
 msgid "Your latest posts"
 msgstr "Pos-pos terbaru Anda"
 
@@ -11674,9 +11674,9 @@ msgstr "Tipe taut gambar bawaan"
 #: wp-includes/class-wp-xmlrpc-server.php:6630
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:430
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:709
-#: wp-admin/includes/post.php:267 wp-admin/includes/post.php:1891
-#: wp-admin/includes/post.php:1895 wp-admin/includes/media.php:3768
-#: wp-admin/includes/ajax-actions.php:1997
+#: admin/includes/post.php:267 admin/includes/post.php:1891
+#: admin/includes/post.php:1895 admin/includes/media.php:3768
+#: admin/includes/ajax-actions.php:1997
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Maaf, Anda tidak diizinkan untuk mennyunting pos ini."
 
@@ -11684,10 +11684,10 @@ msgstr "Maaf, Anda tidak diizinkan untuk mennyunting pos ini."
 msgid "Edit Site"
 msgstr "Sunting Situs"
 
-#: wp-includes/post.php:4913 wp-admin/includes/meta-boxes.php:538
-#: wp-admin/includes/post.php:540 wp-admin/includes/post.php:2067
-#: wp-admin/includes/ajax-actions.php:124 wp-admin/js/tags-suggest.js:12
-#: wp-admin/js/inline-edit-post.js:330 wp-admin/js/tags-box.js:9
+#: wp-includes/post.php:4913 admin/includes/meta-boxes.php:538
+#: admin/includes/post.php:540 admin/includes/post.php:2067
+#: admin/includes/ajax-actions.php:124 admin/js/tags-suggest.js:12
+#: admin/js/inline-edit-post.js:330 admin/js/tags-box.js:9
 msgctxt "tag delimiter"
 msgid ","
 msgstr ","
@@ -11697,7 +11697,7 @@ msgstr ","
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:143
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:95
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:157
-#: wp-admin/post.php:135 wp-admin/edit.php:17 wp-admin/edit.php:42
+#: admin/post.php:135 admin/edit.php:17 admin/edit.php:42
 msgid "Sorry, you are not allowed to edit posts in this post type."
 msgstr "Maaf, Anda tak dizinkan mengedit pos dalam tipe pos ini."
 
@@ -11743,8 +11743,8 @@ msgstr "ID penulis tidak sah."
 #: wp-includes/class-wp-xmlrpc-server.php:5390
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:536
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:552
-#: wp-admin/includes/post.php:42 wp-admin/includes/post.php:87
-#: wp-admin/press-this.php:20 wp-admin/post-new.php:61
+#: admin/includes/post.php:42 admin/includes/post.php:87
+#: admin/press-this.php:20 admin/post-new.php:61
 msgid "Sorry, you are not allowed to create posts as this user."
 msgstr "Maaf, Anda tak diizinkan membuat pos sebagai pengguna ini."
 
@@ -11840,7 +11840,7 @@ msgstr "%s melebihi ukuran unggah maksimum untuk pengunggah multi-berkas bilaman
 
 #. translators: %s: File name.
 #. translators: %s: Name of the file that failed to upload.
-#: wp-includes/script-loader.php:891 wp-admin/async-upload.php:104
+#: wp-includes/script-loader.php:891 admin/async-upload.php:104
 msgid "&#8220;%s&#8221; has failed to upload."
 msgstr "&#8220;%s&#8221; gagal diunggah."
 
@@ -11866,7 +11866,7 @@ msgctxt "en dash"
 msgid "&#8211;"
 msgstr "&#8211;"
 
-#: wp-includes/class-wp-admin-bar.php:140
+#: wp-includes/class-admin-bar.php:140
 msgid "The menu ID should not be empty."
 msgstr "ID menu tidak boleh kosong."
 
@@ -11900,7 +11900,7 @@ msgid "Documentation"
 msgstr "Dokumentasi"
 
 #: wp-includes/general-template.php:4284 wp-includes/formatting.php:3876
-#: wp-admin/themes.php:249
+#: admin/themes.php:249
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -11915,8 +11915,8 @@ msgstr "Galat Basis data"
 
 #. translators: %s: Number of comments.
 #: wp-includes/comment-template.php:908 wp-includes/comment-template.php:923
-#: wp-admin/includes/ajax-actions.php:464
-#: wp-admin/includes/ajax-actions.php:1371 wp-admin/includes/dashboard.php:315
+#: admin/includes/ajax-actions.php:464
+#: admin/includes/ajax-actions.php:1371 admin/includes/dashboard.php:315
 msgid "%s Comment"
 msgid_plural "%s Comments"
 msgstr[0] "%s Komentar"
@@ -11929,7 +11929,7 @@ msgstr "WordPress.org"
 
 #. translators: %s: Site title.
 #. translators: Network admin screen title. %s: Network title.
-#: wp-includes/admin-bar.php:356 wp-admin/admin-header.php:39
+#: wp-includes/admin-bar.php:356 admin/admin-header.php:39
 msgid "Network Admin: %s"
 msgstr "Admin Jaringan: %s"
 
@@ -12045,7 +12045,7 @@ msgstr "Poster"
 msgid "Preload"
 msgstr "Pramuat"
 
-#: wp-includes/class-wp-admin-bar.php:444 wp-admin/user-edit.php:333
+#: wp-includes/class-admin-bar.php:444 admin/user-edit.php:333
 msgid "Toolbar"
 msgstr "Bilah perkakas"
 
@@ -12057,8 +12057,8 @@ msgstr "Direktori tujuan untuk aliran berkas tidak ada atau tidak dapat ditulis.
 msgid "There are no HTTP transports available which can complete the requested request."
 msgstr "Tidak tersedia transportasi HTTP yang dapat memenuhi permintaan yang diajukan."
 
-#: wp-includes/taxonomy.php:166 wp-admin/includes/meta-boxes.php:1469
-#: wp-admin/includes/class-wp-posts-list-table.php:1887
+#: wp-includes/taxonomy.php:166 admin/includes/meta-boxes.php:1469
+#: admin/includes/class-wp-posts-list-table.php:1887
 msgctxt "post format"
 msgid "Format"
 msgstr "Format"
@@ -12262,7 +12262,7 @@ msgstr "Atur Ulang Sandi"
 msgid "Your password has been reset."
 msgstr "Sandi Anda telah diatur ulang."
 
-#: newlogin.php:847 wp-admin/user-edit.php:678
+#: newlogin.php:847 admin/user-edit.php:678
 msgid "Password Reset"
 msgstr "Sandi Sudah Diatur Ulang"
 
@@ -12472,7 +12472,7 @@ msgctxt "post type general name"
 msgid "Pages"
 msgstr "Laman"
 
-#: wp-includes/post.php:1730 wp-admin/export.php:183
+#: wp-includes/post.php:1730 admin/export.php:183
 msgctxt "post type general name"
 msgid "Posts"
 msgstr "Pos"
@@ -12481,14 +12481,14 @@ msgstr "Pos"
 msgid "<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain configuration setting."
 msgstr "<strong>Nilai yang bertentangan untuk konstanta VHOST dan SUBDOMAIN_INSTALL.</strong> Nilai SUBDOMAIN_INSTALL akan diasumsikan menjadi pengaturan konfigurasi sub domain Anda."
 
-#: wp-includes/user.php:2895 wp-admin/includes/user.php:185
+#: wp-includes/user.php:2895 admin/includes/user.php:185
 msgid "<strong>Error</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr "<strong>Eror</strong>: Nama pengguna ini tidak sah karena menggunakan karakter ilegal. Mohon masukkan nama pengguna yang sah."
 
 #. translators: %s: Asterisk symbol (*).
-#: wp-includes/comment-template.php:2416 wp-admin/includes/media.php:1709
-#: wp-admin/includes/media.php:2037 wp-admin/includes/media.php:2932
-#: wp-admin/network/site-new.php:199
+#: wp-includes/comment-template.php:2416 admin/includes/media.php:1709
+#: admin/includes/media.php:2037 admin/includes/media.php:2932
+#: admin/network/site-new.php:199
 msgid "Required fields are marked %s"
 msgstr "Ruas yang wajib ditandai %s"
 
@@ -12877,8 +12877,8 @@ msgstr "Satu tanggapan untuk %s"
 
 #: wp-includes/admin-bar.php:984
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:98
-#: wp-includes/class-wp-customize-nav-menus.php:671 wp-admin/nav-menus.php:666
-#: wp-admin/menu.php:195
+#: wp-includes/class-wp-customize-nav-menus.php:671 admin/nav-menus.php:666
+#: admin/menu.php:195
 msgid "Menus"
 msgstr "Menu"
 
@@ -12964,9 +12964,9 @@ msgstr "Maaf, Anda tak diizinkan memperbarui pos sebagai pengguna ini."
 #: wp-includes/class-wp-xmlrpc-server.php:5767
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:141
 #: wp-includes/post.php:1504 wp-includes/class-wp-customize-nav-menus.php:946
-#: wp-admin/async-upload.php:46 wp-admin/post.php:131 wp-admin/post.php:246
-#: wp-admin/post.php:283 wp-admin/post.php:312 wp-admin/post-new.php:24
-#: wp-admin/edit.php:13 wp-admin/edit.php:36
+#: admin/async-upload.php:46 admin/post.php:131 admin/post.php:246
+#: admin/post.php:283 admin/post.php:312 admin/post-new.php:24
+#: admin/edit.php:13 admin/edit.php:36
 msgid "Invalid post type."
 msgstr "Tipe pos tidak sah."
 
@@ -13044,8 +13044,8 @@ msgstr "Status komentar tidak sah."
 #: wp-includes/class-wp-xmlrpc-server.php:3679
 #: wp-includes/class-wp-xmlrpc-server.php:3747
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:341
-#: wp-includes/comment.php:2449 wp-admin/comment.php:78
-#: wp-admin/comment.php:276 wp-admin/edit-comments.php:250
+#: wp-includes/comment.php:2449 admin/comment.php:78
+#: admin/comment.php:276 admin/edit-comments.php:250
 msgid "Invalid comment ID."
 msgstr "ID komentar tidak sah."
 
@@ -13187,7 +13187,7 @@ msgid "Lost Password"
 msgstr "Lupa Sandi"
 
 #: wp-includes/user.php:2912 wp-includes/user.php:3196
-#: wp-admin/includes/user.php:203
+#: admin/includes/user.php:203
 msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>Eror</strong>: Alamat e-mail salah."
 
@@ -13269,7 +13269,7 @@ msgid "Could not insert term into the database."
 msgstr "Gagal menyimpan istilah ke dalam basis data."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:191
-#: wp-admin/media-upload.php:39
+#: admin/media-upload.php:39
 msgid "Invalid item ID."
 msgstr "ID item tidak valid."
 
@@ -13303,7 +13303,7 @@ msgstr "Galat keamanan."
 msgid "IO error."
 msgstr "Galat IO."
 
-#: wp-includes/script-loader.php:878 wp-admin/includes/ajax-actions.php:2469
+#: wp-includes/script-loader.php:878 admin/includes/ajax-actions.php:2469
 msgid "Upload failed."
 msgstr "Pengunggahan gagal."
 
@@ -13338,7 +13338,7 @@ msgstr "dari"
 #: wp-includes/script-loader.php:851
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/class-wp-editor.php:1212 wp-includes/js/dist/editor.js:8101
-#: wp-includes/js/dist/block-editor.js:32693 wp-admin/includes/media.php:2929
+#: wp-includes/js/dist/block-editor.js:32693 admin/includes/media.php:2929
 msgid "Image"
 msgstr "Gambar"
 
@@ -13472,20 +13472,20 @@ msgstr "%s [Revisi Saat Ini]"
 msgid "%s [Autosave]"
 msgstr "%s [Simpan Otomatis]"
 
-#: wp-includes/post-template.php:1436 wp-admin/menu.php:26
-#: wp-admin/network/menu.php:13
+#: wp-includes/post-template.php:1436 admin/menu.php:26
+#: admin/network/menu.php:13
 msgid "Home"
 msgstr "Beranda"
 
 #: wp-includes/post-template.php:937
-#: wp-admin/includes/class-wp-list-table.php:937
-#: wp-admin/includes/nav-menu.php:463 wp-admin/includes/nav-menu.php:749
+#: admin/includes/class-wp-list-table.php:937
+#: admin/includes/nav-menu.php:463 admin/includes/nav-menu.php:749
 msgid "Previous page"
 msgstr "Laman sebelumnya"
 
 #: wp-includes/post-template.php:936
-#: wp-admin/includes/class-wp-list-table.php:967
-#: wp-admin/includes/nav-menu.php:464 wp-admin/includes/nav-menu.php:750
+#: admin/includes/class-wp-list-table.php:967
+#: admin/includes/nav-menu.php:464 admin/includes/nav-menu.php:750
 msgid "Next page"
 msgstr "Laman berikutnya"
 
@@ -13580,13 +13580,13 @@ msgstr "Apa yang harus saya lakukan selanjutnya?"
 
 #. translators: %s: Maximum allowed file size in kilobytes.
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1291
-#: wp-includes/ms-functions.php:2182 wp-admin/includes/ms.php:41
+#: wp-includes/ms-functions.php:2182 admin/includes/ms.php:41
 msgid "This file is too big. Files must be less than %s KB in size."
 msgstr "Berkas ini terlalu besar. Ukuran berkas harus kurang dari %s KB."
 
 #. translators: %s: Allowed space allocation.
-#: wp-includes/class-wp-xmlrpc-server.php:6349 wp-admin/includes/media.php:3085
-#: wp-admin/includes/ms.php:233 wp-admin/includes/ms-deprecated.php:35
+#: wp-includes/class-wp-xmlrpc-server.php:6349 admin/includes/media.php:3085
+#: admin/includes/ms.php:233 admin/includes/ms-deprecated.php:35
 msgid "Sorry, you have used your space allocation of %s. Please delete some files to upload more files."
 msgstr "Maaf, Anda telah menggunakan alokasi ruang sebesar %s. Silakan hapus beberapa berkas untuk mengunggah lebih banyak berkas."
 
@@ -13695,7 +13695,7 @@ msgstr "Sisipkan tag Pemotong Baris"
 
 #: wp-includes/class-wp-customize-manager.php:5474
 #: wp-includes/class-wp-customize-manager.php:5533
-#: wp-admin/includes/class-custom-background.php:432
+#: admin/includes/class-custom-background.php:432
 msgid "Fill Screen"
 msgstr "Penuhi Layar"
 
@@ -13742,25 +13742,25 @@ msgstr "Sumber"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:79
 #: wp-includes/js/dist/components.js:17925
-#: wp-admin/includes/class-custom-background.php:401
+#: admin/includes/class-custom-background.php:401
 msgid "Bottom Right"
 msgstr "Kanan Bawah"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:71
 #: wp-includes/js/dist/components.js:17923
-#: wp-admin/includes/class-custom-background.php:393
+#: admin/includes/class-custom-background.php:393
 msgid "Bottom Left"
 msgstr "Kiri Bawah"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:51
 #: wp-includes/js/dist/components.js:17919
-#: wp-admin/includes/class-custom-background.php:373
+#: admin/includes/class-custom-background.php:373
 msgid "Top Right"
 msgstr "Kanan Atas"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:43
 #: wp-includes/js/dist/components.js:17917
-#: wp-admin/includes/class-custom-background.php:365
+#: admin/includes/class-custom-background.php:365
 msgid "Top Left"
 msgstr "Kiri Atas"
 
@@ -13773,7 +13773,7 @@ msgid "Fullscreen"
 msgstr "Selayar penuh"
 
 #: wp-includes/admin-bar.php:995
-#: wp-admin/includes/class-custom-background.php:65 wp-admin/menu.php:205
+#: admin/includes/class-custom-background.php:65 admin/menu.php:205
 msgid "Background"
 msgstr "Latar belakang"
 
@@ -13792,7 +13792,7 @@ msgid "Loop"
 msgstr "Pengulangan"
 
 #: wp-includes/js/dist/components.js:41598
-#: wp-admin/includes/ajax-actions.php:2182
+#: admin/includes/ajax-actions.php:2182
 msgid "Type"
 msgstr "Jenis"
 
@@ -13814,7 +13814,7 @@ msgstr "URL yang Anda masukkan sepertinya merupakan alamat surel. Apakah Anda in
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:75
 #: wp-includes/class-wp-editor.php:1336 wp-includes/js/dist/components.js:27065
-#: wp-admin/includes/class-custom-background.php:397
+#: admin/includes/class-custom-background.php:397
 msgid "Bottom"
 msgstr "Dasar"
 
@@ -13825,7 +13825,7 @@ msgstr "Tengah"
 #: wp-includes/customize/class-wp-customize-background-position-control.php:47
 #: wp-includes/class-wp-editor.php:1334 wp-includes/js/dist/components.js:27064
 #: wp-includes/js/dist/components.js:37893
-#: wp-admin/includes/class-custom-background.php:369
+#: admin/includes/class-custom-background.php:369
 msgid "Top"
 msgstr "Puncak"
 
@@ -13940,8 +13940,8 @@ msgid "Paragraph"
 msgstr "Paragraf"
 
 #. translators: The user language selection field label.
-#: wp-includes/class-wp-editor.php:1228 wp-admin/user-new.php:535
-#: wp-admin/user-edit.php:349
+#: wp-includes/class-wp-editor.php:1228 admin/user-new.php:535
+#: admin/user-edit.php:349
 msgid "Language"
 msgstr "Bahasa"
 
@@ -13950,9 +13950,9 @@ msgid "Document properties"
 msgstr "Properti dokumen"
 
 #: wp-includes/script-loader.php:1161 wp-includes/theme.php:3524
-#: wp-includes/class-wp-editor.php:1363 wp-admin/js/widgets.js:98
-#: wp-admin/js/post.js:505 wp-admin/js/theme-plugin-editor.js:71
-#: wp-admin/js/nav-menu.js:1058
+#: wp-includes/class-wp-editor.php:1363 admin/js/widgets.js:98
+#: admin/js/post.js:505 admin/js/theme-plugin-editor.js:71
+#: admin/js/nav-menu.js:1058
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Perubahan yang Anda buat akan hilang jika Anda meninggalkan laman ini."
 
@@ -14281,7 +14281,7 @@ msgstr "%1$s %2$s"
 #. translators: 1: Month, 2: Year.
 #. translators: 1: Month name, 2: 4-digit year.
 #: wp-includes/media.php:4292 wp-includes/general-template.php:2031
-#: wp-admin/includes/class-wp-list-table.php:665
+#: admin/includes/class-wp-list-table.php:665
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
@@ -14402,8 +14402,8 @@ msgstr "%s adalah opsi WP yang terlindungi dan tidak bisa dimodifikasi"
 
 #. translators: Used between list items, there is a space after the comma.
 #: wp-includes/class-wp-theme.php:899
-#: wp-admin/includes/class-wp-media-list-table.php:615
-#: wp-admin/includes/class-wp-posts-list-table.php:1235
+#: admin/includes/class-wp-media-list-table.php:615
+#: admin/includes/class-wp-posts-list-table.php:1235
 msgid ", "
 msgstr ", "
 
@@ -14707,11 +14707,11 @@ msgstr "(Sunting)"
 #. translators: Publish box date string. 1: Date, 2: Time.
 #: wp-includes/class-walker-comment.php:343
 #: wp-includes/class-walker-comment.php:443
-#: wp-admin/includes/meta-boxes.php:216 wp-admin/includes/meta-boxes.php:408
-#: wp-admin/includes/class-wp-comments-list-table.php:957
-#: wp-admin/includes/class-wp-posts-list-table.php:1094
-#: wp-admin/comment.php:217 wp-admin/edit-form-advanced.php:173
-#: wp-admin/edit-form-comment.php:126
+#: admin/includes/meta-boxes.php:216 admin/includes/meta-boxes.php:408
+#: admin/includes/class-wp-comments-list-table.php:957
+#: admin/includes/class-wp-posts-list-table.php:1094
+#: admin/comment.php:217 admin/edit-form-advanced.php:173
+#: admin/edit-form-comment.php:126
 msgid "%1$s at %2$s"
 msgstr "%1$s pukul %2$s"
 
@@ -14762,8 +14762,8 @@ msgstr "Komentar untuk %s"
 #: wp-includes/script-loader.php:814 wp-includes/script-loader.php:1120
 #: wp-includes/class-wp-customize-nav-menus.php:335
 #: wp-includes/js/dist/components.js:43640
-#: wp-includes/js/dist/block-editor.js:20556 wp-admin/includes/nav-menu.php:596
-#: wp-admin/includes/nav-menu.php:886 wp-admin/js/nav-menu.js:1261
+#: wp-includes/js/dist/block-editor.js:20556 admin/includes/nav-menu.php:596
+#: admin/includes/nav-menu.php:886 admin/js/nav-menu.js:1261
 msgid "No results found."
 msgstr "Tak ditemukan hasil apapun."
 
@@ -14780,9 +14780,9 @@ msgstr "&laquo; Laman Sebelumnya"
 #: wp-includes/js/dist/components.js:27063
 #: wp-includes/js/dist/components.js:44409
 #: wp-includes/js/dist/components.js:44428
-#: wp-includes/js/dist/block-editor.js:32971 wp-admin/export.php:187
-#: wp-admin/export.php:199 wp-admin/export.php:224 wp-admin/export.php:246
-#: wp-admin/export.php:271
+#: wp-includes/js/dist/block-editor.js:32971 admin/export.php:187
+#: admin/export.php:199 admin/export.php:224 admin/export.php:246
+#: admin/export.php:271
 msgid "All"
 msgstr "Semua"
 
@@ -14794,7 +14794,7 @@ msgstr "Maaf, komentar untuk item ini telah ditutup."
 
 #: wp-includes/admin-bar.php:973 wp-includes/class-wp-customize-widgets.php:415
 #: wp-includes/functions.php:4743 wp-includes/js/dist/blocks.js:6104
-#: wp-includes/js/dist/core-data.js:3087 wp-admin/widgets.php:49
+#: wp-includes/js/dist/core-data.js:3087 admin/widgets.php:49
 msgid "Widgets"
 msgstr "Widget"
 
@@ -14805,8 +14805,8 @@ msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
 msgstr[0] "Terkonfirmasi <span class=\"count\">(%s)</span>"
 msgstr[1] "Terkonfirmasi <span class=\"count\">(%s)</span>"
 
-#: wp-includes/comment-template.php:2383 wp-admin/user-new.php:524
-#: wp-admin/user-edit.php:541
+#: wp-includes/comment-template.php:2383 admin/user-new.php:524
+#: admin/user-edit.php:541
 msgid "Website"
 msgstr "Situs Web"
 
@@ -14842,51 +14842,51 @@ msgstr "Judul:"
 #: wp-includes/js/dist/block-editor.js:9305
 #: wp-includes/js/dist/block-editor.js:9569
 #: wp-includes/js/dist/block-library.js:22825
-#: wp-includes/js/dist/block-library.js:26854 wp-admin/js/color-picker.js:149
+#: wp-includes/js/dist/block-library.js:26854 admin/js/color-picker.js:149
 msgid "Default"
 msgstr "Standar"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:84
 #: wp-includes/media-template.php:1155 wp-includes/class-wp-editor.php:1324
-#: wp-includes/js/dist/block-editor.js:29977 wp-admin/options-media.php:61
+#: wp-includes/js/dist/block-editor.js:29977 admin/options-media.php:61
 msgid "Height"
 msgstr "Tinggi"
 
-#: wp-includes/class-wp-xmlrpc-server.php:560 wp-admin/options-general.php:344
-#: wp-admin/options-general.php:346
+#: wp-includes/class-wp-xmlrpc-server.php:560 admin/options-general.php:344
+#: admin/options-general.php:346
 msgid "Time Format"
 msgstr "Format Waktu"
 
-#: wp-includes/class-wp-xmlrpc-server.php:555 wp-admin/options-general.php:306
-#: wp-admin/options-general.php:308
+#: wp-includes/class-wp-xmlrpc-server.php:555 admin/options-general.php:306
+#: admin/options-general.php:308
 msgid "Date Format"
 msgstr "Format Tanggal"
 
 #: newlogin.php:986 wp-includes/comment-template.php:2369
-#: wp-admin/includes/class-wp-users-list-table.php:363
-#: wp-admin/includes/template.php:481 wp-admin/comment.php:175
-#: wp-admin/user-new.php:415 wp-admin/user-new.php:511
-#: wp-admin/user-edit.php:506 wp-admin/edit-form-comment.php:53
-#: wp-admin/includes/class-wp-ms-users-list-table.php:199
-#: wp-admin/network/user-new.php:132 wp-admin/network/site-users.php:341
+#: admin/includes/class-wp-users-list-table.php:363
+#: admin/includes/template.php:481 admin/comment.php:175
+#: admin/user-new.php:415 admin/user-new.php:511
+#: admin/user-edit.php:506 admin/edit-form-comment.php:53
+#: admin/includes/class-wp-ms-users-list-table.php:199
+#: admin/network/user-new.php:132 admin/network/site-users.php:341
 msgid "Email"
 msgstr "Email"
 
 #: wp-includes/class-wp-xmlrpc-server.php:545
 #: wp-includes/class-wp-customize-manager.php:5103
-#: wp-includes/js/dist/core-data.js:3049 wp-admin/options-general.php:64
-#: wp-admin/install.php:114 wp-admin/network/site-new.php:224
+#: wp-includes/js/dist/core-data.js:3049 admin/options-general.php:64
+#: admin/install.php:114 admin/network/site-new.php:224
 msgid "Site Title"
 msgstr "Judul Situs"
 
-#: wp-includes/deprecated.php:2707 wp-admin/network/settings.php:314
+#: wp-includes/deprecated.php:2707 admin/network/settings.php:314
 msgid "First Post"
 msgstr "Pos Pertama"
 
 #. translators: accessibility text for the settings landmark region.
 #: wp-includes/admin-bar.php:564 wp-includes/js/dist/edit-post.js:7291
-#: wp-includes/js/dist/edit-post.js:9317 wp-admin/includes/ms.php:1071
-#: wp-admin/options.php:21 wp-admin/menu.php:292 wp-admin/network/menu.php:109
+#: wp-includes/js/dist/edit-post.js:9317 admin/includes/ms.php:1071
+#: admin/options.php:21 admin/menu.php:292 admin/network/menu.php:109
 msgid "Settings"
 msgstr "Pengaturan"
 
@@ -14895,34 +14895,34 @@ msgctxt "page"
 msgid "Add New"
 msgstr "Tambah Baru"
 
-#: wp-includes/admin-bar.php:484 wp-admin/my-sites.php:37 wp-admin/menu.php:29
+#: wp-includes/admin-bar.php:484 admin/my-sites.php:37 admin/menu.php:29
 msgid "My Sites"
 msgstr "Situs Milik Saya"
 
 #: wp-includes/admin-bar.php:542 wp-includes/admin-bar.php:958
 #: wp-includes/customize/class-wp-customize-themes-panel.php:77
-#: wp-admin/includes/ms.php:1066 wp-admin/update-core.php:591
-#: wp-admin/update-core.php:598 wp-admin/themes.php:248 wp-admin/menu.php:189
-#: wp-admin/network/themes.php:336 wp-admin/network/menu.php:78
+#: admin/includes/ms.php:1066 admin/update-core.php:591
+#: admin/update-core.php:598 admin/themes.php:248 admin/menu.php:189
+#: admin/network/themes.php:336 admin/network/menu.php:78
 msgid "Themes"
 msgstr "Tema"
 
 #. translators: Sites menu item.
 #: wp-includes/admin-bar.php:520
-#: wp-admin/includes/class-wp-ms-users-list-table.php:201
-#: wp-admin/network/menu.php:51 wp-admin/network/sites.php:20
-#: wp-admin/network/sites.php:366
+#: admin/includes/class-wp-ms-users-list-table.php:201
+#: admin/network/menu.php:51 admin/network/sites.php:20
+#: admin/network/sites.php:366
 msgid "Sites"
 msgstr "Situs"
 
-#: wp-signup.php:206 wp-admin/includes/class-wp-links-list-table.php:261
-#: wp-admin/includes/class-wp-debug-data.php:102
-#: wp-admin/includes/class-wp-debug-data.php:107
-#: wp-admin/includes/class-wp-debug-data.php:112
-#: wp-admin/includes/class-wp-debug-data.php:117
-#: wp-admin/includes/class-wp-debug-data.php:760
-#: wp-admin/includes/class-wp-debug-data.php:769
-#: wp-admin/includes/class-wp-debug-data.php:778
+#: wp-signup.php:206 admin/includes/class-wp-links-list-table.php:261
+#: admin/includes/class-wp-debug-data.php:102
+#: admin/includes/class-wp-debug-data.php:107
+#: admin/includes/class-wp-debug-data.php:112
+#: admin/includes/class-wp-debug-data.php:117
+#: admin/includes/class-wp-debug-data.php:760
+#: admin/includes/class-wp-debug-data.php:769
+#: admin/includes/class-wp-debug-data.php:778
 msgid "Yes"
 msgstr "Ya"
 
@@ -14931,8 +14931,8 @@ msgid "Edit Category"
 msgstr "Sunting Kategori"
 
 #: newlogin.php:1285 newlogin.php:1329 wp-includes/general-template.php:520
-#: wp-admin/install.php:219 wp-admin/install.php:439
-#: wp-admin/includes/network.php:680
+#: admin/install.php:219 admin/install.php:439
+#: admin/includes/network.php:680
 msgid "Log In"
 msgstr "Log Masuk"
 
@@ -14943,25 +14943,25 @@ msgstr "Indikator kekuatan"
 #. translators: Network menu item.
 #: wp-includes/admin-bar.php:401 wp-includes/admin-bar.php:510
 #: wp-includes/admin-bar.php:609 wp-includes/deprecated.php:2828
-#: wp-includes/deprecated.php:2830 wp-admin/my-sites.php:127
-#: wp-admin/index.php:32 wp-admin/user/menu.php:10 wp-admin/menu.php:24
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:695
-#: wp-admin/network/site-info.php:137 wp-admin/network/index.php:20
-#: wp-admin/network/site-users.php:224 wp-admin/network/site-themes.php:179
-#: wp-admin/network/site-settings.php:94 wp-admin/network/menu.php:11
+#: wp-includes/deprecated.php:2830 admin/my-sites.php:127
+#: admin/index.php:32 admin/user/menu.php:10 admin/menu.php:24
+#: admin/includes/class-wp-ms-sites-list-table.php:695
+#: admin/network/site-info.php:137 admin/network/index.php:20
+#: admin/network/site-users.php:224 admin/network/site-themes.php:179
+#: admin/network/site-settings.php:94 admin/network/menu.php:11
 msgid "Dashboard"
 msgstr "Dasbor"
 
-#: wp-includes/class-wp-widget.php:143 wp-admin/includes/widgets.php:276
-#: wp-admin/widgets.php:308
+#: wp-includes/class-wp-widget.php:143 admin/includes/widgets.php:276
+#: admin/widgets.php:308
 msgid "There are no options for this widget."
 msgstr "Tak ada opsi untuk widget ini."
 
-#: wp-includes/user.php:2915 wp-admin/includes/user.php:207
+#: wp-includes/user.php:2915 admin/includes/user.php:207
 msgid "<strong>Error</strong>: This email is already registered. Please choose another one."
 msgstr "<strong>Eror</strong>: E-mail berikut telah terdaftar. Silakan pilih yang lain."
 
-#: wp-includes/user.php:2893 wp-admin/includes/user.php:146
+#: wp-includes/user.php:2893 admin/includes/user.php:146
 msgid "<strong>Error</strong>: Please enter a username."
 msgstr "<strong>Eror</strong>: Mohon masukkan nama pengguna."
 
@@ -14970,7 +14970,7 @@ msgstr "<strong>Eror</strong>: Mohon masukkan nama pengguna."
 #: wp-includes/js/dist/block-editor.js:29966
 #: wp-includes/js/dist/block-library.js:13701
 #: wp-includes/js/dist/block-library.js:22096
-#: wp-includes/js/dist/format-library.js:786 wp-admin/options-media.php:58
+#: wp-includes/js/dist/format-library.js:786 admin/options-media.php:58
 msgid "Width"
 msgstr "Lebar"
 
@@ -15028,7 +15028,7 @@ msgstr "Hitam"
 #: wp-includes/customize/class-wp-customize-themes-panel.php:83
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:82
 #: wp-includes/js/dist/edit-post.js:3214
-#: wp-admin/includes/class-wp-screen.php:976 wp-admin/customize.php:229
+#: admin/includes/class-wp-screen.php:976 admin/customize.php:229
 msgid "Help"
 msgstr "Bantuan"
 
@@ -15038,10 +15038,10 @@ msgstr "Bantuan"
 #: wp-includes/blocks/latest-posts.php:102 wp-includes/media.php:3962
 #: wp-includes/js/dist/editor.js:10201 wp-includes/js/dist/editor.js:12470
 #: wp-includes/js/dist/edit-post.js:7212
-#: wp-includes/js/dist/block-library.js:19340 wp-admin/includes/media.php:3315
-#: wp-admin/includes/revision.php:59 wp-admin/includes/revision.php:62
-#: wp-admin/includes/template.php:1984 wp-admin/includes/ajax-actions.php:2185
-#: wp-admin/js/inline-edit-post.js:201
+#: wp-includes/js/dist/block-library.js:19340 admin/includes/media.php:3315
+#: admin/includes/revision.php:59 admin/includes/revision.php:62
+#: admin/includes/template.php:1984 admin/includes/ajax-actions.php:2185
+#: admin/js/inline-edit-post.js:201
 msgid "(no title)"
 msgstr "(tanpa judul)"
 
@@ -15049,7 +15049,7 @@ msgstr "(tanpa judul)"
 msgid "New Post"
 msgstr "Pos Baru"
 
-#: wp-includes/post.php:77 wp-admin/media.php:48
+#: wp-includes/post.php:77 admin/media.php:48
 msgid "Edit Media"
 msgstr "Sunting Media"
 
@@ -15061,9 +15061,9 @@ msgstr "Laman Baru"
 #: wp-includes/js/dist/block-editor.js:33210
 #: wp-includes/js/dist/edit-post.js:4986
 #: wp-includes/js/dist/block-library.js:25782
-#: wp-admin/includes/template.php:1949 wp-admin/theme-editor.php:238
-#: wp-admin/plugin-editor.php:235 wp-admin/nav-menus.php:893
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:515
+#: admin/includes/template.php:1949 admin/theme-editor.php:238
+#: admin/plugin-editor.php:235 admin/nav-menus.php:893
+#: admin/includes/class-wp-ms-themes-list-table.php:515
 msgid "Select"
 msgstr "Pilih"
 
@@ -15076,15 +15076,15 @@ msgstr "Pilih"
 #: wp-includes/js/dist/edit-post.js:3832 wp-includes/js/dist/edit-post.js:4168
 #: wp-includes/js/dist/edit-post.js:4498
 #: wp-includes/js/dist/block-library.js:25450
-#: wp-admin/includes/class-wp-theme-install-list-table.php:385
-#: wp-admin/theme-install.php:406
+#: admin/includes/class-wp-theme-install-list-table.php:385
+#: admin/theme-install.php:406
 msgid "Close"
 msgstr "Tutup"
 
 #: wp-includes/widgets/class-wp-widget-pages.php:30
 #: wp-includes/widgets/class-wp-widget-pages.php:43
 #: wp-includes/post-template.php:1273 wp-includes/theme-compat/sidebar.php:117
-#: wp-admin/export.php:235
+#: admin/export.php:235
 msgid "Pages"
 msgstr "Laman"
 
@@ -15096,8 +15096,8 @@ msgid "Email: %s"
 msgstr "Email: %s"
 
 #: wp-includes/widgets/class-wp-widget-links.php:29
-#: wp-admin/link-manager.php:49
-#: wp-admin/includes/class-wp-terms-list-table.php:193 wp-admin/menu.php:80
+#: admin/link-manager.php:49
+#: admin/includes/class-wp-terms-list-table.php:193 admin/menu.php:80
 msgid "Links"
 msgstr "Tautan"
 
@@ -15116,27 +15116,27 @@ msgstr "Gambar"
 #. translators: %s: Theme author link.
 #. translators: %s: Plugin author.
 #: wp-includes/js/dist/block-directory.js:2172
-#: wp-admin/includes/class-wp-debug-data.php:899
-#: wp-admin/includes/class-wp-debug-data.php:946
-#: wp-admin/includes/class-wp-debug-data.php:1269
-#: wp-admin/includes/class-wp-themes-list-table.php:263
-#: wp-admin/includes/theme.php:813
-#: wp-admin/includes/class-wp-plugins-list-table.php:1030
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:511
-#: wp-admin/includes/class-wp-theme-install-list-table.php:360
-#: wp-admin/includes/class-wp-theme-install-list-table.php:492
-#: wp-admin/themes.php:519 wp-admin/themes.php:866 wp-admin/themes.php:935
-#: wp-admin/theme-install.php:338 wp-admin/theme-install.php:437
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:717
+#: admin/includes/class-wp-debug-data.php:899
+#: admin/includes/class-wp-debug-data.php:946
+#: admin/includes/class-wp-debug-data.php:1269
+#: admin/includes/class-wp-themes-list-table.php:263
+#: admin/includes/theme.php:813
+#: admin/includes/class-wp-plugins-list-table.php:1030
+#: admin/includes/class-wp-plugin-install-list-table.php:511
+#: admin/includes/class-wp-theme-install-list-table.php:360
+#: admin/includes/class-wp-theme-install-list-table.php:492
+#: admin/themes.php:519 admin/themes.php:866 admin/themes.php:935
+#: admin/theme-install.php:338 admin/theme-install.php:437
+#: admin/includes/class-wp-ms-themes-list-table.php:717
 msgid "By %s"
 msgstr "Oleh %s"
 
 #: wp-includes/js/dist/block-library.js:24707
-#: wp-admin/includes/class-wp-debug-data.php:69
-#: wp-admin/includes/class-wp-debug-data.php:1084
-#: wp-admin/includes/class-wp-debug-data.php:1179
-#: wp-admin/includes/class-theme-installer-skin.php:240
-#: wp-admin/includes/class-plugin-installer-skin.php:217
+#: admin/includes/class-wp-debug-data.php:69
+#: admin/includes/class-wp-debug-data.php:1084
+#: admin/includes/class-wp-debug-data.php:1179
+#: admin/includes/class-theme-installer-skin.php:240
+#: admin/includes/class-plugin-installer-skin.php:217
 msgid "Version"
 msgstr "Versi"
 
@@ -15147,13 +15147,13 @@ msgstr "Versi"
 #: wp-includes/js/dist/block-editor.js:21110
 #: wp-includes/js/dist/block-library.js:22182
 #: wp-includes/js/dist/block-library.js:22183
-#: wp-admin/includes/class-wp-media-list-table.php:300
-#: wp-admin/includes/theme-install.php:126
-#: wp-admin/includes/class-wp-theme-install-list-table.php:59
-#: wp-admin/includes/template.php:1940 wp-admin/includes/template.php:1943
-#: wp-admin/includes/nav-menu.php:523 wp-admin/includes/nav-menu.php:581
-#: wp-admin/includes/nav-menu.php:584 wp-admin/includes/nav-menu.php:809
-#: wp-admin/includes/nav-menu.php:871 wp-admin/includes/nav-menu.php:874
+#: admin/includes/class-wp-media-list-table.php:300
+#: admin/includes/theme-install.php:126
+#: admin/includes/class-wp-theme-install-list-table.php:59
+#: admin/includes/template.php:1940 admin/includes/template.php:1943
+#: admin/includes/nav-menu.php:523 admin/includes/nav-menu.php:581
+#: admin/includes/nav-menu.php:584 admin/includes/nav-menu.php:809
+#: admin/includes/nav-menu.php:871 admin/includes/nav-menu.php:874
 msgid "Search"
 msgstr "Cari"
 
@@ -15161,9 +15161,9 @@ msgstr "Cari"
 #: wp-includes/widgets/class-wp-widget-text.php:538
 #: wp-includes/widgets/class-wp-widget-text.php:553
 #: wp-includes/class-wp-customize-manager.php:4272
-#: wp-includes/js/wp-pointer.js:20 wp-admin/includes/file.php:340
-#: wp-admin/includes/dashboard.php:1658 wp-admin/async-upload.php:100
-#: wp-admin/index.php:164
+#: wp-includes/js/wp-pointer.js:20 admin/includes/file.php:340
+#: admin/includes/dashboard.php:1658 admin/async-upload.php:100
+#: admin/index.php:164
 msgid "Dismiss"
 msgstr "Selesai"
 
@@ -15173,8 +15173,8 @@ msgstr "Seluruh Kategori"
 
 #: wp-includes/class-wp-customize-control.php:637
 #: wp-includes/class-wp-customize-nav-menus.php:1227
-#: wp-includes/js/dist/edit-post.js:4954 wp-admin/includes/meta-boxes.php:554
-#: wp-admin/includes/meta-boxes.php:1145
+#: wp-includes/js/dist/edit-post.js:4954 admin/includes/meta-boxes.php:554
+#: admin/includes/meta-boxes.php:1145
 msgid "Add"
 msgstr "Tambah"
 
@@ -15184,36 +15184,36 @@ msgstr "Tambahkan atau buang tag"
 
 #: newlogin.php:602 wp-includes/script-loader.php:1117
 #: wp-includes/media.php:4360 wp-includes/js/dist/editor.js:8868
-#: wp-admin/includes/class-wp-plugins-list-table.php:610
-#: wp-admin/includes/meta-boxes.php:370 wp-admin/includes/meta-boxes.php:371
-#: wp-admin/includes/meta-boxes.php:452 wp-admin/includes/meta-boxes.php:453
-#: wp-admin/includes/class-wp-theme-install-list-table.php:309
-#: wp-admin/includes/class-wp-theme-install-list-table.php:467
-#: wp-admin/includes/template.php:647
-#: wp-admin/includes/class-wp-posts-list-table.php:1944
-#: wp-admin/includes/class-wp-posts-list-table.php:1947
-#: wp-admin/edit-tag-form.php:274 wp-admin/edit-form-comment.php:208
-#: wp-admin/js/post.js:772 wp-admin/js/post.js:795
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:476
+#: admin/includes/class-wp-plugins-list-table.php:610
+#: admin/includes/meta-boxes.php:370 admin/includes/meta-boxes.php:371
+#: admin/includes/meta-boxes.php:452 admin/includes/meta-boxes.php:453
+#: admin/includes/class-wp-theme-install-list-table.php:309
+#: admin/includes/class-wp-theme-install-list-table.php:467
+#: admin/includes/template.php:647
+#: admin/includes/class-wp-posts-list-table.php:1944
+#: admin/includes/class-wp-posts-list-table.php:1947
+#: admin/edit-tag-form.php:274 admin/edit-form-comment.php:208
+#: admin/js/post.js:772 admin/js/post.js:795
+#: admin/includes/class-wp-ms-themes-list-table.php:476
 msgid "Update"
 msgstr "Perbarui"
 
-#: wp-includes/js/dist/editor.js:9159 wp-admin/includes/meta-boxes.php:178
-#: wp-admin/includes/meta-boxes.php:195 wp-admin/js/post.js:874
+#: wp-includes/js/dist/editor.js:9159 admin/includes/meta-boxes.php:178
+#: admin/includes/meta-boxes.php:195 admin/js/post.js:874
 msgid "Public"
 msgstr "Publik"
 
 #: wp-includes/post.php:969 wp-includes/post.php:989
-#: wp-includes/js/dist/editor.js:9163 wp-admin/includes/meta-boxes.php:169
-#: wp-admin/includes/meta-boxes.php:204
-#: wp-admin/includes/class-wp-posts-list-table.php:1648
-#: wp-admin/includes/class-wp-posts-list-table.php:1848 wp-admin/js/post.js:877
+#: wp-includes/js/dist/editor.js:9163 admin/includes/meta-boxes.php:169
+#: admin/includes/meta-boxes.php:204
+#: admin/includes/class-wp-posts-list-table.php:1648
+#: admin/includes/class-wp-posts-list-table.php:1848 admin/js/post.js:877
 msgid "Private"
 msgstr "Privat"
 
 #: wp-includes/class-wp-editor.php:1177 wp-includes/js/dist/components.js:30395
-#: wp-admin/includes/meta-boxes.php:154 wp-admin/includes/meta-boxes.php:207
-#: wp-admin/includes/template.php:861 wp-admin/js/post.js:997
+#: admin/includes/meta-boxes.php:154 admin/includes/meta-boxes.php:207
+#: admin/includes/template.php:861 admin/js/post.js:997
 msgid "OK"
 msgstr "Oke"
 
@@ -15226,14 +15226,14 @@ msgstr "URL Gambar"
 #: wp-includes/class-wp-editor.php:1229
 #: wp-includes/js/dist/block-editor.js:32688 wp-includes/js/dist/blocks.js:6098
 #: wp-includes/js/dist/core-data.js:3062
-#: wp-admin/includes/class-wp-privacy-policy-content.php:500
-#: wp-admin/includes/media.php:2569 wp-admin/export.php:291
-#: wp-admin/menu.php:66 wp-admin/menu.php:297
+#: admin/includes/class-wp-privacy-policy-content.php:500
+#: admin/includes/media.php:2569 admin/export.php:291
+#: admin/menu.php:66 admin/menu.php:297
 msgid "Media"
 msgstr "Media"
 
 #: wp-includes/media-template.php:394 wp-includes/media-template.php:669
-#: wp-admin/includes/media.php:1674 wp-admin/includes/media.php:3122
+#: admin/includes/media.php:1674 admin/includes/media.php:3122
 msgid "Edit Image"
 msgstr "Sunting Gambar"
 
@@ -15241,12 +15241,12 @@ msgstr "Sunting Gambar"
 #: wp-includes/media-template.php:502 wp-includes/media-template.php:585
 #: wp-includes/media-template.php:731 wp-includes/media-template.php:1022
 #: wp-includes/media-template.php:1085 wp-includes/class-wp-editor.php:1326
-#: wp-admin/includes/media.php:1395 wp-admin/includes/media.php:3234
+#: admin/includes/media.php:1395 admin/includes/media.php:3234
 msgid "Caption"
 msgstr "Keterangan"
 
 #: wp-includes/media-template.php:768 wp-includes/class-wp-editor.php:1327
-#: wp-admin/includes/media.php:1480 wp-admin/includes/media.php:2961
+#: admin/includes/media.php:1480 admin/includes/media.php:2961
 msgid "Alignment"
 msgstr "Perataan"
 
@@ -15254,15 +15254,15 @@ msgstr "Perataan"
 #: wp-includes/media-template.php:843 wp-includes/media-template.php:922
 #: wp-includes/media-template.php:1114
 #: wp-includes/js/dist/block-library.js:26673
-#: wp-includes/js/dist/block-library.js:26674 wp-admin/includes/media.php:1219
+#: wp-includes/js/dist/block-library.js:26674 admin/includes/media.php:1219
 msgid "Size"
 msgstr "Ukuran"
 
 #: wp-includes/media-template.php:857 wp-includes/media-template.php:937
 #: wp-includes/media-template.php:1128 wp-includes/media.php:4005
 #: wp-includes/js/dist/block-editor.js:12001
-#: wp-admin/includes/class-custom-background.php:600
-#: wp-admin/includes/media.php:1171 wp-admin/edit-form-blocks.php:241
+#: admin/includes/class-custom-background.php:600
+#: admin/includes/media.php:1171 admin/edit-form-blocks.php:241
 msgid "Full Size"
 msgstr "Ukuran Penuh"
 
@@ -15271,8 +15271,8 @@ msgstr "Ukuran Penuh"
 #: wp-includes/js/dist/components.js:36368
 #: wp-includes/js/dist/block-editor.js:9271
 #: wp-includes/js/dist/block-editor.js:11995
-#: wp-admin/includes/class-custom-background.php:598
-#: wp-admin/includes/media.php:1169 wp-admin/edit-form-blocks.php:239
+#: admin/includes/class-custom-background.php:598
+#: admin/includes/media.php:1169 admin/edit-form-blocks.php:239
 msgid "Medium"
 msgstr "Sedang"
 
@@ -15280,8 +15280,8 @@ msgstr "Sedang"
 #: wp-includes/media-template.php:1102
 #: wp-includes/customize/class-wp-customize-background-position-control.php:65
 #: wp-includes/class-wp-editor.php:1331 wp-includes/js/dist/components.js:27067
-#: wp-admin/includes/class-custom-background.php:387
-#: wp-admin/includes/media.php:1128 wp-admin/includes/media.php:2970
+#: admin/includes/class-custom-background.php:387
+#: admin/includes/media.php:1128 admin/includes/media.php:2970
 msgid "Right"
 msgstr "Kanan"
 
@@ -15289,8 +15289,8 @@ msgstr "Kanan"
 #: wp-includes/media-template.php:1099
 #: wp-includes/customize/class-wp-customize-background-position-control.php:61
 #: wp-includes/class-wp-editor.php:1330
-#: wp-admin/includes/class-custom-background.php:383
-#: wp-admin/includes/media.php:1127 wp-admin/includes/media.php:2968
+#: admin/includes/class-custom-background.php:383
+#: admin/includes/media.php:1127 admin/includes/media.php:2968
 msgid "Center"
 msgstr "Tengah"
 
@@ -15299,18 +15299,18 @@ msgstr "Tengah"
 #: wp-includes/customize/class-wp-customize-background-position-control.php:57
 #: wp-includes/class-wp-editor.php:1329 wp-includes/js/dist/components.js:27066
 #: wp-includes/js/dist/components.js:37888
-#: wp-admin/includes/class-custom-background.php:379
-#: wp-admin/includes/media.php:1126 wp-admin/includes/media.php:2966
+#: admin/includes/class-custom-background.php:379
+#: admin/includes/media.php:1126 admin/includes/media.php:2966
 msgid "Left"
 msgstr "Kiri"
 
 #: wp-includes/media-template.php:404 wp-includes/media-template.php:609
-#: wp-admin/includes/media.php:934
+#: admin/includes/media.php:934
 msgid "Saved."
 msgstr "Tersimpan."
 
 #: wp-includes/class-wp-editor.php:1390
-#: wp-includes/js/dist/block-library.js:14788 wp-admin/includes/media.php:645
+#: wp-includes/js/dist/block-library.js:14788 admin/includes/media.php:645
 msgid "Add Media"
 msgstr "Tambahkan Media"
 
@@ -15331,55 +15331,55 @@ msgstr "Berkas &#8220;%s&#8221; tidak ditemukan?"
 #: wp-includes/media-template.php:854 wp-includes/media-template.php:934
 #: wp-includes/media-template.php:1125 wp-includes/media.php:4002
 #: wp-includes/js/dist/block-editor.js:11992
-#: wp-admin/includes/class-custom-background.php:597
-#: wp-admin/includes/image-edit.php:234 wp-admin/includes/media.php:1168
-#: wp-admin/edit-form-blocks.php:238
+#: admin/includes/class-custom-background.php:597
+#: admin/includes/image-edit.php:234 admin/includes/media.php:1168
+#: admin/edit-form-blocks.php:238
 msgid "Thumbnail"
 msgstr "Gambar Miniatur"
 
 #: wp-includes/class-wp-editor.php:1175 wp-includes/js/dist/editor.js:6212
-#: wp-admin/includes/image-edit.php:81
+#: admin/includes/image-edit.php:81
 msgid "Redo"
 msgstr "Ulangi"
 
 #: newlogin.php:1309 wp-includes/general-template.php:518
-#: wp-admin/options-writing.php:166 wp-admin/includes/file.php:2211
-#: wp-admin/includes/class-wp-posts-list-table.php:1636
-#: wp-admin/install.php:137 wp-admin/install.php:427 wp-admin/user-new.php:557
-#: wp-admin/setup-config.php:227
+#: admin/options-writing.php:166 admin/includes/file.php:2211
+#: admin/includes/class-wp-posts-list-table.php:1636
+#: admin/install.php:137 admin/install.php:427 admin/user-new.php:557
+#: admin/setup-config.php:227
 msgid "Password"
 msgstr "Sandi"
 
-#: newlogin.php:982 wp-admin/includes/class-wp-users-list-table.php:361
-#: wp-admin/includes/file.php:2210 wp-admin/install.php:118
-#: wp-admin/install.php:423 wp-admin/user-new.php:507
-#: wp-admin/user-edit.php:409 wp-admin/setup-config.php:222
-#: wp-admin/includes/class-wp-ms-users-list-table.php:197
-#: wp-admin/network/user-new.php:128 wp-admin/network/site-users.php:303
-#: wp-admin/network/site-users.php:337
+#: newlogin.php:982 admin/includes/class-wp-users-list-table.php:361
+#: admin/includes/file.php:2210 admin/install.php:118
+#: admin/install.php:423 admin/user-new.php:507
+#: admin/user-edit.php:409 admin/setup-config.php:222
+#: admin/includes/class-wp-ms-users-list-table.php:197
+#: admin/network/user-new.php:128 admin/network/site-users.php:303
+#: admin/network/site-users.php:337
 msgid "Username"
 msgstr "Nama Pengguna"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:30
 #: wp-includes/widgets/class-wp-widget-archives.php:43
 #: wp-includes/blocks/archives.php:27 wp-includes/general-template.php:1662
-#: wp-includes/theme-compat/sidebar.php:119 wp-admin/includes/file.php:26
+#: wp-includes/theme-compat/sidebar.php:119 admin/includes/file.php:26
 msgid "Archives"
 msgstr "Arsip"
 
-#: wp-includes/widgets.php:185 wp-admin/includes/file.php:19
-#: wp-admin/widgets.php:315
+#: wp-includes/widgets.php:185 admin/includes/file.php:19
+#: admin/widgets.php:315
 msgid "Sidebar"
 msgstr "Bilah Sisi"
 
 #. translators: accessibility text for the top bar landmark region.
 #: wp-includes/admin-bar.php:1009 wp-includes/js/dist/edit-post.js:9308
-#: wp-admin/includes/class-custom-image-header.php:73 wp-admin/menu.php:200
+#: admin/includes/class-custom-image-header.php:73 admin/menu.php:200
 msgid "Header"
 msgstr "Tajuk"
 
 #: wp-includes/widgets/class-wp-widget-rss.php:81
-#: wp-admin/includes/dashboard.php:1205
+#: admin/includes/dashboard.php:1205
 msgid "Unknown Feed"
 msgstr "Umpan yang Tidak Diketahui"
 
@@ -15387,25 +15387,25 @@ msgstr "Umpan yang Tidak Diketahui"
 msgid "Number of comments to show:"
 msgstr "Jumlah komentar yang ditunjukkan:"
 
-#: wp-includes/comment-template.php:1120 wp-admin/includes/dashboard.php:838
+#: wp-includes/comment-template.php:1120 admin/includes/dashboard.php:838
 msgid "Trackback"
 msgstr "Lacak balik"
 
-#: wp-includes/comment-template.php:1123 wp-admin/includes/dashboard.php:835
+#: wp-includes/comment-template.php:1123 admin/includes/dashboard.php:835
 msgid "Pingback"
 msgstr "Ping balik"
 
 #: wp-includes/comment-template.php:1677
-#: wp-admin/includes/class-wp-comments-list-table.php:799
-#: wp-admin/includes/dashboard.php:718 wp-admin/js/edit-comments.js:373
-#: wp-admin/js/edit-comments.js:1015
+#: admin/includes/class-wp-comments-list-table.php:799
+#: admin/includes/dashboard.php:718 admin/js/edit-comments.js:373
+#: admin/js/edit-comments.js:1015
 msgid "Reply"
 msgstr "Balas"
 
 #: wp-includes/script-loader.php:1153
 #: wp-includes/class-wp-customize-manager.php:4821
-#: wp-admin/includes/meta-boxes.php:56 wp-admin/includes/dashboard.php:566
-#: wp-admin/js/post.js:830
+#: admin/includes/meta-boxes.php:56 admin/includes/dashboard.php:566
+#: admin/js/post.js:830
 msgid "Save Draft"
 msgstr "Simpan Draf"
 
@@ -15415,7 +15415,7 @@ msgstr "Tag"
 
 #. translators: accessibility text for the content landmark region.
 #: wp-includes/revision.php:33 wp-includes/js/dist/edit-post.js:9311
-#: wp-admin/includes/dashboard.php:557 wp-admin/index.php:102
+#: admin/includes/dashboard.php:557 admin/index.php:102
 msgid "Content"
 msgstr "Konten"
 
@@ -15426,33 +15426,33 @@ msgstr "Konten"
 #: wp-includes/js/dist/block-editor.js:32732
 #: wp-includes/js/dist/edit-post.js:5777
 #: wp-includes/js/dist/block-library.js:5484
-#: wp-admin/includes/image-edit.php:97
-#: wp-admin/includes/class-walker-nav-menu-edit.php:296
-#: wp-admin/includes/meta-boxes.php:155 wp-admin/includes/meta-boxes.php:208
-#: wp-admin/includes/class-wp-terms-list-table.php:686
-#: wp-admin/includes/media.php:1733 wp-admin/includes/media.php:2263
-#: wp-admin/includes/template.php:498 wp-admin/includes/template.php:741
-#: wp-admin/includes/template.php:862 wp-admin/includes/file.php:2303
-#: wp-admin/includes/class-wp-posts-list-table.php:1940
-#: wp-admin/includes/dashboard.php:192 wp-admin/includes/dashboard.php:1335
-#: wp-admin/options-general.php:129 wp-admin/comment.php:244
-#: wp-admin/nav-menus.php:1076 wp-admin/widgets.php:353
-#: wp-admin/widgets.php:356 wp-admin/widgets.php:569 wp-admin/user-edit.php:531
-#: wp-admin/user-edit.php:645 wp-admin/js/post.js:997
-#: wp-admin/network/settings.php:181
+#: admin/includes/image-edit.php:97
+#: admin/includes/class-walker-nav-menu-edit.php:296
+#: admin/includes/meta-boxes.php:155 admin/includes/meta-boxes.php:208
+#: admin/includes/class-wp-terms-list-table.php:686
+#: admin/includes/media.php:1733 admin/includes/media.php:2263
+#: admin/includes/template.php:498 admin/includes/template.php:741
+#: admin/includes/template.php:862 admin/includes/file.php:2303
+#: admin/includes/class-wp-posts-list-table.php:1940
+#: admin/includes/dashboard.php:192 admin/includes/dashboard.php:1335
+#: admin/options-general.php:129 admin/comment.php:244
+#: admin/nav-menus.php:1076 admin/widgets.php:353
+#: admin/widgets.php:356 admin/widgets.php:569 admin/user-edit.php:531
+#: admin/user-edit.php:645 admin/js/post.js:997
+#: admin/network/settings.php:181
 msgid "Cancel"
 msgstr "Batal"
 
 #: wp-includes/admin-bar.php:553 wp-includes/js/dist/edit-post.js:5279
-#: wp-admin/update-core.php:432 wp-admin/update-core.php:445
-#: wp-admin/plugins.php:600 wp-admin/network/settings.php:469
-#: wp-admin/network/menu.php:103
+#: admin/update-core.php:432 admin/update-core.php:445
+#: admin/plugins.php:600 admin/network/settings.php:469
+#: admin/network/menu.php:103
 msgid "Plugins"
 msgstr "Plugin"
 
 #: wp-includes/widgets/class-wp-widget-recent-comments.php:30
 #: wp-includes/widgets/class-wp-widget-recent-comments.php:85
-#: wp-admin/includes/dashboard.php:1051
+#: admin/includes/dashboard.php:1051
 msgid "Recent Comments"
 msgstr "Komentar Terbaru"
 
@@ -15463,26 +15463,26 @@ msgstr "Komentar Terbaru"
 #: wp-includes/js/dist/block-editor.js:23475
 #: wp-includes/js/dist/block-editor.js:33676
 #: wp-includes/js/dist/block-library.js:17294
-#: wp-admin/includes/class-custom-background.php:258
-#: wp-admin/includes/meta-boxes.php:73 wp-admin/includes/post.php:1766
-#: wp-admin/includes/class-custom-image-header.php:509
-#: wp-admin/includes/class-wp-theme-install-list-table.php:337
-#: wp-admin/includes/class-wp-posts-list-table.php:1410
-#: wp-admin/customize.php:203 wp-admin/theme-install.php:366
-#: wp-admin/theme-install.php:379 wp-admin/theme-install.php:389
-#: wp-admin/theme-install.php:396 wp-admin/theme-install.php:532
+#: admin/includes/class-custom-background.php:258
+#: admin/includes/meta-boxes.php:73 admin/includes/post.php:1766
+#: admin/includes/class-custom-image-header.php:509
+#: admin/includes/class-wp-theme-install-list-table.php:337
+#: admin/includes/class-wp-posts-list-table.php:1410
+#: admin/customize.php:203 admin/theme-install.php:366
+#: admin/theme-install.php:379 admin/theme-install.php:389
+#: admin/theme-install.php:396 admin/theme-install.php:532
 msgid "Preview"
 msgstr "Pratinjau"
 
 #: wp-includes/widgets/class-wp-widget-rss.php:33
-#: wp-admin/includes/import.php:214
+#: admin/includes/import.php:214
 msgid "RSS"
 msgstr "RSS"
 
 #: wp-includes/js/dist/block-editor.js:31983
 #: wp-includes/js/dist/block-editor.js:33328
-#: wp-admin/includes/dashboard.php:236 wp-admin/includes/dashboard.php:1332
-#: wp-admin/setup-config.php:252
+#: admin/includes/dashboard.php:236 admin/includes/dashboard.php:1332
+#: admin/setup-config.php:252
 msgid "Submit"
 msgstr "Kirim"
 
@@ -15494,16 +15494,16 @@ msgstr "Anonim"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:57
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
-#: wp-admin/includes/widgets.php:297 wp-admin/js/set-post-thumbnail.js:21
+#: admin/includes/widgets.php:297 admin/js/set-post-thumbnail.js:21
 msgid "Done"
 msgstr "Selesai"
 
-#: wp-includes/admin-bar.php:531 wp-admin/includes/ms.php:859
-#: wp-admin/includes/ms.php:1061 wp-admin/users.php:23 wp-admin/menu.php:253
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:366
-#: wp-admin/network/users.php:32 wp-admin/network/users.php:62
-#: wp-admin/network/users.php:209 wp-admin/network/users.php:271
-#: wp-admin/network/menu.php:55
+#: wp-includes/admin-bar.php:531 admin/includes/ms.php:859
+#: admin/includes/ms.php:1061 admin/users.php:23 admin/menu.php:253
+#: admin/includes/class-wp-ms-sites-list-table.php:366
+#: admin/network/users.php:32 admin/network/users.php:62
+#: admin/network/users.php:209 admin/network/users.php:271
+#: admin/network/menu.php:55
 msgid "Users"
 msgstr "Pengguna"
 
@@ -15532,47 +15532,47 @@ msgstr "Sunting Tag"
 #: wp-includes/deprecated.php:706 wp-includes/js/dist/components.js:36362
 #: wp-includes/js/dist/block-library.js:9304
 #: wp-includes/js/dist/block-library.js:10404
-#: wp-includes/js/dist/block-library.js:25201 wp-admin/edit-tags.php:467
-#: wp-admin/includes/class-wp-debug-data.php:1069
-#: wp-admin/includes/media.php:1125 wp-admin/includes/media.php:1253
-#: wp-admin/includes/media.php:2964 wp-admin/includes/media.php:2980
-#: wp-admin/edit-tag-form.php:173
+#: wp-includes/js/dist/block-library.js:25201 admin/edit-tags.php:467
+#: admin/includes/class-wp-debug-data.php:1069
+#: admin/includes/media.php:1125 admin/includes/media.php:1253
+#: admin/includes/media.php:2964 admin/includes/media.php:2980
+#: admin/edit-tag-form.php:173
 msgid "None"
 msgstr "Tak ada"
 
 #: wp-includes/media-template.php:506 wp-includes/media-template.php:735
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:131
-#: wp-includes/class-wp-editor.php:1208 wp-admin/edit-tags.php:503
-#: wp-admin/includes/class-wp-plugins-list-table.php:463
-#: wp-admin/includes/class-walker-nav-menu-edit.php:224
-#: wp-admin/includes/class-wp-terms-list-table.php:188
-#: wp-admin/includes/media.php:1400 wp-admin/includes/media.php:3251
-#: wp-admin/includes/nav-menu.php:1109 wp-admin/themes.php:585
-#: wp-admin/edit-link-form.php:130 wp-admin/edit-tag-form.php:189
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-includes/class-wp-editor.php:1208 admin/edit-tags.php:503
+#: admin/includes/class-wp-plugins-list-table.php:463
+#: admin/includes/class-walker-nav-menu-edit.php:224
+#: admin/includes/class-wp-terms-list-table.php:188
+#: admin/includes/media.php:1400 admin/includes/media.php:3251
+#: admin/includes/nav-menu.php:1109 admin/themes.php:585
+#: admin/edit-link-form.php:130 admin/edit-tag-form.php:189
+#: admin/includes/class-wp-ms-themes-list-table.php:332
 msgid "Description"
 msgstr "Deskripsi"
 
 #: wp-includes/comment-template.php:2356
 #: wp-includes/js/dist/components.js:30492
 #: wp-includes/js/dist/block-library.js:21530
-#: wp-admin/includes/class-wp-debug-data.php:1075
-#: wp-admin/includes/class-wp-debug-data.php:1170
-#: wp-admin/includes/class-wp-users-list-table.php:362
-#: wp-admin/includes/template.php:476
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:29
-#: wp-admin/user-edit.php:405 wp-admin/edit-form-comment.php:49
-#: wp-admin/includes/class-wp-ms-users-list-table.php:198
+#: admin/includes/class-wp-debug-data.php:1075
+#: admin/includes/class-wp-debug-data.php:1170
+#: admin/includes/class-wp-users-list-table.php:362
+#: admin/includes/template.php:476
+#: admin/includes/class-wp-application-passwords-list-table.php:29
+#: admin/user-edit.php:405 admin/edit-form-comment.php:49
+#: admin/includes/class-wp-ms-users-list-table.php:198
 msgid "Name"
 msgstr "Nama"
 
 #: wp-includes/class-wp-editor.php:1215
-#: wp-includes/js/dist/block-editor.js:34172 wp-admin/edit-link-form.php:34
+#: wp-includes/js/dist/block-editor.js:34172 admin/edit-link-form.php:34
 msgid "Advanced"
 msgstr "Tingkat Lanjut"
 
-#: wp-includes/class-wp-editor.php:1258 wp-admin/includes/meta-boxes.php:1164
-#: wp-admin/edit-link-form.php:32
+#: wp-includes/class-wp-editor.php:1258 admin/includes/meta-boxes.php:1164
+#: admin/edit-link-form.php:32
 msgid "Target"
 msgstr "Target"
 
@@ -15583,23 +15583,23 @@ msgstr "Target"
 #: wp-includes/js/dist/components.js:44414
 #: wp-includes/js/dist/block-library.js:12364
 #: wp-includes/js/dist/block-library.js:12402
-#: wp-admin/includes/class-wp-links-list-table.php:135
-#: wp-admin/edit-link-form.php:31
+#: admin/includes/class-wp-links-list-table.php:135
+#: admin/edit-link-form.php:31
 msgid "Categories"
 msgstr "Kategori"
 
 #: wp-includes/class-wp-editor.php:1247 wp-includes/js/dist/components.js:30569
 #: wp-includes/js/dist/editor.js:6688 wp-includes/js/dist/editor.js:10672
-#: wp-admin/includes/image-edit.php:98 wp-admin/includes/meta-boxes.php:44
-#: wp-admin/includes/meta-boxes.php:398 wp-admin/includes/meta-boxes.php:1046
-#: wp-admin/includes/meta-boxes.php:1458 wp-admin/includes/widgets.php:301
-#: wp-admin/edit-link-form.php:30 wp-admin/edit-form-comment.php:90
-#: wp-admin/js/widgets.js:134
+#: admin/includes/image-edit.php:98 admin/includes/meta-boxes.php:44
+#: admin/includes/meta-boxes.php:398 admin/includes/meta-boxes.php:1046
+#: admin/includes/meta-boxes.php:1458 admin/includes/widgets.php:301
+#: admin/edit-link-form.php:30 admin/edit-form-comment.php:90
+#: admin/js/widgets.js:134
 msgid "Save"
 msgstr "Simpan"
 
 #: wp-includes/script-loader.php:1118 wp-includes/class-wp-editor.php:1884
-#: wp-admin/includes/meta-boxes.php:1089 wp-admin/edit-link-form.php:23
+#: admin/includes/meta-boxes.php:1089 admin/edit-link-form.php:23
 msgid "Add Link"
 msgstr "Tambahkan Tautan"
 
@@ -15615,19 +15615,19 @@ msgstr "Sunting Tautan Kategori"
 msgid "Search Categories"
 msgstr "Cari Kategori"
 
-#: wp-includes/taxonomy.php:130 wp-admin/menu.php:84
+#: wp-includes/taxonomy.php:130 admin/menu.php:84
 msgid "Link Categories"
 msgstr "Kategori Tautan"
 
-#: wp-includes/post.php:109 wp-admin/includes/meta-boxes.php:1451
-#: wp-admin/revision.php:111
+#: wp-includes/post.php:109 admin/includes/meta-boxes.php:1451
+#: admin/revision.php:111
 msgid "Revisions"
 msgstr "Revisi"
 
 #: wp-includes/revision.php:34 wp-includes/js/dist/edit-post.js:4407
 #: wp-includes/js/dist/edit-post.js:6546
 #: wp-includes/js/dist/block-library.js:19118
-#: wp-admin/includes/meta-boxes.php:702 wp-admin/includes/meta-boxes.php:1510
+#: admin/includes/meta-boxes.php:702 admin/includes/meta-boxes.php:1510
 msgid "Excerpt"
 msgstr "Kutipan"
 
@@ -15636,24 +15636,24 @@ msgstr "Kutipan"
 #: wp-includes/class-wp-customize-manager.php:4816
 #: wp-includes/js/dist/editor.js:8873 wp-includes/js/dist/editor.js:9082
 #: wp-includes/js/dist/edit-post.js:6034 wp-includes/js/dist/edit-post.js:9320
-#: wp-admin/includes/meta-boxes.php:358 wp-admin/includes/meta-boxes.php:359
-#: wp-admin/includes/meta-boxes.php:1465 wp-admin/customize.php:189
-#: wp-admin/js/post.js:769
+#: admin/includes/meta-boxes.php:358 admin/includes/meta-boxes.php:359
+#: admin/includes/meta-boxes.php:1465 admin/customize.php:189
+#: admin/js/post.js:769
 msgid "Publish"
 msgstr "Terbitkan"
 
 #. translators: Default privacy policy heading.
 #: wp-includes/comment.php:3669 wp-includes/link-template.php:3135
 #: wp-includes/link-template.php:3198
-#: wp-admin/includes/class-wp-privacy-policy-content.php:487
-#: wp-admin/includes/meta-boxes.php:1558
-#: wp-admin/includes/class-wp-media-list-table.php:346
-#: wp-admin/includes/class-wp-comments-list-table.php:493
-#: wp-admin/includes/file.php:20
-#: wp-admin/includes/class-wp-posts-list-table.php:657
-#: wp-admin/includes/class-wp-posts-list-table.php:1782
-#: wp-admin/edit-comments.php:164 wp-admin/edit-comments.php:225
-#: wp-admin/js/edit-comments.js:221
+#: admin/includes/class-wp-privacy-policy-content.php:487
+#: admin/includes/meta-boxes.php:1558
+#: admin/includes/class-wp-media-list-table.php:346
+#: admin/includes/class-wp-comments-list-table.php:493
+#: admin/includes/file.php:20
+#: admin/includes/class-wp-posts-list-table.php:657
+#: admin/includes/class-wp-posts-list-table.php:1782
+#: admin/edit-comments.php:164 admin/edit-comments.php:225
+#: admin/js/edit-comments.js:221
 msgid "Comments"
 msgstr "Komentar"
 
@@ -15665,17 +15665,17 @@ msgstr "Komentar"
 #: wp-includes/js/dist/block-library.js:5482
 #: wp-includes/js/dist/block-library.js:28090
 #: wp-includes/js/dist/format-library.js:794
-#: wp-admin/includes/class-wp-screen.php:1095
-#: wp-admin/includes/class-wp-list-table.php:509
+#: admin/includes/class-wp-screen.php:1095
+#: admin/includes/class-wp-list-table.php:509
 msgid "Apply"
 msgstr "Terapkan"
 
 #. translators: %s: Number of comments.
 #: wp-includes/class-wp-editor.php:1174 wp-includes/js/dist/editor.js:6267
-#: wp-admin/includes/image-edit.php:80 wp-admin/includes/media.php:1737
-#: wp-admin/includes/template.php:542 wp-admin/includes/template.php:551
-#: wp-admin/edit-comments.php:279 wp-admin/edit-comments.php:290
-#: wp-admin/upload.php:342 wp-admin/upload.php:361 wp-admin/edit.php:433
+#: admin/includes/image-edit.php:80 admin/includes/media.php:1737
+#: admin/includes/template.php:542 admin/includes/template.php:551
+#: admin/edit-comments.php:279 admin/edit-comments.php:290
+#: admin/upload.php:342 admin/upload.php:361 admin/edit.php:433
 msgid "Undo"
 msgstr "Batalkan"
 
@@ -15688,11 +15688,11 @@ msgstr "Hasil Pencarian untuk &#8220;%s&#8221;"
 #. translators: %s: Human-readable time difference.
 #: wp-includes/script-loader.php:369
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:140
-#: wp-admin/includes/class-wp-privacy-requests-table.php:477
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:738
-#: wp-admin/includes/revision.php:245 wp-admin/includes/revision.php:288
-#: wp-admin/includes/class-wp-media-list-table.php:488
-#: wp-admin/includes/plugin-install.php:661
+#: admin/includes/class-wp-privacy-requests-table.php:477
+#: admin/includes/class-wp-plugin-install-list-table.php:738
+#: admin/includes/revision.php:245 admin/includes/revision.php:288
+#: admin/includes/class-wp-media-list-table.php:488
+#: admin/includes/plugin-install.php:661
 msgid "%s ago"
 msgstr "%s lalu"
 
@@ -15705,34 +15705,34 @@ msgstr "%s lalu"
 #: wp-includes/js/dist/edit-post.js:4983 wp-includes/js/dist/edit-post.js:4989
 #: wp-includes/js/dist/edit-post.js:6267
 #: wp-includes/js/dist/block-library.js:25359
-#: wp-admin/includes/class-wp-links-list-table.php:330
-#: wp-admin/includes/class-walker-nav-menu-edit.php:176
-#: wp-admin/includes/meta-boxes.php:134 wp-admin/includes/meta-boxes.php:186
-#: wp-admin/includes/meta-boxes.php:271
-#: wp-admin/includes/class-wp-terms-list-table.php:483
-#: wp-admin/includes/post.php:1489
-#: wp-admin/includes/class-wp-users-list-table.php:454
-#: wp-admin/includes/class-wp-media-list-table.php:691
-#: wp-admin/includes/class-wp-media-list-table.php:739
-#: wp-admin/includes/class-wp-comments-list-table.php:777
-#: wp-admin/includes/class-wp-posts-list-table.php:410
-#: wp-admin/includes/class-wp-posts-list-table.php:1359
-#: wp-admin/includes/dashboard.php:710 wp-admin/comment.php:235
-#: wp-admin/edit-form-comment.php:139
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:694
-#: wp-admin/includes/class-wp-ms-users-list-table.php:396
-#: wp-admin/includes/class-wp-ms-users-list-table.php:510
+#: admin/includes/class-wp-links-list-table.php:330
+#: admin/includes/class-walker-nav-menu-edit.php:176
+#: admin/includes/meta-boxes.php:134 admin/includes/meta-boxes.php:186
+#: admin/includes/meta-boxes.php:271
+#: admin/includes/class-wp-terms-list-table.php:483
+#: admin/includes/post.php:1489
+#: admin/includes/class-wp-users-list-table.php:454
+#: admin/includes/class-wp-media-list-table.php:691
+#: admin/includes/class-wp-media-list-table.php:739
+#: admin/includes/class-wp-comments-list-table.php:777
+#: admin/includes/class-wp-posts-list-table.php:410
+#: admin/includes/class-wp-posts-list-table.php:1359
+#: admin/includes/dashboard.php:710 admin/comment.php:235
+#: admin/edit-form-comment.php:139
+#: admin/includes/class-wp-ms-sites-list-table.php:694
+#: admin/includes/class-wp-ms-users-list-table.php:396
+#: admin/includes/class-wp-ms-users-list-table.php:510
 msgid "Edit"
 msgstr "Sunting"
 
-#: wp-signup.php:210 wp-admin/includes/class-wp-links-list-table.php:263
-#: wp-admin/includes/class-wp-debug-data.php:102
-#: wp-admin/includes/class-wp-debug-data.php:107
-#: wp-admin/includes/class-wp-debug-data.php:112
-#: wp-admin/includes/class-wp-debug-data.php:117
-#: wp-admin/includes/class-wp-debug-data.php:760
-#: wp-admin/includes/class-wp-debug-data.php:769
-#: wp-admin/includes/class-wp-debug-data.php:778
+#: wp-signup.php:210 admin/includes/class-wp-links-list-table.php:263
+#: admin/includes/class-wp-debug-data.php:102
+#: admin/includes/class-wp-debug-data.php:107
+#: admin/includes/class-wp-debug-data.php:112
+#: admin/includes/class-wp-debug-data.php:117
+#: admin/includes/class-wp-debug-data.php:760
+#: admin/includes/class-wp-debug-data.php:769
+#: admin/includes/class-wp-debug-data.php:778
 msgid "No"
 msgstr "Tidak"
 
@@ -15742,7 +15742,7 @@ msgstr "Yakinkah Anda ingin melakukan ini?"
 
 #. translators: Field name in comment form.
 #: wp-includes/comment-template.php:1117 wp-includes/comment-template.php:2435
-#: wp-admin/comment.php:232
+#: admin/comment.php:232
 msgctxt "noun"
 msgid "Comment"
 msgstr "Komentar"
@@ -15760,35 +15760,35 @@ msgstr "Komentar"
 #: wp-includes/js/dist/block-editor.js:30866
 #: wp-includes/js/dist/block-editor.js:32492
 #: wp-includes/js/dist/block-library.js:16740
-#: wp-admin/includes/class-wp-links-list-table.php:134
-#: wp-admin/includes/class-walker-nav-menu-edit.php:187
-#: wp-admin/includes/media.php:2937 wp-admin/includes/template.php:486
-#: wp-admin/includes/nav-menu.php:301 wp-admin/comment.php:181
-#: wp-admin/edit-form-comment.php:59
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:363
+#: admin/includes/class-wp-links-list-table.php:134
+#: admin/includes/class-walker-nav-menu-edit.php:187
+#: admin/includes/media.php:2937 admin/includes/template.php:486
+#: admin/includes/nav-menu.php:301 admin/comment.php:181
+#: admin/edit-form-comment.php:59
+#: admin/includes/class-wp-ms-sites-list-table.php:363
 msgid "URL"
 msgstr "URL"
 
 #: wp-includes/class-wp-editor.php:1209 wp-includes/theme-compat/sidebar.php:29
 #: wp-includes/js/dist/components.js:44427 wp-includes/js/dist/editor.js:7548
 #: wp-includes/js/dist/editor.js:7602
-#: wp-admin/includes/class-wp-debug-data.php:1089
-#: wp-admin/includes/class-wp-debug-data.php:1184
-#: wp-admin/includes/class-theme-installer-skin.php:241
-#: wp-admin/includes/class-plugin-installer-skin.php:218
-#: wp-admin/includes/meta-boxes.php:906 wp-admin/includes/meta-boxes.php:1567
-#: wp-admin/includes/class-wp-media-list-table.php:315
-#: wp-admin/includes/class-wp-comments-list-table.php:461
-#: wp-admin/includes/theme-install.php:104
-#: wp-admin/includes/plugin-install.php:334
-#: wp-admin/includes/class-wp-post-comments-list-table.php:26
-#: wp-admin/includes/class-wp-posts-list-table.php:623
-#: wp-admin/includes/class-wp-posts-list-table.php:1618
-#: wp-admin/comment.php:170 wp-admin/edit-form-comment.php:43
+#: admin/includes/class-wp-debug-data.php:1089
+#: admin/includes/class-wp-debug-data.php:1184
+#: admin/includes/class-theme-installer-skin.php:241
+#: admin/includes/class-plugin-installer-skin.php:218
+#: admin/includes/meta-boxes.php:906 admin/includes/meta-boxes.php:1567
+#: admin/includes/class-wp-media-list-table.php:315
+#: admin/includes/class-wp-comments-list-table.php:461
+#: admin/includes/theme-install.php:104
+#: admin/includes/plugin-install.php:334
+#: admin/includes/class-wp-post-comments-list-table.php:26
+#: admin/includes/class-wp-posts-list-table.php:623
+#: admin/includes/class-wp-posts-list-table.php:1618
+#: admin/comment.php:170 admin/edit-form-comment.php:43
 msgid "Author"
 msgstr "Penulis"
 
-#: wp-includes/admin-bar.php:324 wp-includes/class-wp-admin-bar.php:452
+#: wp-includes/admin-bar.php:324 wp-includes/class-admin-bar.php:452
 msgid "Log Out"
 msgstr "Log Keluar"
 
@@ -15804,46 +15804,46 @@ msgstr "Kunjungi Situs"
 #. translators: Post date format. See
 #. https://www.php.net/manual/datetime.format.php
 #: wp-includes/class-wp-editor.php:1775
-#: wp-admin/includes/class-wp-media-list-table.php:490
-#: wp-admin/includes/class-wp-comments-list-table.php:959
-#: wp-admin/includes/ajax-actions.php:2208
-#: wp-admin/includes/class-wp-posts-list-table.php:1096
-#: wp-admin/comment.php:219
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:475
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:496
-#: wp-admin/includes/class-wp-ms-users-list-table.php:334
+#: admin/includes/class-wp-media-list-table.php:490
+#: admin/includes/class-wp-comments-list-table.php:959
+#: admin/includes/ajax-actions.php:2208
+#: admin/includes/class-wp-posts-list-table.php:1096
+#: admin/comment.php:219
+#: admin/includes/class-wp-ms-sites-list-table.php:475
+#: admin/includes/class-wp-ms-sites-list-table.php:496
+#: admin/includes/class-wp-ms-users-list-table.php:334
 msgid "Y/m/d"
 msgstr "Y/m/d"
 
 #: wp-includes/post.php:967 wp-includes/post.php:988
-#: wp-includes/js/dist/editor.js:10495 wp-admin/includes/meta-boxes.php:121
-#: wp-admin/includes/meta-boxes.php:149 wp-admin/includes/meta-boxes.php:151
-#: wp-admin/includes/ajax-actions.php:2200
-#: wp-admin/includes/class-wp-posts-list-table.php:1853
+#: wp-includes/js/dist/editor.js:10495 admin/includes/meta-boxes.php:121
+#: admin/includes/meta-boxes.php:149 admin/includes/meta-boxes.php:151
+#: admin/includes/ajax-actions.php:2200
+#: admin/includes/class-wp-posts-list-table.php:1853
 msgid "Draft"
 msgstr "Draf"
 
-#: wp-includes/post.php:968 wp-admin/includes/meta-boxes.php:117
-#: wp-admin/includes/meta-boxes.php:147 wp-admin/includes/ajax-actions.php:2197
-#: wp-admin/includes/class-wp-posts-list-table.php:1852
+#: wp-includes/post.php:968 admin/includes/meta-boxes.php:117
+#: admin/includes/meta-boxes.php:147 admin/includes/ajax-actions.php:2197
+#: admin/includes/class-wp-posts-list-table.php:1852
 msgid "Pending Review"
 msgstr "Menunggu Peninjauan"
 
 #: wp-includes/script-loader.php:1152 wp-includes/post.php:970
-#: wp-includes/post.php:990 wp-admin/includes/meta-boxes.php:111
-#: wp-admin/includes/meta-boxes.php:141 wp-admin/includes/ajax-actions.php:2191
-#: wp-admin/includes/class-wp-posts-list-table.php:1106
-#: wp-admin/includes/class-wp-posts-list-table.php:1845 wp-admin/js/post.js:810
+#: wp-includes/post.php:990 admin/includes/meta-boxes.php:111
+#: admin/includes/meta-boxes.php:141 admin/includes/ajax-actions.php:2191
+#: admin/includes/class-wp-posts-list-table.php:1106
+#: admin/includes/class-wp-posts-list-table.php:1845 admin/js/post.js:810
 msgid "Published"
 msgstr "Telah Terbit"
 
 #: wp-includes/media-template.php:484 wp-includes/media-template.php:713
 #: wp-includes/revision.php:32 wp-includes/class-wp-editor.php:1205
-#: wp-includes/js/dist/editor.js:5916 wp-admin/includes/media.php:1390
-#: wp-admin/includes/media.php:2624 wp-admin/includes/media.php:2945
-#: wp-admin/includes/ajax-actions.php:2182
-#: wp-admin/includes/class-wp-posts-list-table.php:1559
-#: wp-admin/includes/dashboard.php:550
+#: wp-includes/js/dist/editor.js:5916 admin/includes/media.php:1390
+#: admin/includes/media.php:2624 admin/includes/media.php:2945
+#: admin/includes/ajax-actions.php:2182
+#: admin/includes/class-wp-posts-list-table.php:1559
+#: admin/includes/dashboard.php:550
 msgid "Title"
 msgstr "Judul"
 
@@ -15852,7 +15852,7 @@ msgid "No posts found."
 msgstr "Tidak ada pos yang ditemukan."
 
 #: wp-activate.php:183 wp-includes/post-template.php:1726
-#: wp-admin/includes/meta-boxes.php:202
+#: admin/includes/meta-boxes.php:202
 msgid "Password:"
 msgstr "Sandi:"
 
@@ -15868,16 +15868,16 @@ msgstr "Terjadi eror selama proses aktivasi"
 msgid "Your account is now active!"
 msgstr "Akun Anda sekarang aktif!"
 
-#: wp-activate.php:136 wp-admin/includes/class-wp-themes-list-table.php:216
-#: wp-admin/includes/class-theme-installer-skin.php:141
-#: wp-admin/includes/class-wp-plugins-list-table.php:601
-#: wp-admin/includes/class-wp-plugins-list-table.php:855
-#: wp-admin/includes/class-wp-plugin-install-list-table.php:578
-#: wp-admin/includes/class-theme-upgrader-skin.php:113 wp-admin/themes.php:542
-#: wp-admin/themes.php:890 wp-admin/themes.php:1104
-#: wp-admin/theme-install.php:354 wp-admin/theme-install.php:416
-#: wp-admin/js/updates.js:758 wp-admin/js/updates.js:1397
-#: wp-admin/includes/class-wp-ms-sites-list-table.php:698
+#: wp-activate.php:136 admin/includes/class-wp-themes-list-table.php:216
+#: admin/includes/class-theme-installer-skin.php:141
+#: admin/includes/class-wp-plugins-list-table.php:601
+#: admin/includes/class-wp-plugins-list-table.php:855
+#: admin/includes/class-wp-plugin-install-list-table.php:578
+#: admin/includes/class-theme-upgrader-skin.php:113 admin/themes.php:542
+#: admin/themes.php:890 admin/themes.php:1104
+#: admin/theme-install.php:354 admin/theme-install.php:416
+#: admin/js/updates.js:758 admin/js/updates.js:1397
+#: admin/includes/class-wp-ms-sites-list-table.php:698
 msgid "Activate"
 msgstr "Aktifkan"
 

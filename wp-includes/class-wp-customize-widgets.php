@@ -330,13 +330,13 @@ final class WP_Customize_Widgets {
 	 * @since 3.9.0
 	 */
 	public function customize_controls_init() {
-		/** This action is documented in wp-admin/includes/ajax-actions.php */
+		/** This action is documented in admin/includes/ajax-actions.php */
 		do_action( 'load-widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 
-		/** This action is documented in wp-admin/includes/ajax-actions.php */
+		/** This action is documented in admin/includes/ajax-actions.php */
 		do_action( 'widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 
-		/** This action is documented in wp-admin/widgets.php */
+		/** This action is documented in admin/widgets.php */
 		do_action( 'sidebar_admin_setup' );
 	}
 
@@ -640,10 +640,10 @@ final class WP_Customize_Widgets {
 	 * @since 3.9.0
 	 */
 	public function print_styles() {
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in admin/admin-header.php */
 		do_action( 'admin_print_styles-widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in admin/admin-header.php */
 		do_action( 'admin_print_styles' );
 	}
 
@@ -654,10 +654,10 @@ final class WP_Customize_Widgets {
 	 * @since 3.9.0
 	 */
 	public function print_scripts() {
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in admin/admin-header.php */
 		do_action( 'admin_print_scripts-widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in admin/admin-header.php */
 		do_action( 'admin_print_scripts' );
 	}
 
@@ -676,7 +676,7 @@ final class WP_Customize_Widgets {
 		wp_enqueue_style( 'customize-widgets' );
 		wp_enqueue_script( 'customize-widgets' );
 
-		/** This action is documented in wp-admin/admin-header.php */
+		/** This action is documented in admin/admin-header.php */
 		do_action( 'admin_enqueue_scripts', 'widgets.php' );
 
 		/*
@@ -857,13 +857,13 @@ final class WP_Customize_Widgets {
 	 * @since 3.9.0
 	 */
 	public function print_footer_scripts() {
-		/** This action is documented in wp-admin/admin-footer.php */
+		/** This action is documented in admin/admin-footer.php */
 		do_action( 'admin_print_footer_scripts-widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 
-		/** This action is documented in wp-admin/admin-footer.php */
+		/** This action is documented in admin/admin-footer.php */
 		do_action( 'admin_print_footer_scripts' );
 
-		/** This action is documented in wp-admin/admin-footer.php */
+		/** This action is documented in admin/admin-footer.php */
 		do_action( 'admin_footer-widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 	}
 
@@ -946,7 +946,7 @@ final class WP_Customize_Widgets {
 		}
 
 		global $wp_registered_widgets, $wp_registered_widget_controls;
-		require_once ABSPATH . 'wp-admin/includes/widgets.php'; // For next_widget_id_number().
+		require_once ABSPATH . 'admin/includes/widgets.php'; // For next_widget_id_number().
 
 		$sort = $wp_registered_widgets;
 		usort( $sort, array( $this, '_sort_name_callback' ) );
@@ -1541,13 +1541,13 @@ final class WP_Customize_Widgets {
 			wp_send_json_error( 'missing_widget-id' );
 		}
 
-		/** This action is documented in wp-admin/includes/ajax-actions.php */
+		/** This action is documented in admin/includes/ajax-actions.php */
 		do_action( 'load-widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 
-		/** This action is documented in wp-admin/includes/ajax-actions.php */
+		/** This action is documented in admin/includes/ajax-actions.php */
 		do_action( 'widgets.php' ); // phpcs:ignore WordPress.NamingConventions.ValidHookName.UseUnderscores
 
-		/** This action is documented in wp-admin/widgets.php */
+		/** This action is documented in admin/widgets.php */
 		do_action( 'sidebar_admin_setup' );
 
 		$widget_id = $this->get_post_value( 'widget-id' );

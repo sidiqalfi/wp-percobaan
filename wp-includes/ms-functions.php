@@ -388,8 +388,8 @@ function get_blog_id_from_url( $domain, $path = '/' ) {
  * Checks an email address against a list of banned domains.
  *
  * This function checks against the Banned Email Domains list
- * at wp-admin/network/settings.php. The check is only run on
- * self-registrations; user creation at wp-admin/network/users.php
+ * at admin/network/settings.php. The check is only run on
+ * self-registrations; user creation at admin/network/users.php
  * bypasses this check.
  *
  * @since MU (3.0.0)
@@ -1979,7 +1979,7 @@ function get_most_recent_post_of_user( $user_id ) {
  * which is defined in wp-includes/functions.php in
  * get_allowed_mime_types(). This function is used to filter
  * that list against the filetypes allowed provided by Multisite
- * Super Admins at wp-admin/network/settings.php.
+ * Super Admins at admin/network/settings.php.
  *
  * @since MU (3.0.0)
  *
@@ -2778,7 +2778,7 @@ function get_subdirectory_reserved_names() {
 		'blog',
 		'files',
 		'feed',
-		'wp-admin',
+		'admin',
 		'wp-content',
 		'wp-includes',
 		'wp-json',
@@ -2789,7 +2789,7 @@ function get_subdirectory_reserved_names() {
 	 * Filters reserved site names on a sub-directory Multisite installation.
 	 *
 	 * @since 3.0.0
-	 * @since 4.4.0 'wp-admin', 'wp-content', 'wp-includes', 'wp-json', and 'embed' were added
+	 * @since 4.4.0 'admin', 'wp-content', 'wp-includes', 'wp-json', and 'embed' were added
 	 *              to the reserved names list.
 	 *
 	 * @param string[] $subdirectory_reserved_names Array of reserved names.

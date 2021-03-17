@@ -149,7 +149,7 @@ class Tools extends Settings_Page {
 		if ( false === $rollback_versions ) {
 			$max_versions = 30;
 
-			require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+			require_once ABSPATH . 'admin/includes/plugin-install.php';
 
 			$plugin_information = plugins_api(
 				'plugin_information', [

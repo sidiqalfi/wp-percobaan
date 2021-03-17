@@ -140,7 +140,7 @@ class Import_Images {
 
 		// On REST requests.
 		if ( ! function_exists( 'wp_generate_attachment_metadata' ) ) {
-			require_once ABSPATH . '/wp-admin/includes/image.php';
+			require_once ABSPATH . '/admin/includes/image.php';
 		}
 
 		wp_update_attachment_metadata(
@@ -168,7 +168,7 @@ class Import_Images {
 	 */
 	public function __construct() {
 		if ( ! function_exists( 'WP_Filesystem' ) ) {
-			require_once ABSPATH . 'wp-admin/includes/file.php';
+			require_once ABSPATH . 'admin/includes/file.php';
 		}
 
 		WP_Filesystem();

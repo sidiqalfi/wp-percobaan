@@ -4194,7 +4194,7 @@ div#sfsi_error_reporting_notice {
     color: #666;
 }
 
-.wp-admin select {
+.admin select {
     padding: 9px;
 }
 
@@ -4240,19 +4240,19 @@ body .specify_counts .listing .sfsi_instagramInstruction li {
 /* end */
 
 /*start 4-6-19*/
-.wp-admin .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.twt_tool_bdr {
+.admin .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.twt_tool_bdr {
     margin-bottom: -12px !important;
 }
 
-.wp-admin .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.printst_tool_bdr {
+.admin .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.printst_tool_bdr {
     margin-bottom: 2px;
 }
 
-.wp-admin .pop-overlay .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.printst_tool_bdr {
+.admin .pop-overlay .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.printst_tool_bdr {
     margin-bottom: 2px;
 }
 
-.wp-admin .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.linkedin_tool_bdr {
+.admin .sfsi_tool_tip_2.sfsi_tool_tip_2_inr.linkedin_tool_bdr {
     margin-bottom: -12px;
 }
 

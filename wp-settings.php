@@ -539,7 +539,7 @@ do_action( 'after_setup_theme' );
 
 // Create an instance of WP_Site_Health so that Cron events may fire.
 if ( ! class_exists( 'WP_Site_Health' ) ) {
-	require_once ABSPATH . 'wp-admin/includes/class-wp-site-health.php';
+	require_once ABSPATH . 'admin/includes/class-wp-site-health.php';
 }
 WP_Site_Health::get_instance();
 
@@ -572,7 +572,7 @@ if ( is_multisite() ) {
 /**
  * This hook is fired once WP, all plugins, and the theme are fully loaded and instantiated.
  *
- * Ajax requests should use wp-admin/admin-ajax.php. admin-ajax.php can handle requests for
+ * Ajax requests should use admin/admin-ajax.php. admin-ajax.php can handle requests for
  * users not logged in.
  *
  * @link https://codex.wordpress.org/AJAX_in_Plugins

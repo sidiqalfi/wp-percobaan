@@ -807,7 +807,7 @@ function switch_theme( $stylesheet ) {
 		/*
 		 * Since retrieve_widgets() is called when initializing a theme in the Customizer,
 		 * we need to remove the theme mods to avoid overwriting changes made via
-		 * the Customizer when accessing wp-admin/widgets.php.
+		 * the Customizer when accessing admin/widgets.php.
 		 */
 		if ( 'wp_ajax_customize_save' === current_action() ) {
 			remove_theme_mod( 'sidebars_widgets' );
@@ -2774,7 +2774,7 @@ function _custom_header_background_just_in_time() {
 		}
 
 		if ( is_admin() ) {
-			require_once ABSPATH . 'wp-admin/includes/class-custom-image-header.php';
+			require_once ABSPATH . 'admin/includes/class-custom-image-header.php';
 			$custom_image_header = new Custom_Image_Header( $args[0]['admin-head-callback'], $args[0]['admin-preview-callback'] );
 		}
 	}
@@ -2787,7 +2787,7 @@ function _custom_header_background_just_in_time() {
 		add_action( 'wp_head', $args[0]['wp-head-callback'] );
 
 		if ( is_admin() ) {
-			require_once ABSPATH . 'wp-admin/includes/class-custom-background.php';
+			require_once ABSPATH . 'admin/includes/class-custom-background.php';
 			$custom_background = new Custom_Background( $args[0]['admin-head-callback'], $args[0]['admin-preview-callback'] );
 		}
 	}

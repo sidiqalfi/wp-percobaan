@@ -291,7 +291,7 @@ class DB {
 	 * @param int $to_post_id   Target post ID.
 	 */
 	public function safe_copy_elementor_meta( $from_post_id, $to_post_id ) {
-		// It's from  WP-Admin & not from Elementor.
+		// It's from  admin & not from Elementor.
 		if ( ! did_action( 'elementor/db/before_save' ) ) {
 
 			if ( ! Plugin::$instance->db->is_built_with_elementor( $from_post_id ) ) {

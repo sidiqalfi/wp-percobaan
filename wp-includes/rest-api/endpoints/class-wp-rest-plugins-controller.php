@@ -130,7 +130,7 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
 	 */
 	public function get_items( $request ) {
-		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		require_once ABSPATH . 'admin/includes/plugin.php';
 
 		$plugins = array();
 
@@ -186,7 +186,7 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
 	 */
 	public function get_item( $request ) {
-		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		require_once ABSPATH . 'admin/includes/plugin.php';
 
 		$data = $this->get_plugin_data( $request['plugin'] );
 
@@ -209,7 +209,7 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 	 * @return true|WP_Error True if can read, a WP_Error instance otherwise.
 	 */
 	protected function check_read_permission( $plugin ) {
-		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		require_once ABSPATH . 'admin/includes/plugin.php';
 
 		if ( ! $this->is_plugin_installed( $plugin ) ) {
 			return new WP_Error( 'rest_plugin_not_found', __( 'Plugin not found.' ), array( 'status' => 404 ) );
@@ -269,10 +269,10 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
 	 */
 	public function create_item( $request ) {
-		require_once ABSPATH . 'wp-admin/includes/file.php';
-		require_once ABSPATH . 'wp-admin/includes/plugin.php';
-		require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
-		require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+		require_once ABSPATH . 'admin/includes/file.php';
+		require_once ABSPATH . 'admin/includes/plugin.php';
+		require_once ABSPATH . 'admin/includes/class-wp-upgrader.php';
+		require_once ABSPATH . 'admin/includes/plugin-install.php';
 
 		$slug = $request['slug'];
 
@@ -404,7 +404,7 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 	 * @return true|WP_Error True if the request has access to update the item, WP_Error object otherwise.
 	 */
 	public function update_item_permissions_check( $request ) {
-		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		require_once ABSPATH . 'admin/includes/plugin.php';
 
 		if ( ! current_user_can( 'activate_plugins' ) ) {
 			return new WP_Error(
@@ -442,7 +442,7 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
 	 */
 	public function update_item( $request ) {
-		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		require_once ABSPATH . 'admin/includes/plugin.php';
 
 		$data = $this->get_plugin_data( $request['plugin'] );
 
@@ -510,8 +510,8 @@ class WP_REST_Plugins_Controller extends WP_REST_Controller {
 	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
 	 */
 	public function delete_item( $request ) {
-		require_once ABSPATH . 'wp-admin/includes/file.php';
-		require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		require_once ABSPATH . 'admin/includes/file.php';
+		require_once ABSPATH . 'admin/includes/plugin.php';
 
 		$data = $this->get_plugin_data( $request['plugin'] );
 
